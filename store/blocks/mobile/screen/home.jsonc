@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#home__mobile": {
+        "children": [
+            "flex-layout.row#mobile__home--slider-promotion"
+        ]
+       
+    }
+}

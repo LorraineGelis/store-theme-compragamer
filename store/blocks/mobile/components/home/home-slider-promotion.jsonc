@@ -1,0 +1,166 @@
+{
+    "flex-layout.row#mobile__home--slider-promotion": {
+        "title": "mobile: slider home",
+        "children": [
+            "slider-layout#mobile__home--slider"
+        ],
+        "props": {
+            "fullWidth": true, 
+             "horizontalAlign": "center"
+        }
+    },
+    "slider-layout#mobile__home--slider": {
+        "title": "mobile: slider home",
+        "props": {
+            "itemsPerPage": {
+                "mobile": 1
+            },
+
+            "infinite": true,
+            "blockClass": "home__slider",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never"
+        },
+        "children": [
+            "image#mobile__home--slider--uno",
+            "image#mobile__home--slider--dos",
+            "image#mobile__home--slider--tres",
+            "image#mobile__home--slider--cuatro",
+            "image#mobile__home--slider--cinco",
+            "image#mobile__home--slider--seis",
+            "image#mobile__home--slider--siete",
+            "image#mobile__home--slider--ocho",
+            "image#mobile__home--slider--nueve",
+            "image#mobile__home--slider--diez",
+            "image#mobile__home--slider--once"
+
+        ]
+    },
+
+    "image#mobile__home--slider--uno": {
+        "title": "primera imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg1.jpg",
+            "blockClass": "slider--image-uno",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--dos": {
+        "title": "Segunda imagen ",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg2.jpg",
+            "blockClass": "slider--image-dos",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--tres": {
+        "title": "Tercera imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg3.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--cuatro": {
+        "title": "Cuarta imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg4.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--cinco": {
+        "title": "Quinta imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg5.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--seis": {
+        "title": "Sexta imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg6.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--siete": {
+        "title": "Septima imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg7.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--ocho": {
+        "title": "Octava imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg8.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--nueve": {
+        "title": "Novena imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg9.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--diez": {
+        "title": "Decima imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg10.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#mobile__home--slider--once": {
+        "title": "Onceava imagen",
+        "props": {
+            "src": "assets/img/mobile/home_sliderPrincipalimg11.jpg",
+            "link": {
+                "url": "https://compragamer.com/reyessale/",
+                "openNewTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}
