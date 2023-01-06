@@ -1,5 +1,6 @@
 {
-    "responsive-layout.mobile#home__mobile": {
+    "responsive-layout.phone#home__phone": {
+        "title": "Section home: mobile",
         "children": [
             "flex-layout.row#mobile__home--slider-promotion"
         ]
