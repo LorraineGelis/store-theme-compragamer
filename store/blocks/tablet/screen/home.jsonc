@@ -1,0 +1,6 @@
+{
+    "responsive-layout.tablet#home__tablet": {
+    "title": "Section home: Tablet",
+      "children": ["flex-layout.row#tablet__home--slider-promotion"]
+    }
+  }

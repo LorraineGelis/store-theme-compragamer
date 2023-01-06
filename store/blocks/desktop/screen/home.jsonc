@@ -1,6 +1,6 @@
 {
   "responsive-layout.desktop#home__desktop": {
-    "title": "Home Section: Desktop",
+    "title": "Section home: Desktop",
     "children": ["flex-layout.row#desktop__home--slider-promotion"]
   }
 }
