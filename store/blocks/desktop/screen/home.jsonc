@@ -1,6 +1,10 @@
 {
   "responsive-layout.desktop#home__desktop": {
-    "title": "Home Section: Desktop",
-    "children": ["flex-layout.row#desktop__home--slider-promotion"]
+    "title": "Section home: Desktop",
+    "children": [
+    "flex-layout.row#desktop__home--slider-promotion",
+    "flex-layout.row#seccion--title",
+    "flex-layout.row#seccion--product",
+    "flex-layout.row#desktop__home--slider-marcas"]
   }
 }

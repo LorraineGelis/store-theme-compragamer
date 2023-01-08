@@ -1,0 +1,18 @@
+/* ------------------------ Versión desktop -------------------------- */
+
+.paginationDotsContainer--home__slider {
+    bottom: -12px;
+    margin: 0;
+    padding: 0;
+    transform: translateY(13px);
+    width: 100%;
+}
+
+.paginationDot--home__slider {
+    background-color: var( --slider-color);
+    margin: 10px;
+}
+
+.paginationDot--isActive {
+    background-color: var(--secondary-color);
+}

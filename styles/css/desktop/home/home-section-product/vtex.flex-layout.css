@@ -1,0 +1,11 @@
+.flexRowContent--seccion-product-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .flexRowContent--seccion-product-mobile {
+        gap: 5px;
+    }
+}
