@@ -4,7 +4,8 @@
     "blocks": [
       "responsive-layout.desktop#home__desktop",
       "responsive-layout.tablet#home__tablet",
-     "responsive-layout.phone#home__phone" 
+      "responsive-layout.phone#home__phone",
+       "responsive-layout.mobile#home__mobile" 
     ]
   }
 }

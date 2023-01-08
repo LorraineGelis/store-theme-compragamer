@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#header__desktop":{
+        "children": [
+            "flex-layout.col#header__desktop--logo"
+        ]
+    },
+
+    "flex-layout.col#header__desktop--logo": {
+        "children": ["logo#header__desktop--logo"],
+        "props": { "verticalAlign": "middle" }
+      },
+
+      "logo#header__desktop--logo": {
+        "title": "Logo desktop",
+        "props": {
+          "href": "/",
+          "url": "assets/img/global/logo__header.png",
+          "width": 100,
+          "height": 37
+        }
+      }
+
+}
+
+
+
+
+

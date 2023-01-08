@@ -1,0 +1,222 @@
+{
+  "flex-layout.row#desktop__home--slider-marcas": {
+    "title": "desktop: slider-marcas home",
+    "children": [
+      "slider-layout#desktop__home--slider-marcas"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "slider-layout#desktop__home--slider-marcas": {
+    "title": "desktop: slider-marcas home",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "mobile": 3
+      },
+
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 1000,
+        "stopOnHover": false
+      },
+      "navigationStep": 1,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+     /*   "slideTransition": {
+        "speed": 1200,
+        "delay": 0,
+        "timing": 0 
+      }  */
+    },
+    "children": [
+      "image#desktop__home--slidermarca--uno",
+      "image#desktop__home--slidermarca--dos",
+      "image#desktop__home--slidermarca--tres",
+      "image#desktop__home--slidermarca--cuatro",
+      "image#desktop__home--slidermarca--cinco",
+      "image#desktop__home--slidermarca--seis",
+      "image#desktop__home--slidermarca--siete",
+      "image#desktop__home--slidermarca--ocho",
+      "image#desktop__home--slidermarca--nueve",
+      "image#desktop__home--slidermarca--diez",
+      "image#desktop__home--slidermarca--once",
+      "image#desktop__home--slidermarca--doce",
+      "image#desktop__home--slidermarca--trece",
+      "image#desktop__home--slidermarca--catorce",
+      "image#desktop__home--slidermarca--quince",
+      "image#desktop__home--slidermarca--dieciseis"
+    ]
+  },
+
+  "image#desktop__home--slidermarca--uno": {
+    "title": "primera imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_adata.jpg",
+      "blockClass": "slider--image-uno",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--dos": {
+    "title": "Segunda imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_amda.jpg",
+      "blockClass": "slider--image-dos",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--tres": {
+    "title": "Tercera imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_zotagaming.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--cuatro": {
+    "title": "Cuarta imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_western.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--cinco": {
+    "title": "Quinta imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_viewsonic.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--seis": {
+    "title": "Sexta imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_force.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--siete": {
+    "title": "Septima imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_geforce.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--ocho": {
+    "title": "Octava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_lian.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--nueve": {
+    "title": "Novena imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_kolink.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--diez": {
+    "title": "Decima imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_intel.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slidermarca--once": {
+    "title": "Onceava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_hiper.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  "image#desktop__home--slidermarca--doce": {
+    "title": "Onceava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_geil.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  "image#desktop__home--slidermarca--trece": {
+    "title": "Onceava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_deepcool.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  "image#desktop__home--slidermarca--catorce": {
+    "title": "catorceava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_bequiet.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  "image#desktop__home--slidermarca--quince": {
+    "title": "quinceava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_asrock.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  "image#desktop__home--slidermarca--dieciseis": {
+    "title": "dieciseisava imagen",
+    "props": {
+      "src": "assets/img/global/imagen_marca_republic.jpg",
+      "link": {
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
