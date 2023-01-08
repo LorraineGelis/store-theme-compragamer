@@ -5,7 +5,12 @@
 
 @font-face {
     font-family: "Eurostile";
-    src: url(assets/fonts/EuroStyleNormal.ttf);
+    src: url(assets/fonts/eurostile.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {

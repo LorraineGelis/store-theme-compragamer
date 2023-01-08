@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#seccion--title": {
+    "title": "Titulo seccion product",
+    "children": [
+      "rich-text#product--title"
+    ]
+  },
+
+  "rich-text#product--title": {
+    "props": {
+      "text": "últimas novedades",
+      /* "horizontalAlign": "right", */
+      "blockClass": "product--title"
+      /* "font": "t-heading-5" */
+    }
+  }
+}
