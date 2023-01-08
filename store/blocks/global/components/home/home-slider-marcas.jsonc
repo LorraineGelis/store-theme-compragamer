@@ -20,12 +20,17 @@
       "infinite": true,
       "blockClass": "home__slider",
       "autoplay": {
-        "timeout": 2000,
+        "timeout": 1000,
         "stopOnHover": false
       },
       "navigationStep": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never"
+     /*   "slideTransition": {
+        "speed": 1200,
+        "delay": 0,
+        "timing": 0 
+      }  */
     },
     "children": [
       "image#desktop__home--slidermarca--uno",
