@@ -1,6 +1,0 @@
-{
-    "header-layout.desktop": {
-      "title": "Header Desktop",
-      "children": ["flex-layout.row#header__desktop"]
-    }
-  }
