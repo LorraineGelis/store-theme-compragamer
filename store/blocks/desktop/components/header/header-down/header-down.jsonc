@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#header__desktop--main-down":{
+        "children": [
+          "flex-layout.col#desktop__header--menu"
+        ],
+        "props": {
+          "colSizing": "auto", 
+        "colJustify": "around",
+        "horizontalAlign": "center",
+        "blockClass": "header__desktop--main-down"
+      }
+    },
+
+   "flex-layout.col#desktop__header--menu": {
+        "children": ["flex-layout.row#header--menu"],
+        "props": {
+          "verticalAlign": "middle"
+        }
+      },
+
+      "flex-layout.row#header--menu":{
+        "children": [
+            "menu-item#desktop__category--product",
+            "menu-item#desktop__category--pc",
+            "menu-item#desktop__category--help",
+            "menu-item#desktop__category--marcas"
+        ]
+      } 
+}

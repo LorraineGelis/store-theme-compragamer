@@ -1,0 +1,9 @@
+{
+    "search-bar#header__desktop--search-bar": {
+      "blocks": ["autocomplete-result-list"],
+      "props": {
+        "openAutoCompleteOnFocus": true,
+        "blockClass": "searchbar__desktop"
+      }
+    }
+  }

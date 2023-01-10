@@ -1,0 +1,15 @@
+{
+    "login": {
+      "title": "Login Desktop",
+      "props": {
+        "optionsTitle": "Elegir una forma de iniciar sesión",
+        "emailAndPasswordTitle": "Ingresar",
+        "accessCodeTitle": "Ingresar con codigo de acceso",
+        "emailPlaceholder": "Ej: ejemplo@gmail.com",
+        "passwordPlaceholder": "Ingresa tu contraseña",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true,
+        "iconLabel": "INICIAR SESIÓN"
+      }
+    }
+  }

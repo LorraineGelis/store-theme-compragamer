@@ -2,8 +2,8 @@
     "responsive-layout.mobile#home__mobile": {
         "title": "Section home: Desktop",
         "children": [
-        "flex-layout.row#seccion--title",
-        "flex-layout.row#seccion--product",
+         "flex-layout.row#seccion--title", 
+        "flex-layout.row#seccion--product", 
         "flex-layout.row#desktop__home--slider-marcas"]
     }
 }

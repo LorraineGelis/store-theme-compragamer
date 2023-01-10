@@ -1,0 +1,66 @@
+{
+     //Menú header down
+    
+     "menu-item#desktop__category--product": {
+        "props": {
+          /* "onMountBehavior": "open", */
+          "id": "menu-item-home",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "https://compragamer.com/?seccion=3",
+            "noFollow": false,
+            "tagTitle": "PRODUCTOS",
+            "text": "PRODUCTOS"
+          },
+          "blockClass": "desktop__category--menu-item"
+        }
+      },
+    
+      "menu-item#desktop__category--pc": {
+        "props": {
+          /* "onMountBehavior": "open", */
+          "id": "menu-item-home",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "https://compragamer.com/?seccion=3",
+            "noFollow": false,
+            "tagTitle": "ARMÁ TU PC",
+            "text": "ARMÁ TU PC"
+          },
+          "blockClass": "desktop__category--menu-item"
+        }
+      },
+      "menu-item#desktop__category--help": {
+        "props": {
+          /* "onMountBehavior": "open", */
+          "id": "menu-item-home",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.celumovilstore.com/listado/celulares-telefonos/smartwatches-accesorios/",
+            "noFollow": false,
+            "tagTitle":"AYUDA",
+            "text": "AYUDA"
+          },
+          "blockClass": "desktop__category--menu-item"
+        }
+      },
+    
+      "menu-item#desktop__category--marcas": {
+        "props": {
+          /* "onMountBehavior": "open", */
+          "id": "menu-item-home",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.celumovilstore.com/listado/celulares-telefonos/accesorios-celulares/",
+            "noFollow": false,
+            "tagTitle": "MARCAS SPONSOR",
+            "text": "MARCAS SPONSOR"
+          },
+          "blockClass": "desktop__category--menu-item"
+        }
+      }
+}

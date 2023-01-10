@@ -3,6 +3,7 @@
         "title": "Section home: mobile",
         "children": [
             "flex-layout.row#mobile__home--slider-promotion"
+           /*  "flex-layout.row#seccion--product--phone" */
         ]
        
     }
