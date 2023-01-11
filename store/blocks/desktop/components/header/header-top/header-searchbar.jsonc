@@ -3,7 +3,8 @@
       "blocks": ["autocomplete-result-list"],
       "props": {
         "openAutoCompleteOnFocus": true,
-        "blockClass": "searchbar__desktop"
+        "blockClass": "searchbar__desktop",
+        "placeholder": "Buscador"
       }
     }
   }

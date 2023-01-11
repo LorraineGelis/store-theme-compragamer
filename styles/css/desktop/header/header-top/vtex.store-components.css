@@ -1,0 +1,11 @@
+/* :global(.vtex-store-components-3-x-searchBarContainer) {
+    height: 52px;
+} */
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 55px;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    width: 430px;
+}

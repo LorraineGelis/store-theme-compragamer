@@ -5,8 +5,10 @@
         ],
         "props": {
           "colSizing": "auto", 
-        "colJustify": "around",
-        "horizontalAlign": "center",
+         "colJustify": "around",   
+         "horizontalAlign": "center", 
+      
+        
         "blockClass": "header__desktop--main-down"
       }
     },
@@ -14,7 +16,8 @@
    "flex-layout.col#desktop__header--menu": {
         "children": ["flex-layout.row#header--menu"],
         "props": {
-          "verticalAlign": "middle"
+            "verticalAlign": "middle", 
+            "blockClass": "header__desktop--main-down" 
         }
       },
 
@@ -26,4 +29,5 @@
             "menu-item#desktop__category--marcas"
         ]
       } 
+
 }

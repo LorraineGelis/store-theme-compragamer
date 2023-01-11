@@ -9,7 +9,7 @@
         "passwordPlaceholder": "Ingresa tu contraseña",
         "showPasswordVerificationIntoTooltip": true,
         "showIconProfile": true,
-        "iconLabel": "INICIAR SESIÓN"
+        "iconLabel": "iniciar sesión"
       }
     }
   }
