@@ -1,0 +1,19 @@
+/* Example Mobile:
+.paperNotFullScreen {
+    width: 50%;
+} */
+
+
+/* .flexRow--logo_container--mobile {
+    display: flex;
+    justify-content: center;
+} */
+
+.flexRowContent--logo_container--mobile :global(.vtex-store-components-3-x-logoLink--logo-mobile) {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--logo_container--mobile :global(.vtex-store-components-3-x-logoContainer--logo-mobile) {
+    max-width: initial;
+}

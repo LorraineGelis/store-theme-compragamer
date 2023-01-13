@@ -1,0 +1,30 @@
+{
+    "menu-item#department__armatupc": {
+        "title": "item - departamento arma tu pc",
+        "props": {
+            "id": "item - departamento arma tu pc",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ARMÁ TU PC",
+                "text": "ARMÁ TU PC"
+            }
+        },
+        "blocks": ["submenu.accordion#department__submenu-armatupc"]
+    },
+    "submenu.accordion#department__submenu-armatupc": {
+        "children": ["menu#department__submenu--armatupc"]
+    },
+    "menu#department__submenu--armatupc": {
+        "children": [
+            "menu-item#producto__category--armatupc--amda",
+            "menu-item#producto__category--armatupc--intel"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+
+}

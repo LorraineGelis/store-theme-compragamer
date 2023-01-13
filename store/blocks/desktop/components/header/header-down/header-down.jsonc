@@ -1,5 +1,6 @@
 {
     "flex-layout.row#header__desktop--main-down":{
+      "title": "Header desktop superior",
         "children": [
           "flex-layout.col#desktop__header--menu"
         ],
@@ -14,6 +15,7 @@
     },
 
    "flex-layout.col#desktop__header--menu": {
+      "title": "Header menu desktop",
         "children": ["flex-layout.row#header--menu"],
         "props": {
             "verticalAlign": "middle", 
@@ -22,6 +24,7 @@
       },
 
       "flex-layout.row#header--menu":{
+        "title": "Header menu desktop",
         "children": [
             "menu-item#desktop__category--product",
             "menu-item#desktop__category--pc",

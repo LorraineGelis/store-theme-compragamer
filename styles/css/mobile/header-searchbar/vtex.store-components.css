@@ -1,0 +1,14 @@
+.searchBarInnerContainer--searchbar__mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.autoCompleteOuterContainer--searchbar__mobile :global(.vtex-input-prefix__group) {
+    width: 340px;
+}
+
+.searchBarIcon--searchbar__mobile :global(.vtex-store-components-3-x-searchIcon--searchbar__mobile) {
+    height: 24px;
+    width: 24px;
+}

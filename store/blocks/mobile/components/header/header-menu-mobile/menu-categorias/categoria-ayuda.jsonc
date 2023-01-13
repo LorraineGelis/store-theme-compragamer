@@ -1,0 +1,37 @@
+{
+    "menu-item#departament__ayuda":{
+        "title": "Categoria ayuda",
+        "props": {
+            "id": "Categoria ayuda",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Preguntas Frecuentes",
+                "text": "Preguntas Frecuentes" 
+            }
+        },
+
+        "blocks":["submenu.accordion#category__ayuda"]
+        
+    },
+
+    "submenu.accordion#category__ayuda":{
+        "children": [
+            "menu#category--ayuda"
+        ]
+    },
+
+    "menu#category--ayuda":{
+        "children": [
+            "menu-item#category__realizarpedido",
+            "menu-item#category__precio",
+            "menu-item#category__formasdepago"
+           
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

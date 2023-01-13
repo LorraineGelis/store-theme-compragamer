@@ -1,0 +1,23 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu--mobile"]
+  },
+  "menu#header__menu--mobile": {
+    "title": "Menu y sus categorias",
+    "children": [
+      "menu-item#department__productos",
+      "menu-item#department__armatupc",
+      "menu-item#department__ayuda"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__menu-navbar"
+    }
+  }
+
+  
+
+
+
+
+}

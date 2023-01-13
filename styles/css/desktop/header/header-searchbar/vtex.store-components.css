@@ -1,0 +1,6 @@
+.searchBarIcon--searchbar__desktop :global(.vtex-store-components-3-x-searchIcon) {
+    fill: currentColor;
+    font-size: 150%;
+    height: 24px;
+    width: 24px;
+}

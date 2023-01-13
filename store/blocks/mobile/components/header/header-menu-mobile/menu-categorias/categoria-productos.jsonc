@@ -1,0 +1,74 @@
+{
+    "menu-item#producto__category--armatupc--amda":{
+        "title": "Categoria arma tu pc--amda",
+        "props": {
+            "id": "Categoria arma tu pc--amda",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Amda",
+                "text": "Amda" 
+            }
+        },
+
+        "blocks":["submenu.accordion#category__submenu-armatupc--amda"]
+        
+    },
+
+    "submenu.accordion#category__submenu-armatupc--amda":{
+        "children": [
+            "menu#category--armatupc--amda"
+        ]
+    },
+
+    "menu#category--armatupc--amda":{
+        "children": [
+            "menu-item#category__procesadorryzen-34100",
+            "menu-item#category__procesadorryzen-33200"
+           
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+    //Segunda categoria
+    "menu-item#producto__category--armatupc--intel":{
+        "title": "Categoria arma tu pc--intel",
+        "props": {
+            "id": "Categoria arma tu pc--intel",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Intel",
+                "text": "Intel" 
+            }
+        },
+
+        "blocks":["submenu.accordion#category__submenu-armatupc--intel"]
+        
+    },
+
+    "submenu.accordion#category__submenu-armatupc--intel":{
+        "children": [
+            "menu#category--armatupc--intel"
+        ]
+    },
+
+    "menu#category--armatupc--intel":{
+        "children": [
+            "menu-item#category__procesadorintel--4900",
+            "menu-item#category__procesadorintel--5925"
+           
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+
+   
+}

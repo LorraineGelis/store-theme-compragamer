@@ -1,0 +1,12 @@
+{
+    "logo#header__mobil--logo": {
+      "title": "Logo mobil",
+      "props": {
+        "href": "/",
+        "url": "assets/img/global/logo__header.png",
+        "width": 252,
+        "height": 67,
+        "blockClass": "logo-mobile"
+      }
+    }
+}
