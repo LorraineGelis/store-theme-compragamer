@@ -1,0 +1,28 @@
+ .searchBarIcon--searchbar__desktop :global(.vtex-store-components-3-x-searchIcon) {
+     fill: currentColor;
+     font-size: 150%;
+     height: 24px;
+     width: 24px;
+ }
+ /*------------------------ Versión Mobile -------------------------- */
+ 
+ .searchBarContainer {
+     box-sizing: border-box;
+     max-width: 35rem;
+     width: 90%
+ }
+ /* ------------------------ Versión desktop -------------------------- */
+ 
+ @media (min-width: 1024px) {
+     .searchBarContainer {
+         max-width: auto;
+         width: 34rem;
+     }
+ }
+ 
+ @media (min-width: 1440px) {
+     .searchBarContainer {
+         max-width: auto;
+         width: 36rem;
+     }
+ }

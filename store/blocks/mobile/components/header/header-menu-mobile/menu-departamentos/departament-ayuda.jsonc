@@ -1,0 +1,31 @@
+{
+    "menu-item#department__ayuda": {
+        "title": "item - departamento ayuda",
+        "props": {
+            "id": "item - departamento ayuda",
+            "type": "custom",
+            "blockClass": "drawer__item--mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "AYUDA",
+                "text": "AYUDA"
+            }
+        },
+        "blocks": ["submenu.accordion#department__submenu-ayuda"]
+    },
+    "submenu.accordion#department__submenu-ayuda": {
+        "title": "item - departamento ayuda",
+        "children": ["menu#department__submenu--ayuda"]
+    },
+    "menu#department__submenu--ayuda": {
+        "title": "item - departamento ayuda",
+        "children": [
+            "menu-item#departament__ayuda"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "search-bar#header__desktop--search-bar": {
+      "title": "search-bar desktop",
+      "blocks": ["autocomplete-result-list"],
+      "props": {
+        "openAutoCompleteOnFocus": true,
+        "blockClass": "searchbar__desktop",
+        "placeholder": "Buscador"
+      }
+    }
+  }

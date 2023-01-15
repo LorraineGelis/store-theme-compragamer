@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#header__desktop--main-down":{
+      "title": "Header desktop superior",
+        "children": [
+          "flex-layout.col#desktop__header--menu"
+        ],
+        "props": {
+          "colSizing": "auto", 
+         "colJustify": "around",   
+         "horizontalAlign": "center", 
+      
+        
+        "blockClass": "header__desktop--main-down"
+      }
+    },
+
+   "flex-layout.col#desktop__header--menu": {
+      "title": "Header menu desktop",
+        "children": ["flex-layout.row#header--menu"],
+        "props": {
+            "verticalAlign": "middle", 
+            "blockClass": "header__desktop--main-down" 
+        }
+      },
+
+      "flex-layout.row#header--menu":{
+        "title": "Header menu desktop",
+        "children": [
+            "menu-item#desktop__category--product",
+            "menu-item#desktop__category--pc",
+            "menu-item#desktop__category--help",
+            "menu-item#desktop__category--marcas"
+        ]
+      } 
+
+}

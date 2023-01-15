@@ -5,6 +5,7 @@
     "flex-layout.row#desktop__home--slider-promotion",
     "flex-layout.row#seccion--title",
     "flex-layout.row#seccion--product",
-    "flex-layout.row#desktop__home--slider-marcas"]
-  }
+    "flex-layout.row#desktop__home--slider-marcas"
+  ]
+  }  
 }

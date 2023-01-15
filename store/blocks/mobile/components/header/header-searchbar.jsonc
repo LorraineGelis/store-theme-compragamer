@@ -1,0 +1,11 @@
+{
+    "search-bar#header__mobile--search-bar": {
+      "title": "mobile--search-bar",
+      "blocks": ["autocomplete-result-list"],
+      "props": {
+        "openAutoCompleteOnFocus": true,
+        "blockClass": "searchbar__mobile",
+        "placeholder": "Buscador"
+      }
+    }
+  }

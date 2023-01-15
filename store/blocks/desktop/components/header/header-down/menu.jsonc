@@ -1,0 +1,236 @@
+{
+  //Menú header down
+
+  "menu-item#desktop__category--product": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false,
+        "text": "PRODUCTOS"
+      },
+      "blockClass": "desktop__category--menu-item"
+    }
+  },
+
+  "menu-item#desktop__category--pc": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false,
+        "text": "ARMÁ TU PC"
+      },
+      "blockClass": "desktop__category--menu-item"
+    }
+  },
+  "menu-item#desktop__category--help": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "AYUDA"
+      },
+      "blockClass": "desktop__category--menu-item"
+    }
+  },
+
+
+  "menu-item#desktop__category--marcas": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "MARCAS SPONSOR"
+      },
+      "blockClass": "desktop__category--menu-item"
+    },
+    "blocks": [
+      "submenu#department__marcas"
+    ]
+  },
+  "submenu#department__marcas": {
+    "title": "Menu categorias",
+    "children": [
+      "menu#department__marcas"
+    ]
+  },
+  "menu#department__marcas": {
+    "title": "Menu categorias - marcas",
+    "children": [
+      "menu-item#category__marca--republicgamer",
+      "menu-item#category__marca--intel",
+      "menu-item#category__marca--wdblack",
+      "menu-item#category__marca--hyper",
+      "menu-item#category__marca--amda",
+      "menu-item#category__marca--geforce"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#category__marca--hyper": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__hyper"
+    ]
+  },
+
+  "image#marca__hyper": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_hyperx.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#category__marca--intel": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__intel"
+    ]
+  },
+
+  "image#marca__intel": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_intel.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#category__marca--amda": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__amda"
+    ]
+  },
+
+  "image#marca__amda": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_amda.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#category__marca--wdblack": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__wdblack"
+    ]
+  },
+
+  "image#marca__wdblack": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_wdblack.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#category__marca--republicgamer": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__republicgamer"
+    ]
+  },
+
+  "image#marca__republicgamer": {
+    "title": "Img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_republic.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#category__marca--geforce": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__geforce"
+    ]
+  },
+
+  "image#marca__geforce": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_geforce.png",
+      "blockClass": "image-menu"
+    }
+  }
+}

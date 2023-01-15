@@ -14,7 +14,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "mobile": 3
+        "mobile": 2,
+        "tablet": 4
       },
 
       "infinite": true,
@@ -26,11 +27,11 @@
       "navigationStep": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never"
-     /*   "slideTransition": {
-        "speed": 1200,
+      /*  "slideTransition": {
+        "speed": 100,
         "delay": 0,
         "timing": 0 
-      }  */
+      }  */ 
     },
     "children": [
       "image#desktop__home--slidermarca--uno",

@@ -1,10 +1,12 @@
 {
-  /*   "header": {
-      "title": "header",
-      "blocks": ["header-layout.desktop"]
-    },
-    "header.full": {
-      "title": "header",
-      "blocks": ["header-layout.desktop"]
-    } */
+  "header": {
+    "title": "header",
+    "blocks": ["header-layout.desktop", 
+    "header-layout.mobile"]
+  },
+  "header.full": {
+    "title": "header",
+    "blocks": ["header-layout.desktop",
+    "header-layout.mobile"]
   }
+}
