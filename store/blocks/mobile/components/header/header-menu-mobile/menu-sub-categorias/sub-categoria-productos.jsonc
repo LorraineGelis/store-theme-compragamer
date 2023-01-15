@@ -1,0 +1,99 @@
+{
+    
+
+   "menu-item#category__pc--ideaPad": {
+    "title": "subcategoria item 1- pc-ideapad",
+    "props": {
+      "id": "category__pc--ideaPad",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "NoteBook Lenovo ideaPad", 
+         "text": "NoteBook Lenovo ideaPad" 
+      }
+    }
+  } ,
+  
+  "menu-item#category__pc--yogaslim": {
+    "title": "subcategoria item 2- pc-yogaslim",
+    "props": {
+      "id": "category__pc--yogaslim",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+         "tagTitle": "NoteBook Lenovo Yoga Slim", 
+        "text": "NoteBook Lenovo Yoga Slim" 
+      }
+    }
+  },
+
+  "menu-item#category__pc--core":{
+    "title": "subcategoria item 3- pc-core",
+    "props": {
+      "id": "category__pc--core",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+         "tagTitle": "NoteBook Lenovo Core 131005G1", 
+        "text": "NoteBook Lenovo Core 131005G1" 
+      }
+    }
+  },
+
+  "menu-item#category__fuentes--asus":{
+    "title": "subcategoria item 1- fuentes-asus",
+    "props": {
+      "id": "category__fuentes--asus",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+         "tagTitle": "Fuente Asus Rog", 
+        "text": "Fuente Asus Rog" 
+      }
+    }
+  },
+
+  "menu-item#category__fuentes--thermaltake":{
+    "title": "subcategoria item 2- fuentes-thermaltake",
+    "props": {
+      "id": "category__fuentes--thermaltake",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+         "tagTitle": "Fuente Thermaltake", 
+        "text": "Fuente Thermaltake" 
+      }
+    }
+  },
+
+  "menu-item#category__fuentes--corsair":{
+    "title": "subcategoria item 2- fuentes-thermaltake",
+    "props": {
+      "id": "category__fuentes--thermaltake",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+         "tagTitle": "Fuente Corsair", 
+        "text": "Fuente Corsair" 
+      }
+    }
+  }
+
+  
+
+
+
+}
+

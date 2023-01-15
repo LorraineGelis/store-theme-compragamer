@@ -1,0 +1,63 @@
+{
+    "menu-item#category__procesadorryzen-34100": {
+        "title": "subcategoria item 1- procesador ryzen",
+        "props": {
+          "id": "subcategoria item 1- procesador ryzen",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Procesador AMD Ryzen 3 4100", 
+             "text": "Procesador AMD Ryzen 3 4100" 
+          }
+        }
+      } ,
+      
+      "menu-item#category__procesadorryzen-33200": {
+        "title": "subcategoria item 2- procesador ryzen",
+        "props": {
+          "id": "subcategoria item 1- procesador ryzen",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+             "tagTitle": "Procesador AMD Ryzen 3 3200", 
+            "text": "Procesador AMD Ryzen 3 3200" 
+          }
+        }
+      },
+
+      //Segundo items
+    
+      "menu-item#category__procesadorintel--4900":{
+        "title": "subcategoria item 1- procesador intel",
+        "props": {
+          "id": "subcategoria item 1- procesador intel",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+             "tagTitle": "Procesador Intel Celeron G4900", 
+            "text": "Procesador Intel Celeron G4900" 
+          }
+        }
+      },
+    
+      "menu-item#category__procesadorintel--5925":{
+        "title": "subcategoria item 2- procesador intel",
+        "props": {
+          "id": "subcategoria item 2- procesador intel",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+             "tagTitle": "Procesador Intel Celeron G5925", 
+            "text": "Procesador Intel Celeron G5925" 
+          }
+        }
+      }
+}

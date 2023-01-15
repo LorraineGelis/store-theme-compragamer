@@ -1,0 +1,11 @@
+{
+      "logo#header__desktop--logo": {
+        "title": "Logo desktop",
+        "props": {
+          "href": "/",
+          "url": "assets/img/global/logo__header.png",
+          "width": 252,
+          "height": 67
+        }
+      }
+}

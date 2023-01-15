@@ -1,0 +1,22 @@
+/* .flexRowContent--mobile--login--minicart :global(.vtex-login-2-x-buttonLink) {
+    padding-left: 6rem;
+} */
+
+.flexRowContent--mobile--login--minicart :global(.vtex-login-2-x-container) {
+    justify-content: end;
+}
+
+
+/*  .flexRowContent--mobile--login--minicart {
+     display: flex;
+     justify-content: center;
+ } */
+
+.flexRowContent--mobile--login--minicart {
+    display: flex;
+    justify-content: center
+}
+
+.flexRowContent--mobile--login--minicart :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: initial !important;
+}

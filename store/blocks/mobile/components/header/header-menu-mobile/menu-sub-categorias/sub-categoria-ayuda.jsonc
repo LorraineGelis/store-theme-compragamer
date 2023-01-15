@@ -1,0 +1,51 @@
+{
+    "menu-item#category__realizarpedido": {
+        "title": "subcategoria item 1- realizarpedido",
+        "props": {
+          "id": "subcategoria item 1- realizarpedido",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Realizar un pedido", 
+             "text": "Realizar un pedido" 
+          }
+        }
+      },
+      
+      "menu-item#category__precio": {
+        "title": "subcategoria item 2- precio",
+        "props": {
+          "id": "subcategoria item 2- precio",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+             "tagTitle": "Precio", 
+            "text": "Precio" 
+          }
+        }
+      },
+
+    
+      "menu-item#category__formasdepago":{
+        "title": "subcategoria item 3- formasdepago",
+        "props": {
+          "id": "subcategoria item 3- formasdepago",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+             "tagTitle": "Formas de pago", 
+            "text": "Formas de pago" 
+          }
+        }
+      }
+    
+}
+
+
+

@@ -1,0 +1,8 @@
+.childrenContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuIcon--drawer__mobile {
+    color: #fff
+}

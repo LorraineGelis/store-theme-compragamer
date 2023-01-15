@@ -1,0 +1,39 @@
+{
+    "menu-item#department__productos": {
+        "title": "item - departamento producto",
+        "props": {
+            "id": "item - departamento producto",
+            "type": "custom",
+            "blockClass": "drawer__item--mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "PRODUCTOS",
+                "text": "PRODUCTOS"
+            }
+        },
+        "blocks": ["submenu.accordion#department__submenu-producto"]
+    },
+    "submenu.accordion#department__submenu-producto": {
+        "title": "item - departamento producto",
+        "children": ["menu#department__submenu--producto"]
+    },
+    "menu#department__submenu--producto": {
+        "title": "item - departamento producto",
+        "children": [
+            "menu-item#producto__category--productos-pc",
+            "menu-item#producto__category--productos-fuentes"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+
+
+
+
+
+
+
+}

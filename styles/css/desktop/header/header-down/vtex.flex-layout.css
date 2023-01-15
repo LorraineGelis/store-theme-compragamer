@@ -1,0 +1,18 @@
+ .flexRow--header__desktop--main-down {
+     background: #fd611a;
+     color: rgba(0, 0, 0, .87);
+     padding: 22px;
+ }
+ 
+ .flexRowContent--header__desktop--main-top :global(.vtex-flex-layout-0-x-flexColChild) {
+     padding-left: 2rem;
+ }
+ 
+ .flexRowContent--header__desktop--main-down :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+     max-width: 800px;
+     width: 100% !important;
+ }
+ /* .flexRowContent--header__desktop--main-down:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    max-width: 900px;
+    width: 100%;
+} */

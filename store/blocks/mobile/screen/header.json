@@ -1,0 +1,8 @@
+{
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "flex-layout.row#header__mobile--main-top"
+        ]
+    }
+}

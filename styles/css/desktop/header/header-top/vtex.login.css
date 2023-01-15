@@ -1,0 +1,22 @@
+ .container :global(.vtex-button) {
+     background-color: var(--secondary-color);
+     box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+     white-space: nowrap;
+     width: 173px;
+ }
+ 
+ .container :global(.vtex-login-2-x-label) {
+     color: #fff;
+     display: block;
+     font-family: "Montserrat-Medium";
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ .container :global(.vtex-login-2-x-profileIcon) {
+     color: #fff;
+     fill: currentColor;
+     height: 24px;
+     margin-right: -16px;
+     width: 24px
+ }
