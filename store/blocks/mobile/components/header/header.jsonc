@@ -12,9 +12,8 @@
     "flex-layout.row#mobile--logo",
     "flex-layout.row#mobile--search-bar",
     "flex-layout.row#mobile--login--minicart",
-     "flex-layout.row#mobile--drawer"  
+    "flex-layout.row#mega-menu__mobile"
   ]
- /*  "props": { "verticalAlign": "middle" }  */
 },
 
 
@@ -44,16 +43,5 @@
   "props": {
     "blockClass": "mobile--login--minicart"
   }
-},
-"flex-layout.row#mobile--drawer":{
-  "title": "mobile: drawer header superior",
-  "children":[
-    "drawer#header__mobile--menu"
-  ],
-  "props": {
-    "blockClass": "drawer--header__mobile"
-   }
-}  
-
-
+}
 }

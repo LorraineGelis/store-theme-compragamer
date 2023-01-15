@@ -72,11 +72,11 @@
   "menu#department__marcas": {
     "title": "Menu categorias - marcas",
     "children": [
-      "menu-item#category__marca--hyper",
-      "menu-item#category__marca--intel",
-      "menu-item#category__marca--amda",
-      "menu-item#category__marca--wdblack",
       "menu-item#category__marca--republicgamer",
+      "menu-item#category__marca--intel",
+      "menu-item#category__marca--wdblack",
+      "menu-item#category__marca--hyper",
+      "menu-item#category__marca--amda",
       "menu-item#category__marca--geforce"
     ],
     "props": {

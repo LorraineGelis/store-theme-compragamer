@@ -18,12 +18,14 @@
     },
 
     "submenu.accordion#category__submenu-armatupc--amda":{
+        "title": "Categoria arma tu pc--amda",
         "children": [
             "menu#category--armatupc--amda"
         ]
     },
 
     "menu#category--armatupc--amda":{
+        "title": "Categoria arma tu pc--amda",
         "children": [
             "menu-item#category__procesadorryzen-34100",
             "menu-item#category__procesadorryzen-33200"
@@ -54,12 +56,14 @@
     },
 
     "submenu.accordion#category__submenu-armatupc--intel":{
+        "title": "Categoria arma tu pc--intel",
         "children": [
             "menu#category--armatupc--intel"
         ]
     },
 
     "menu#category--armatupc--intel":{
+        "title": "Categoria arma tu pc--intel",
         "children": [
             "menu-item#category__procesadorintel--4900",
             "menu-item#category__procesadorintel--5925"

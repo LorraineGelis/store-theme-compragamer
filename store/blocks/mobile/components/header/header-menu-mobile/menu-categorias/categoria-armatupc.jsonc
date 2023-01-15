@@ -18,12 +18,14 @@
     },
 
     "submenu.accordion#category__submenu-productopc":{
+        "title": "Categoria productos pc",
         "children": [
             "menu#category--productopc"
         ]
     },
 
     "menu#category--productopc":{
+        "title": "Categoria productos pc",
         "children": [
             "menu-item#category__pc--ideaPad",
             "menu-item#category__pc--yogaslim",
@@ -37,7 +39,7 @@
 
     //Segunda categoria
     "menu-item#producto__category--productos-fuentes":{
-        "title": "Categoria productos pc",
+        "title": "Categoria productos fuentes",
         "props": {
             "id": "Categoria productos pc",
             "type": "custom",
@@ -55,12 +57,14 @@
     },
 
     "submenu.accordion#category__submenu-producto-fuentes":{
+        "title": "Categoria productos fuentes",
         "children": [
             "menu#category--producto--fuentes"
         ]
     },
 
     "menu#category--producto--fuentes":{
+        "title": "Categoria productos fuentes",
         "children": [
             "menu-item#category__fuentes--asus",
             "menu-item#category__fuentes--thermaltake",

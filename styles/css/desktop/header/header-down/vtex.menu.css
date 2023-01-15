@@ -9,3 +9,16 @@
 :global(.vtex-menu-2-x-styledLinkContent--desktop__category--menu-item):hover {
     color: #fff;
 }
+
+:global(.vtex-menu-2-x-submenuWrapper--isOpen) {
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 4px;
+    padding: 17px;
+    width: 170px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--isOpen),
+ :global(.vtex-menu-2-x-accordionIcon--isClosed) {
+    color: #fff;
+}

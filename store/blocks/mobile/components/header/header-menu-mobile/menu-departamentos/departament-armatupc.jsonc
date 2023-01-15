@@ -4,6 +4,7 @@
         "props": {
             "id": "item - departamento arma tu pc",
             "type": "custom",
+            "blockClass": "drawer__item--mobile",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
@@ -15,9 +16,11 @@
         "blocks": ["submenu.accordion#department__submenu-armatupc"]
     },
     "submenu.accordion#department__submenu-armatupc": {
+        "title": "item - departamento arma tu pc",
         "children": ["menu#department__submenu--armatupc"]
     },
     "menu#department__submenu--armatupc": {
+        "title": "item - departamento arma tu pc",
         "children": [
             "menu-item#producto__category--armatupc--amda",
             "menu-item#producto__category--armatupc--intel"

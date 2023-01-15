@@ -18,12 +18,14 @@
     },
 
     "submenu.accordion#category__ayuda":{
+        "title": "Categoria ayuda",
         "children": [
             "menu#category--ayuda"
         ]
     },
 
     "menu#category--ayuda":{
+        "title": "Categoria ayuda",
         "children": [
             "menu-item#category__realizarpedido",
             "menu-item#category__precio",

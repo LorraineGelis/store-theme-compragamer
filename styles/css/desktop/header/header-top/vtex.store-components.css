@@ -1,11 +1,9 @@
-/* :global(.vtex-store-components-3-x-searchBarContainer) {
-    height: 52px;
-} */
-
 .searchBarContainer :global(.vtex-input-prefix__group) {
-    height: 55px;
+    height: 49px;
 }
 
-:global(.vtex-store-components-3-x-searchBarContainer) {
-    width: 490px;
+.autoCompleteOuterContainer--searchbar__mobile :global(.vtex-input-prefix__group) {
+    margin: 0 auto;
+    margin-top: -24px;
+    width: 87%;
 }
