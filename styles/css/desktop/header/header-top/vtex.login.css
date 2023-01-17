@@ -20,3 +20,11 @@
      margin-right: -16px;
      width: 24px
  }
+ 
+ .container :global(.vtex-login-2-x-profile) {
+     color: #fff;
+     display: block;
+     font-family: "Montserrat-Medium";
+     font-size: 14px;
+     font-weight: 500;
+ }

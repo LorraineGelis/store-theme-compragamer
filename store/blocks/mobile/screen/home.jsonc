@@ -3,6 +3,7 @@
         "title": "Section home: Desktop",
         "children": [
          "flex-layout.row#seccion--title", 
+      /*    "search-result-layout.customQuery#home__search", */
         "flex-layout.row#seccion--product", 
         "flex-layout.row#desktop__home--slider-marcas"]
     }
