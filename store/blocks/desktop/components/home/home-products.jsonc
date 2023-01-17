@@ -1,5 +1,6 @@
 {
   "search-result-layout.customQuery#home__search": {
+    "title": "desktop: search result customQuery",
     "props": {
       "querySchema": {
         "skusFilter": "ALL",
@@ -13,17 +14,20 @@
 
 
   "search-result-layout.desktop#home__search--desktop": {
+    "title": "desktop: search result",
     "children": [
       "flex-layout.row#home__results"
     ]
   },
   "flex-layout.row#home__results": {
+    "title": "desktop: search result",
     "children": [
       "flex-layout.col#home__results--search"
     ]
   },
 
   "flex-layout.col#home__results--search": {
+    "title": "desktop: search result",
     "children": [
      "search-content#home__results--search" 
     ]
@@ -31,6 +35,7 @@
 
 
   "search-content#home__results--search": {
+    "title": "desktop: search result content",
     "blocks": [
       "gallery",
       "not-found"
@@ -43,6 +48,7 @@
   },
 
   "shelf#home__products-shelf":{
+    "title": "desktop: products shelf",
     "blocks": ["product-summary.shelf#home__product-shelf"],
     "props": {
       /* "orderBy": "OrderByTopSaleDESC", */
@@ -58,6 +64,7 @@
   },
 
   "product-summary.shelf#home__product-shelf":{
+    "title": "desktop: product-summary shelf",
     "children": [
         "product-summary-image",
         "product-summary-space",
@@ -71,7 +78,7 @@
     "title": "row cont for cart button",
     "children": ["add-to-cart-button"],
     "props": {
-      "blockClass": "add-cart-btn__container"
+      "blockClass": "add-cart-btn__container--desktop"
     }
   }
   }

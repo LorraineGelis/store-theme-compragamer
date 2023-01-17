@@ -1,12 +1,11 @@
 {
-      //Una prueba pa vé
   "list-context.product-list#home__product-shelf": {
+    "title": "desktop: list-context.product-list",
     "blocks": ["product-summary.shelf#home__product-shelf"],
-
-
     "children": ["slider-layout#home__product-shelf--slider"]
   },
   "slider-layout#home__product-shelf--slider": {
+    "title": "desktop: product-shelf--slider",
     "props": {
       "itemsPerPage": {
         "desktop": 4,
