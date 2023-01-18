@@ -69,8 +69,8 @@
         "product-summary-image",
         "product-summary-space",
         "product-summary-name",
-        "product-summary-price",
-         "flex-layout.row#add-cart-btn__container" 
+        "product-summary-price"
+       /*   "flex-layout.row#add-cart-btn__container"    */
       ]
   },
 

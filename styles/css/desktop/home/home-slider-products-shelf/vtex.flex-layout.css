@@ -36,7 +36,6 @@
 }
 
 :global(.vtex-product-summary-2-x-imageNormal) {
-    height: 226px;
     max-height: 226px!important;
     /*  object-fit: contain; */
     object-position: center;
@@ -45,4 +44,23 @@
 
 :global(.vtex-product-summary-2-x-nameContainer) {
     padding: 0;
+}
+
+.flexRowContent--add-cart-btn__container--desktop :global(.vtex-button) {
+    background-color: #fd611a;
+    border: none;
+    border-radius: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    /*     -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0; */
+    /*  -o-border-radius: 0; */
+}
+
+
+/* .slide--home__slider-products--shelf */
+
+ :global(.vtex-product-summary-2-x-brandName) {
+    color: red;
 }
