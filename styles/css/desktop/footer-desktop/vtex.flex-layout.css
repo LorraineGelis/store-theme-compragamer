@@ -1,0 +1,14 @@
+.flexColChild--logo_footer {
+    border: none;
+    padding: 20px;
+    text-align: right;
+}
+
+.flexRowContent--footer_container--desktop {
+    /*  display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    background-color: #fd611a;
+    /* color: #fff;
+    padding: 0;
+    text-align: left; */
+}
