@@ -1,0 +1,27 @@
+{
+  "list-context.product-list#home__product-shelf": {
+    "title": "desktop: list-context.product-list",
+    "blocks": ["product-summary.shelf#home__product-shelf"],
+    "children": ["slider-layout#home__product-shelf--slider"]
+  },
+  "slider-layout#home__product-shelf--slider": {
+    "title": "desktop: product-shelf--slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+       /*  "tablet": 2,
+        "phone": 1 */
+      },
+      "showPaginationDots": "never",
+      "fullWidth": false,
+     /*  "infinite": true,
+      "showPaginationDots": "never",
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 3000
+      }, */
+      /* "showNavigationArrows": "desktopOnly", */
+      "blockClass": "home__slider-products--shelf"
+    }
+  }
+}

@@ -1,15 +1,89 @@
 {
-    "login": {
-      "title": "Login Desktop",
-      "props": {
-        "optionsTitle": "Elegir una forma de iniciar sesión",
-        "emailAndPasswordTitle": "Ingresar",
-        "accessCodeTitle": "Ingresar con codigo de acceso",
-        "emailPlaceholder": "Ej: ejemplo@gmail.com",
-        "passwordPlaceholder": "Ingresa tu contraseña",
-        "showPasswordVerificationIntoTooltip": true,
-        "showIconProfile": true,
-        "iconLabel": "iniciar sesión"
-      }
+  "login": {
+    "title": "Login Desktop",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión",
+      "blockClass": "hola"
+    }
+  },
+
+  "modal-trigger#header__login--desktop": {
+    "title": "modal login",
+    "children": [
+      "flex-layout.row#login__section",
+      "modal-layout#header__login-content"
+    ]
+  },
+  "flex-layout.row#login__section": {
+    "title": "login trigger block",
+    "children": [
+      "icon#login__icon",
+      "rich-text#inicia-sesion"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "fullWidth": false,
+      "blockClass": "login__section"
+    }
+  },
+
+  "icon#login__icon": {
+    "props": {
+      "id": "hpa-profile",
+      "size": 24,
+      "blockClass": "inicia-sesion-icon"
+    }
+  },
+
+  /*   "image#login__icon": {
+    "title": "login icon",
+    "props": {
+      "src": "assets/icon/account-circle.svg"
+    }
+  }, */
+  "rich-text#inicia-sesion": {
+    "title": "login title",
+    "props": {
+      "text": "INICIAR SESIÓN",
+      "blockClass": "inicia-sesion-text"
+    }
+  },
+  "modal-layout#header__login-content": {
+    "title": "login content",
+    "children": [
+      "modal-header#login--event"
+    ]
+  },
+
+  "modal-header#login--event": {
+    "title": "login event",
+    "children": [
+      "login-content#hola"
+    ]
+    /*  "props": {
+      "showCloseButton": true
+    } */
+  },
+
+  "login-content#hola": {
+    "title": "Login Desktop",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "isInitialScreenOptionOnly": false
+      /* "showIconProfile": true, */
+      /* "iconLabel": "Iniciar sesión \nPara comenzar ingresá tu email" */
     }
   }
+}
