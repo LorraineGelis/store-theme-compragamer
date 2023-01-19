@@ -31,3 +31,21 @@
      font-weight: 500;
      margin-left: 5px;
  }
+ 
+ .content--loginOptions :global(.vtex-button),
+ .contentForm :global(.vtex-button) {
+     background: #fd611a;
+     border: none;
+     color: #fff;
+ }
+ 
+ .contentForm :global(.vtex-login-2-x-button) {
+     background: #fd611a;
+     border: none;
+     color: #fff;
+     /*  color: #000;
+     display: block;
+     font-family: 'Montserrat-Medium', sans-serif;
+     font-weight: 500;
+     text-align: center; */
+ }

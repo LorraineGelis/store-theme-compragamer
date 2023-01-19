@@ -38,7 +38,8 @@
   "title": "mobile: login-minicart header superior",
   "children": [
     "login#header_mobile",
-    "minicart.v2"
+    /*  "minicart.v2"  */
+   "minicart.v2#header__mobile--minicart" 
   ],
   "props": {
     "blockClass": "mobile--login--minicart"

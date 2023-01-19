@@ -39,7 +39,7 @@
     max-height: 226px!important;
     /*  object-fit: contain; */
     object-position: center;
-    width: 100%;
+    width: 65%;
 }
 
 :global(.vtex-product-summary-2-x-nameContainer) {
@@ -62,5 +62,23 @@
 /* .slide--home__slider-products--shelf */
 
  :global(.vtex-product-summary-2-x-brandName) {
-    color: red;
+    color: #000!important;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 14px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice) {
+    color: #4675b9!important;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 14px;
+    text-align: center;
 }

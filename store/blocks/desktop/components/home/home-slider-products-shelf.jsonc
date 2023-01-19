@@ -8,9 +8,9 @@
     "title": "desktop: product-shelf--slider",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 1
+        "desktop": 4
+       /*  "tablet": 2,
+        "phone": 1 */
       },
       "showPaginationDots": "never",
       "fullWidth": false,

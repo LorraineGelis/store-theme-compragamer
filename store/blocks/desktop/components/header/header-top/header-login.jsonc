@@ -9,7 +9,8 @@
       "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Iniciar sesión \nPara comenzar ingresá tu email"
+      "iconLabel": "Iniciar sesión",
+      "blockClass": "hola"
     }
   },
 

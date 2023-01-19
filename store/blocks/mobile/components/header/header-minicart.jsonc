@@ -1,0 +1,74 @@
+{
+    "minicart.v2#header__mobile--minicart": {
+        "title": "minicart: mobile",
+        "props": {
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+            /*  "variation": "link", 
+          "linkVariationUrl": "https://storecompragamer--itgloberspartnercl.myvtex.com/checkout/#/cart"  */
+        },
+        "children": [
+            "minicart-base-content#mobile__minicart"
+        ]
+    },
+    "minicart-base-content#mobile__minicart":{
+        "title": "minicart: base-content",
+        "blocks": [
+            "minicart-empty-state#mobile__minicart"
+        ],
+        "children": [
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer--mobile"
+        ],
+         "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "rowGap": 5
+          } 
+    },
+    "minicart-empty-state#mobile__minicart": {
+        "title": "minicart: empty",
+        "children": [
+            "flex-layout.row#minicart__empty--mobile"
+        ]
+    },
+    "flex-layout.row#minicart__empty--mobile":{
+        "title": "minicart: empty",
+        "children": [
+            "flex-layout.col#minicart__empty--mobile"
+        ]
+    },
+    "flex-layout.col#minicart__empty--mobile":{
+        "title": "minicart: empty",
+        "children": [
+            "icon-cart#minicart__empty--icon--mobile",
+            "rich-text#minicart__empty--text--mobile"
+        ],
+         "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "rowGap": 5
+          } 
+    },
+    "icon-cart#minicart__empty--icon--mobile":{
+        "title": "minicart: icon",
+        "props":{
+            "size": 100
+        }
+    },
+    "flex-layout.row#minicart__footer--mobile":{
+        "title": "minicart: footer",
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button" 
+        ]
+    },
+     "rich-text#minicart__empty--text--mobile":{
+        "title": "minicart: rich-text",
+        "props": {
+            "text": "Tu carrito está vacío",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    } 
+}
