@@ -9,8 +9,7 @@
       "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Iniciar sesión",
-      "blockClass": "hola"
+      "iconLabel": "Iniciar sesión"
     }
   },
 
@@ -62,17 +61,19 @@
     ]
   },
 
+
+  //BORRAR/
   "modal-header#login--event": {
     "title": "login event",
     "children": [
-      "login-content#hola"
+      "login-content"
     ]
     /*  "props": {
       "showCloseButton": true
     } */
   },
 
-  "login-content#hola": {
+  "login-content": {
     "title": "Login Desktop",
     "props": {
       "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",

@@ -4,11 +4,64 @@
     text-align: right;
 }
 
+
+/*Contenedor que contiene a los elementos*/
+
 .flexRowContent--footer_container--desktop {
-    /*  display: grid;
-    grid-template-columns: repeat(3,1fr); */
     background-color: #fd611a;
-    /* color: #fff;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     padding: 0;
-    text-align: left; */
+    text-align: center;
+}
+
+.flexRowContent--footer_container--desktop :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    flex: 1 1 0px;
+}
+
+.flexCol--footer__container-col-ayuda {
+    border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
+    padding: 20px;
+    text-align: center;
+}
+
+.flexCol--footer__container-col-btn-arrepentimiento {
+    border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
+    padding: 20px;
+}
+
+.flexCol--footer__container-col-redes {
+    border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
+    padding: 20px;
+}
+
+.flexColChild--footer__container-col-redes {
+    height: 14px !important;
+    margin-top: 10px;
+}
+
+.flexRowContent--footer_container--down {
+    align-items: center;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 1rem 1rem 1rem;
+    /* background: #2c2e2f; */
+}
+
+
+/* .-wrapper--footer__container-text--down {
+    background-color: #eee;
+    color: #000;
+    grid-column: span 2/span 2;
+    justify-content: center;
+    margin: 0;
+    padding: 7px 0;
+} */
+
+.flexRowContent--footer__container-redes {
+    max-width: 200px
 }
