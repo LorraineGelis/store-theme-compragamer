@@ -1,0 +1,26 @@
+.paragraph--footer__text-ayuda--mobile {
+    color: #fff!important;
+    font: 500 13px/15px Montserrat, sans-serif !important;
+    margin-bottom: 6px;
+}
+
+.paragraph--footer__container-col-sugerencias--mobile {
+    color: #fff !important;
+    font: 200 12px/14px "Montserrat-Thin", sans-serif !important;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.paragraph--footer__container-col-title-redes--mobile {
+    color: #fff !important;
+    font: 500 13px/15px Montserrat-Medium, sans-serif !important;
+}
+
+.paragraph--footer__container-text--down--mobile {
+    background-color: #eee;
+    color: #333;
+    font: 400 12px/14px Montserrat, sans-serif !important;
+    margin-bottom: 8px;
+    padding: 7px 0 7px 0;
+    text-align: center;
+}

@@ -2,8 +2,9 @@
     "responsive-layout.mobile#home__mobile": {
         "title": "Section home: Desktop",
         "children": [
-         "flex-layout.row#seccion--title", 
+        /*  "flex-layout.row#seccion--title", 
+         "flex-layout.row#home__slider-products-mobile", 
         "flex-layout.row#seccion--product", 
-        "flex-layout.row#desktop__home--slider-marcas"]
+        "flex-layout.row#desktop__home--slider-marcas" */]
     }
 }

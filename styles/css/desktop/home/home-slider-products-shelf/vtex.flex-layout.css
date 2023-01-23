@@ -1,0 +1,84 @@
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--home__slider-products--shelf) {
+    margin: 70px auto;
+    margin-top: 8px;
+    max-width: 1440px;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--home__slider-products--shelf) {
+    color: #fff;
+    height: 10px;
+    width: 10px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows) {
+    background-color: #fd611a !important;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    height: 40px;
+    width: 40px;
+}
+
+ :global(.vtex-slider-layout-0-x-slide--home__slider-products--shelf) {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 3px 1px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .14)!important;
+    box-sizing: border-box;
+    margin: 0px 0.8rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 100% !important;
+}
+
+:global(.vtex-product-summary-2-x-imageStackContainer) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 15rem;
+}
+
+:global(.vtex-product-summary-2-x-imageNormal) {
+    max-height: 226px!important;
+    /*  object-fit: contain; */
+    object-position: center;
+    width: 65%;
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+    padding: 0;
+}
+
+.flexRowContent--add-cart-btn__container--desktop :global(.vtex-button) {
+    background-color: #fd611a;
+    border: none;
+    border-radius: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    /*     -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0; */
+    /*  -o-border-radius: 0; */
+}
+
+
+/* .slide--home__slider-products--shelf */
+
+ :global(.vtex-product-summary-2-x-brandName) {
+    color: #000!important;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 14px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice) {
+    color: #4675b9!important;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 14px;
+    text-align: center;
+}

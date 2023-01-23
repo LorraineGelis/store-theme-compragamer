@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#home__phone-prueba": {
+        "title": "Header phone",
+        "children": [
+
+        ]
+    }
+}

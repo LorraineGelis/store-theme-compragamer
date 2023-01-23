@@ -1,0 +1,73 @@
+/* Contenedor principal */
+
+.flexRowContent--footer_container--mobile {
+    background-color: #fd611a;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Contenedor: data fiscal */
+
+.flexCol--contenedor_img_qr {
+    padding: 20px 20px 0 20px;
+}
+
+
+/* Contenedor: contactanos */
+
+.flexCol--contenedor_contactanos {
+    align-items: center;
+    border-left: 1px solid hsla(0, 0%, 100%, .32);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.flexColChild--contenedor_contactanos {
+    height: auto !important;
+}
+
+
+/* Contenedor: arrepientete */
+
+.flexCol--contenedor_arrepientete {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 131px;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.flexColChild--contenedor_arrepientete {
+    margin-bottom: 12px;
+}
+
+
+/* Contenedor: seguinos */
+
+.flexCol--contenedor_seguinos {
+    border-left: 1px solid hsla(0, 0%, 100%, .32);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+
+/*Iconos de redes sociales*/
+
+.flexRowContent--footer__container-redes--mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 8px;
+    width: 30%
+}

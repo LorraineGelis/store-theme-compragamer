@@ -1,0 +1,5 @@
+.autoCompleteOuterContainer--searchbar__mobile :global(.vtex-input-prefix__group) {
+    margin: 0 auto;
+    /*   margin-top: -24px; */
+    width: 87%;
+}
