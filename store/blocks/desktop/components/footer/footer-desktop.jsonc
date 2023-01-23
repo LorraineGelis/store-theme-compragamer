@@ -1,0 +1,248 @@
+{
+  "flex-layout.row#footer__desktop--main": {
+    "title": "Footer: desktop",
+    "children": [
+      "flex-layout.col#footer__col--one",
+      "flex-layout.col#footer__col--two",
+      "flex-layout.col#footer__col--three",
+      "flex-layout.col#footer__col--four"
+    ],
+    "props": {
+      "blockClass": "footer_container--desktop",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+
+  //Columna 1
+
+  "flex-layout.col#footer__col--one": {
+    "title": "Logo desktop",
+    "children": [
+      "image#logo__footer--desktop"
+    ],
+    "props": {
+      "blockClass": "logo_footer"
+    }
+  },
+  "image#logo__footer--desktop": {
+    "title": "Img logo desktop ",
+    "props": {
+      "src": "assets/img/global/logo_footer.jpg",
+      "blockClass": "logo_footer--img",
+      "maxHeight": "90",
+      "link": {
+        "url": "https://storecompragamer--itgloberspartnercl.myvtex.com/",
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+
+  //Columna 1
+
+  "flex-layout.col#footer__col--two": {
+    "title": "Footer: columna 2",
+    "children": [
+      "rich-text#footer_text--one",
+      "rich-text#footer_text--two",
+      "link#contactenos"
+    ],
+    "props": {
+      "blockClass": "footer__container-col-ayuda"
+    }
+  },
+  "rich-text#footer_text--one": {
+    "title": "Título ayuda",
+    "props": {
+      "text": "Ayuda",
+      "blockClass": "footer__text-ayuda"
+    }
+  },
+  "rich-text#footer_text--two": {
+    "title": "Título ayuda",
+    "props": {
+      "text": "Si tenés sugerencias o comentarios",
+      "blockClass": "footer__container-col-sugerencias"
+    }
+  },
+  "link#contactenos": {
+    "title": "Link a contactenos",
+    "props": {
+      "blockClass": "link_contactenos",
+      "label": "CONTACTANOS",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+
+  //Columna 3
+
+  "flex-layout.col#footer__col--three": {
+    "title": "Footer: columna 3",
+    "children": [
+      "link#trabajaconnosotros",
+      "link#btnarrepentimiento"
+    ],
+    "props": {
+      "blockClass": "footer__container-col-btn-arrepentimiento"
+    }
+  },
+
+  "link#trabajaconnosotros": {
+    "title": "Link a trabaja con nosotros",
+    "props": {
+      "blockClass": "link_trabajaconnosotros",
+      "label": "¡Trabajá con nosotros!",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+
+  "link#btnarrepentimiento": {
+    "title": "Link a btn arrepentimiento",
+    "props": {
+      "blockClass": "link_btnarrepentimiento",
+      "label": "Botón de arrepentimiento",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+
+  //Columna 4
+  "flex-layout.col#footer__col--four": {
+    "title": "Contenido redes sociales",
+    "children": [
+      "rich-text#footer__container-col-title",
+      "flex-layout.row#footer__container-redes"
+    ],
+    "props": {
+      "blockClass": "footer__container-col-redes"
+    }
+  },
+
+  "rich-text#footer__container-col-title": {
+    "title": "Title: redes sociales",
+    "props": {
+      "text": "Seguinos en",
+      "blockClass": "footer__container-col-title-redes"
+    }
+  },
+
+  "flex-layout.row#footer__container-redes": {
+    "title": "Contenido redes sociales",
+    "children": [
+      "link#icon-twitter",
+      "link#icon-youtube",
+      "link#icon-facebook",
+      "link#icon-instagram"
+    ],
+    "props": {
+      "blockClass": "footer__container-redes",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "colSizing": "auto"
+    }
+  },
+
+  "link#icon-twitter": {
+    "title": "Link Twitter",
+    "children": [
+      "icon#icon-twitter"
+    ],
+    "props": {
+      "blockClass": "icons-redes",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-twitter": {
+    "title": "Icono de Twitter",
+    "props": {
+      "id": "icon-twitter",
+      "blockClass": "icon-redes",
+      "size": 40
+      /*  "viewBox": "0 0 16 16"  */
+    }
+  },
+
+  "link#icon-youtube": {
+    "title": "Link Twitter",
+    "children": [
+      "icon#icon-youtube"
+    ],
+    "props": {
+      "blockClass": "icons-redes",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-youtube": {
+    "title": "Icono de youtube",
+    "props": {
+      "id": "icon-youtube",
+      "blockClass": "icon-redes",
+      "size": 40
+    }
+  },
+
+  "link#icon-facebook": {
+    "title": "Link facebook",
+    "children": [
+      "icon#icon-facebook"
+    ],
+    "props": {
+      "blockClass": "icons-redes",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-facebook": {
+    "title": "Icono de facebook",
+    "props": {
+      "id": "icon-facebook",
+      "blockClass": "icon-redes",
+      "size": 40
+      /*    "viewBox": "0 0 16 16" */
+    }
+  },
+
+  "link#icon-instagram": {
+    "title": "Link instagram",
+    "children": [
+      "icon#icon-instagram"
+    ],
+    "props": {
+      "blockClass": "icons-redes",
+      "href": "#",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-instagram": {
+    "title": "Icono de instagram",
+    "props": {
+      "id": "icon-instagram",
+      "blockClass": "icon-redes",
+      "size": 40
+      /*    "viewBox": "0 0 16 16" */
+    }
+  },
+  "flex-layout.row#footer__desktop--down": {
+    "title": "footer down",
+    "children": [
+      "rich-text#footer__desktop--down"
+    ],
+    "props": {
+      "blockClass": "footer_container--down",
+      "colSizing": "auto",
+      "fullWidth": true
+    }
+  },
+  "rich-text#footer__desktop--down": {
+    "title": "footer: down",
+    "props": {
+      "text": "Las marcas y logos de compragamer.com compragamer.com/tv compragamer.com/reviews son propiedad de Newton Station SRL \nTodos los derechos reservados 2017",
+      "blockClass": "footer__container-text--down"
+    }
+  }
+}

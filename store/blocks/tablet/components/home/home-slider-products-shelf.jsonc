@@ -1,20 +1,20 @@
 {
-  "list-context.product-list#home__product-shelf": {
+  "list-context.product-list#home__product-shelf--tablet": {
     "title": "desktop: list-context.product-list",
-    "blocks": ["product-summary.shelf#home__product-shelf"],
-    "children": ["slider-layout#home__product-shelf--slider"]
+    "blocks": [ "product-summary.shelf#home__product-shelf--tablet"],
+    "children": ["slider-layout#tablet__product-shelf--slider"]
   },
-  "slider-layout#home__product-shelf--slider": {
+  "slider-layout#tablet__product-shelf--slider": {
     "title": "desktop: product-shelf--slider",
     "props": {
       "itemsPerPage": {
-        "desktop": 4
-       /*  "tablet": 2,
-        "phone": 1 */
+        "tablet": 3
+       
       },
       "showPaginationDots": "never",
       "fullWidth": false,
-
+       "showNavigationArrows": "never",
+    
      /*  "infinite": true,
       "showPaginationDots": "never",
       "autoplay": {
@@ -22,7 +22,7 @@
         "timeout": 3000
       }, */
       /* "showNavigationArrows": "desktopOnly", */
-      "blockClass": "home__slider-products--shelf"
+      "blockClass": "home__slider-products--shelf--tablet"
     }
   }
 }

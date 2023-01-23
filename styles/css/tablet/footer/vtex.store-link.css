@@ -1,0 +1,44 @@
+.link--link_contactenos--tablet {
+    border: 1px solid hsla(0, 0%, 100%, .32);
+    border-radius: 5px;
+    color: #fff;
+    font: 500 13px/15px "Montserrat-Medium", sans-serif !important;
+    max-width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link--link_trabajaconnosotros--tablet {
+    border: 1px solid hsla(0, 0%, 100%, .32);
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font: 400 15px/25px Montserrat, sans-serif !important;
+    margin: auto auto 25px;
+    max-width: 150px;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link--link_trabajaconnosotros--tablet:hover,
+.link--link_contactenos--tablet:hover {
+    background-color: #fff;
+    color: #fd611a;
+}
+
+.link--link_btnarrepentimiento--tablet {
+    color: #fff;
+    font: 400 13px/18px Montserrat, sans-serif!important;
+    text-decoration: underline;
+}
+
+.link--link_btnarrepentimiento--tablet:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.childrenContainer--icons-redes--tablet {
+    margin: 0 10px 10px 0;
+}

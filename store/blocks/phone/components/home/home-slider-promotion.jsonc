@@ -23,6 +23,7 @@
                 "stopOnHover": true
             },
             "showNavigationArrows": "never"
+           /*  "showPaginationDots": "never" */
         },
         "children": [
             "image#mobile__home--slider--uno",

@@ -1,0 +1,11 @@
+{
+     "footer-layout.mobile": {
+        "title": "Footer mobile",
+        "children": [
+            /* "flex-layout.row#footer__mobile--main", "flex-layout.row#footer__mobile--down" */
+        ],
+        "props": {
+          "blockClass": "footer-layout-mobile"
+        }
+      } 
+}

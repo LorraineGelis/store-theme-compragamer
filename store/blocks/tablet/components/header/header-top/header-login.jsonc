@@ -1,0 +1,15 @@
+{
+  "login#tablet": {
+    "title": "Login tablet",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión"
+    }
+  }
+}

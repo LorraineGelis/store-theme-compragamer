@@ -1,0 +1,82 @@
+{
+    "menu-item#producto__category--productos-pc":{
+        "title": "Categoria productos pc",
+        "props": {
+            "id": "Categoria productos pc",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Notebooks",
+                "text": "Notebooks" 
+            },
+            "blockClass": "menu-item"
+        },
+
+        "blocks":["submenu.accordion#category__submenu-productopc"]
+        
+    },
+
+    "submenu.accordion#category__submenu-productopc":{
+        "title": "Categoria productos pc",
+        "children": [
+            "menu#category--productopc"
+        ]
+    },
+
+    "menu#category--productopc":{
+        "title": "Categoria productos pc",
+        "children": [
+            "menu-item#category__pc--ideaPad",
+            "menu-item#category__pc--yogaslim",
+            "menu-item#category__pc--core"
+           
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-item"
+        }
+    },
+
+    //Segunda categoria
+    "menu-item#producto__category--productos-fuentes":{
+        "title": "Categoria productos fuentes",
+        "props": {
+            "id": "Categoria productos pc",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fuentes de alimentación",
+                "text": "Fuentes de alimentación" 
+            },
+            "blockClass": "menu-item"
+        },
+
+        "blocks":["submenu.accordion#category__submenu-producto-fuentes"]
+        
+    },
+
+    "submenu.accordion#category__submenu-producto-fuentes":{
+        "title": "Categoria productos fuentes",
+        "children": [
+            "menu#category--producto--fuentes"
+        ]
+    },
+
+    "menu#category--producto--fuentes":{
+        "title": "Categoria productos fuentes",
+        "children": [
+            "menu-item#category__fuentes--asus",
+            "menu-item#category__fuentes--thermaltake",
+            "menu-item#category__fuentes--corsair"
+           
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-item"
+        }
+    }
+}
