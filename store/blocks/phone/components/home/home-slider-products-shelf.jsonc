@@ -47,7 +47,9 @@
           "fullWidth": true,
           "showPaginationDots": "never",
           "showNavigationArrows": "never",
-          "infinite": true
+          "infinite": true,
+          "centerMode": "to-the-left",
+          "centerModeSlidesGap": 1
           /*     "autoplay": {
             "timeout": 3000,
             "stopOnHover": true

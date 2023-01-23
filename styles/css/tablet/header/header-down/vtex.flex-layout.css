@@ -5,7 +5,7 @@
  }
  
  .flexRowContent--header__tablet--main-top :global(.vtex-flex-layout-0-x-flexColChild) {
-     padding-left: 2rem;
+     /*  padding-left: 2rem; */
  }
  
  .flexRowContent--header__tablet--main-down :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

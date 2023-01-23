@@ -55,3 +55,19 @@
 .flexRowContent--footer__container-redes--tablet {
     max-width: 200px
 }
+
+.flexRowContent--footer__container---tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 30%
+}
+
+.flexCol--footer__container-col-redes--tablet {
+    align-self: center;
+    border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
+    padding: 20px;
+}
+
+.flexRowContent--header__tablet--main-top :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    padding-right: 10px;
+}

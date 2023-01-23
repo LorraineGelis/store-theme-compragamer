@@ -197,7 +197,7 @@
     "props": {
       "id": "icon-twitter",
       "blockClass": "icon-redes",
-      "size": 40
+      "size": 30
     }
   },
 
@@ -217,7 +217,7 @@
     "props": {
       "id": "icon-youtube",
       "blockClass": "icon-redes",
-      "size": 40
+      "size": 30
     }
   },
 
@@ -237,7 +237,7 @@
     "props": {
       "id": "icon-facebook",
       "blockClass": "icon-redes",
-      "size": 40
+      "size": 30
     }
   },
 
@@ -257,7 +257,7 @@
     "props": {
       "id": "icon-instagram",
       "blockClass": "icon-redes",
-      "size": 40
+      "size": 30
     }
   },
 
