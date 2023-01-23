@@ -1,0 +1,43 @@
+.link--link_contactenos {
+    border: 1px solid hsla(0, 0%, 100%, .32);
+    border-radius: 5px;
+    color: #fff;
+    font: 500 13px/15px "Montserrat-Medium", sans-serif !important;
+    max-width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link--link_trabajaconnosotros {
+    border: 1px solid hsla(0, 0%, 100%, .32);
+    border-radius: 5px;
+    color: #fff;
+    font: 400 15px/25px Montserrat, sans-serif !important;
+    max-width: 150px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link--link_trabajaconnosotros:hover,
+.link--link_contactenos:hover {
+    background-color: #fff;
+    color: #fd611a;
+}
+
+.link--link_btnarrepentimiento {
+    color: #fff;
+    font: 400 15px/18px Montserrat, sans-serif!important;
+    text-decoration: underline;
+}
+
+.link--link_btnarrepentimiento:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* .childrenContainer--icons-redes :global(.icon-redes) {
+    background-color: red;
+} */

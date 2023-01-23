@@ -1,8 +1,16 @@
 {
     "responsive-layout.tablet#home__tablet": {
-    "title": "Section home: Tablet",
-      "children": ["flex-layout.row#tablet__home--slider-promotion"
-      /* "list-context.product-list#home__product-shelf" */
+    "title": "Section Tablet",
+      "children": [
+        "flex-layout.row#header__tablet--main-top",
+        "flex-layout.row#header__tablet--main-down",
+        "flex-layout.row#tablet__home--slider-promotion",
+        "flex-layout.row#seccion--title", 
+       "list-context.product-list#home__product-shelf--tablet",
+       "flex-layout.row#seccion--product", 
+       "flex-layout.row#desktop__home--slider-marcas",
+       "flex-layout.row#footer__tablet--main",
+       "flex-layout.row#footer__tablet--down"
     
     ]
     }

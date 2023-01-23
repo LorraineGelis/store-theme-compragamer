@@ -1,0 +1,236 @@
+{
+  //Menú header down
+
+  "menu-item#tablet__category--product": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false,
+        "text": "PRODUCTOS"
+      },
+      "blockClass": "tablet__category--menu-item"
+    }
+  },
+
+  "menu-item#tablet__category--pc": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false,
+        "text": "ARMÁ TU PC"
+      },
+      "blockClass": "tablet__category--menu-item"
+    }
+  },
+  "menu-item#tablet__category--help": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "AYUDA"
+      },
+      "blockClass": "tablet__category--menu-item"
+    }
+  },
+
+
+  "menu-item#tablet__category--marcas": {
+    "title": "Menu categorias",
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "MARCAS SPONSOR"
+      },
+      "blockClass": "tablet__category--menu-item"
+    },
+    "blocks": [
+      "submenu#department__marcas--tablet"
+    ]
+  },
+  "submenu#department__marcas--tablet": {
+    "title": "Menu categorias",
+    "children": [
+      "menu#department__marcas--tablet"
+    ]
+  },
+  "menu#department__marcas--tablet": {
+    "title": "Menu categorias - marcas",
+    "children": [
+      "menu-item#tablet_category__marca--republicgamer",
+      "menu-item#tablet_category__marca--intel",
+      "menu-item#tablet_category__marca--wdblack",
+      "menu-item#tablet_category__marca--hyper",
+      "menu-item#tablet_category__marca--amda",
+      "menu-item#tablet_category__marca--geforce"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#tablet_category__marca--hyper": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__hyper--tablet"
+    ]
+  },
+
+  "image#marca__hyper--tablet": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_hyperx.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#tablet_category__marca--intel": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__intel--tablet"
+    ]
+  },
+
+  "image#marca__intel--tablet": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_intel.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#tablet_category__marca--amda": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__amda--tablet"
+    ]
+  },
+
+  "image#marca__amda--tablet": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_amda.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#tablet_category__marca--wdblack": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__wdblack--tablet"
+    ]
+  },
+
+  "image#marca__wdblack--tablet": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_wdblack.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#tablet_category__marca--republicgamer": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__republicgamer--tablet"
+    ]
+  },
+
+  "image#marca__republicgamer--tablet": {
+    "title": "Img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_republic.png",
+      "blockClass": "image-menu"
+    }
+  },
+
+  "menu-item#tablet_category__marca--geforce": {
+    "title": "Menu categorias - marcas",
+    "props": {
+      "blockClass": "item__menu--marcas",
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://compragamer.com/?seccion=3",
+        "noFollow": false
+      }
+    },
+    "children": [
+      "image#marca__geforce--tablet"
+    ]
+  },
+
+  "image#marca__geforce--tablet": {
+    "title": "img: Menu categorias - marcas",
+    "props": {
+      "src": "assets/img/global/img_geforce.png",
+      "blockClass": "image-menu"
+    }
+  }
+}
