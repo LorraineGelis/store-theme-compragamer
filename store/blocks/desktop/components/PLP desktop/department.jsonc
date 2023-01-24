@@ -1,0 +1,151 @@
+{
+    "flex-layout.row#department__results-desktop": {
+        "title": "Contenedor filter y contenido",
+        "children": [
+          "flex-layout.col#department__results--filter",
+          "flex-layout.col#department__results--content"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "fullWidth": true,
+          "blockClass": "department__results-desktop"
+        }
+      },
+      "flex-layout.col#department__results--filter": {
+        "title": "Filtro de busqueda de PLP",
+        "children": ["filter-navigator.v3"],
+        "props": {
+          "width": "15%",
+          "blockClass": "department-filter-navigator"
+        }
+      },
+      "flex-layout.col#department__results--content": {
+        "children": [
+          "flex-layout.row#results__filter",
+          "flex-layout.row#results__products"
+        ],
+        "props": {
+          "width": "85%",
+          "blockClass": "department__results--content"
+        }
+      },
+      "flex-layout.row#results__filter": {
+        "title": "contenedor resultados de productos",
+        "children": [
+          "flex-layout.col#results__filter--productCount",
+          "flex-layout.col#results__filter--orderby",
+          "flex-layout.col#results__filter--gallerySwitcher"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "fullWidth": true,
+          "paddingBottom": 8,
+          "blockClass": "results__filter",
+          "preserveLayoutOnMobile": true
+        }
+      },
+      "flex-layout.col#results__filter--productCount": {
+        "title": "total de productos",
+        "children": ["total-products.v2"],
+        "props": {
+          "verticalAlign": "middle",
+          "width": "60%",
+          "blockClass": "result__filter--productCount"
+        }
+      },
+      "flex-layout.col#results__filter--orderby": {
+        "title": "Orden de productos",
+        "children": ["order-by.v2"],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "right",
+          "width": "30%",
+          "blockClass": "result__filter--orderby"
+        }
+      },
+      "flex-layout.col#results__filter--gallerySwitcher": {
+        "children": ["gallery-layout-switcher#result__filter--gallerySwitcher"],
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "right",
+          "width": "10%",
+          "blockClass": "result__filter--gallerySwitcher"
+        }
+      },
+    
+      "gallery-layout-switcher#result__filter--gallerySwitcher": {
+        "title": "Galeria de productos",
+        "children": [
+          "gallery-layout-option#grid__result--gallerySwitcher",
+          "gallery-layout-option#listProduct__result--gallerySwitcher"
+        ],
+        "props": {
+          "verticalAlign": "middle"
+        }
+      },
+      "gallery-layout-option#grid__result--gallerySwitcher": {
+        "props": {
+          "name": "grid",
+          "blockClass": "grid__result--gallerySwitcher"
+        },
+        "children": ["icon-grid", "rich-text#option-gridtitle"]
+      },
+      "rich-text#option-gridtitle": {
+        "props": {
+          "text": "Grid",
+          "blockClass": "gridlisttitle"
+        }
+      },
+      "gallery-layout-option#listProduct__result--gallerySwitcher": {
+        "props": {
+          "name": "list",
+          "blockClass": "listProduct__result--gallerySwitcher"
+        },
+        "children": ["icon-inline-grid", "rich-text#option-gridlisttitle"]
+      },
+      "rich-text#option-gridlisttitle": {
+        "props": {
+          "text": "List",
+          "blockClass": "gridlisttitle"
+        }
+      },
+      "icon-inline-grid": {
+        "props": {
+          "blockClass": "icon-inline-grid"
+        }
+      },
+      "flex-layout.row#results__products": {
+        "children": ["search-content"],
+        "props": {
+          "fullWidth": true,
+          "blockClass": "results__products"
+        }
+      },
+      "search-content": {
+        "blocks": ["gallery", "not-found"]
+      },
+      "gallery": {
+        "title": "gallery",
+        "props": {
+          "blockClass": "result-gallery",
+          "layouts": [
+            {
+              "name": "grid",
+              "component": "GridSummary",
+              "itemsPerRow": {
+                "(min-width:1008px)": 4,
+                "(min-width:623px) and (max-width:1007px)": 3,
+                "(max-width:622px)": 2
+              }
+            },
+            {
+              "name": "list",
+              "component": "ListSummary",
+              "itemsPerRow": 1
+            }
+          ],
+          "ListSummary": "product-summary.shelf#gridList",
+          "GridSummary": "product-summary.shelf#products"
+        }
+      }
+}

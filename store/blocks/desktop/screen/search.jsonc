@@ -1,0 +1,9 @@
+{
+    "search-result-layout.desktop":{
+        "title": "search desktop",
+        "children": [
+            "flex-layout.row#department__breadcrumb",
+            "flex-layout.row#department__results-desktop"
+        ]
+    }
+}

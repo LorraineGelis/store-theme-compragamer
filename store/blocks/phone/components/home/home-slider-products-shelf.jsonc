@@ -33,7 +33,8 @@
           "product-summary-image",
           "product-summary-space",
           "product-summary-name",
-          "product-selling-price"
+          "product-selling-price",
+          "flex-layout.row#add-cart-btn__container"
         ]
       },
       "slider-layout#slider-product--result-mobile": {

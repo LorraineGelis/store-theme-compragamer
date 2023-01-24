@@ -1,0 +1,9 @@
+{
+    "header-layout.mobile": {
+        "title": "Header: tablet y phone",
+        "children": [
+            "responsive-layout.tablet#header",
+            "responsive-layout.phone#header"
+        ]
+      }
+}

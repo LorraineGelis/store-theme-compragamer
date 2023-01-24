@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#header":{
+        "title": "header phone",
+        "children": [
+            "flex-layout.row#header__mobile--main-top"
+        ]
+    }
+}
