@@ -2,7 +2,7 @@
 
     //Las pagínas para nuestro contexto de busquedas
 
-    "store.search": {
+    "store.search#department": {
         "blocks": ["search-result-layout"],
         "props": {
           "context": {
@@ -46,8 +46,8 @@
     //Ya hace parte de la correspondiente plp
     "search-result-layout":{
         "blocks": [
-            "search-result-layout.desktop",
-            "search-result-layout.mobile",
+            "search-result-layout.desktop#department",
+          /*   "search-result-layout.mobile#department", */
             "search-not-found-layout"
 
         ]

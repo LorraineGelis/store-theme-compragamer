@@ -48,7 +48,6 @@
     "title": "login-minicart desktop",
     "children": [
         "login",  
-       /* "modal-trigger#header__login--desktop", */ 
       "minicart.v2#header__desktop--minicart"
     ],
     "props": {

@@ -20,132 +20,100 @@
         }
       },
       "flex-layout.col#department__results--content": {
-        "children": [
-          "flex-layout.row#results__filter",
-          "flex-layout.row#results__products"
-        ],
+        "title": "Contenedor: Search Reasult Content",
         "props": {
-          "width": "85%",
-          "blockClass": "department__results--content"
-        }
-      },
-      "flex-layout.row#results__filter": {
-        "title": "contenedor resultados de productos",
-        "children": [
-          "flex-layout.col#results__filter--productCount",
-          "flex-layout.col#results__filter--orderby",
-          "flex-layout.col#results__filter--gallerySwitcher"
-        ],
-        "props": {
-          "horizontalAlign": "center",
-          "fullWidth": true,
-          "paddingBottom": 8,
-          "blockClass": "results__filter",
-          "preserveLayoutOnMobile": true
-        }
-      },
-      "flex-layout.col#results__filter--productCount": {
-        "title": "total de productos",
-        "children": ["total-products.v2"],
-        "props": {
-          "verticalAlign": "middle",
-          "width": "60%",
-          "blockClass": "result__filter--productCount"
-        }
-      },
-      "flex-layout.col#results__filter--orderby": {
-        "title": "Orden de productos",
-        "children": ["order-by.v2"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "right",
-          "width": "30%",
-          "blockClass": "result__filter--orderby"
-        }
-      },
-      "flex-layout.col#results__filter--gallerySwitcher": {
-        "children": ["gallery-layout-switcher#result__filter--gallerySwitcher"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "right",
-          "width": "10%",
-          "blockClass": "result__filter--gallerySwitcher"
-        }
-      },
-    
-      "gallery-layout-switcher#result__filter--gallerySwitcher": {
-        "title": "Galeria de productos",
-        "children": [
-          "gallery-layout-option#grid__result--gallerySwitcher",
-          "gallery-layout-option#listProduct__result--gallerySwitcher"
-        ],
-        "props": {
-          "verticalAlign": "middle"
-        }
-      },
-      "gallery-layout-option#grid__result--gallerySwitcher": {
-        "props": {
-          "name": "grid",
-          "blockClass": "grid__result--gallerySwitcher"
+          "horizontalAlign": "left",
+          "width": "grow",
+          "blockClass": "search__results--content"
         },
-        "children": ["icon-grid", "rich-text#option-gridtitle"]
-      },
-      "rich-text#option-gridtitle": {
-        "props": {
-          "text": "Grid",
-          "blockClass": "gridlisttitle"
-        }
-      },
-      "gallery-layout-option#listProduct__result--gallerySwitcher": {
-        "props": {
+        "children": [
+          "breadcrumb.search",
+          "flex-layout.row#group--border",
+          "search-content#results__content"
+        ]
+    },
+
+  "flex-layout.row#group--border": {
+    "title": "Border group",
+    "children": [
+      "order-by.v2",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "pl-group__principal"
+    }
+  },
+
+  "order-by.v2": {
+    "title": "Ordena products",
+    "props": {
+      "blockClass": "order-group"
+    }
+  },
+
+  "search-content#results__content": {
+    "title": "resultado de la busqueda",
+    "blocks": ["gallery#search", "not-found"]
+  },
+
+  "gallery#search": {
+    "title": "Grilla de products: Grid-list",
+    "props": {
+      "layouts": [
+        {
           "name": "list",
-          "blockClass": "listProduct__result--gallerySwitcher"
+          "component": "ListSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "phone": 1
+          }
         },
-        "children": ["icon-inline-grid", "rich-text#option-gridlisttitle"]
-      },
-      "rich-text#option-gridlisttitle": {
-        "props": {
-          "text": "List",
-          "blockClass": "gridlisttitle"
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "phone": 1
+          }
         }
-      },
-      "icon-inline-grid": {
-        "props": {
-          "blockClass": "icon-inline-grid"
-        }
-      },
-      "flex-layout.row#results__products": {
-        "children": ["search-content"],
-        "props": {
-          "fullWidth": true,
-          "blockClass": "results__products"
-        }
-      },
-      "search-content": {
-        "blocks": ["gallery", "not-found"]
-      },
-      "gallery": {
-        "title": "gallery",
-        "props": {
-          "blockClass": "result-gallery",
-          "layouts": [
-            {
-              "name": "grid",
-              "component": "GridSummary",
-              "itemsPerRow": {
-                "(min-width:1008px)": 4,
-                "(min-width:623px) and (max-width:1007px)": 3,
-                "(max-width:622px)": 2
-              }
-            },
-            {
-              "name": "list",
-              "component": "ListSummary",
-              "itemsPerRow": 1
-            }
-          ],
-          "ListSummary": "product-summary.shelf#gridList",
-          "GridSummary": "product-summary.shelf#products"
-        }
-      }
+      ],
+      "ListSummary": "product-summary.shelf#products--list_summary",
+      "GridSummary": "product-summary.shelf#products--grid_summary"
+    }
+  },
+
+  "gallery-layout-switcher": {
+    "title": "vistas",
+    "children": [
+      "rich-text#vistas",
+      "gallery-layout-option#list",
+      "gallery-layout-option#grid"
+    ],
+    "props": {
+      "blockClass": "plp-principal__grid-filter"
+    }
+  },
+
+  "rich-text#vistas": {
+    "title": "vistas",
+    "props": {
+      "text": "Vistas:"
+    }
+  },
+
+  "gallery-layout-option#list": {
+    "title": "opcion list",
+    "props": {
+      "name": "list",
+      "blockClass": "grid"
+    }
+  },
+
+  "gallery-layout-option#grid": {
+    "title": "opcion grid",
+    "props": {
+      "name": "grid",
+      "blockClass": "list"
+    }
+  }
 }

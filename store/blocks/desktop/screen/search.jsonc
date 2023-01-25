@@ -1,9 +1,9 @@
 {
-    "search-result-layout.desktop":{
+    "search-result-layout.desktop#department":{
         "title": "search desktop",
         "children": [
-            "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#department__results-desktop"
+                "flex-layout.row#bannerplp-resultadobusqueda",
+                "flex-layout.row#department__results-desktop"  
         ]
     }
 }

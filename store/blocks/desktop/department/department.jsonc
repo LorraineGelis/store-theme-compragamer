@@ -1,5 +1,5 @@
 {
-    "store.search#department":{
+  /*   "store.search#department":{
         "blocks": [
             "search-result-layout#department"
         ]
@@ -7,20 +7,21 @@
 
     "search-result-layout#department":{
         "blocks": [
-            "search-result-layout.desktop#department",
+             "search-result-layout.desktop#department",
              "search-result-layout.mobile#department", 
-            "search-not-found-layout"
+            "search-not-found-layout" 
 
         ]
     },
     "search-result-layout.desktop#department":{
         "children": [
-           "flex-layout.row#department__breadcrumb"
+            "flex-layout.row#department__results-desktop" 
         ]
+    
     },
     "flex-layout.row#department__breadcrumb":{
         "children": [
-            "flex-layout.col#department__breadcrumb"
+             "flex-layout.col#department__breadcrumb" 
         ]
     },
 
@@ -62,5 +63,5 @@
             "name": "grid-one-columns",
             "blockClass": "grid__selector--one-columns"
         }
-    }
+    } */
 }

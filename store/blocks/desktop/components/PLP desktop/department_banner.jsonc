@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#bannerplp-resultadobusqueda": {
+    "title": "Banner plp: resultado de busqueda",
+    "children": [
+      "flex-layout.col#bannerplp-resultadobusqueda"
+    ],
+    "props": {
+      "fullWidth": true,
+       "paddingBottom": 8 
+    }
+  },
+  "flex-layout.col#bannerplp-resultadobusqueda": {
+    "title": "Contener: img banner plp",
+    "children": [
+      "image#bannerplp-resultadobusqueda"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "image#bannerplp-resultadobusqueda": {
+    "title": "Img banner plp",
+    "props": {
+      "src": "assets/img/global/banner.jpg",
+      "fullWidth": true
+    }
+  }
+}
