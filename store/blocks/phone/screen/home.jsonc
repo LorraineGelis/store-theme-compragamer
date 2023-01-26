@@ -6,8 +6,8 @@
             "flex-layout.row#mobile__home--slider-promotion",
             "flex-layout.row#seccion--title", 
             "flex-layout.row#home__slider-products-mobile", 
-           "flex-layout.row#seccion--product", 
-           "flex-layout.row#desktop__home--slider-marcas"
+           "flex-layout.row#seccion--product"
+          /*  "flex-layout.row#desktop__home--slider-marcas" */
            /* "flex-layout.row#footer__mobile--main",
            "flex-layout.row#footer__mobile--down" */
            /*  "flex-layout.row#seccion--product--phone" */

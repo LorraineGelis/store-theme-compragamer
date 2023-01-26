@@ -1,11 +1,10 @@
-                                        :global(.vtex-store__template) {
-                                           --principal-color: #2c2e2f;
-                                           --secondary-color: #fd611a;
-                                           --slider-color: rgba(253, 97, 26, .25);
-                                       }
-                                       
-                                        :global(.vtex-store-components-3-x-container) {
+                                         :global(.vtex-store__template) {
+                                            --principal-color: #2c2e2f;
+                                            --secondary-color: #fd611a;
+                                            --slider-color: rgba(253, 97, 26, .25);
+                                        }
+                                        /*   :global(.vtex-store-components-3-x-container) {
                                            margin: auto;
                                            max-width: 1600px;
                                            padding: 0;
-                                       }
+                                       } */

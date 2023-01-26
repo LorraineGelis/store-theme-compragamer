@@ -2,6 +2,7 @@
     "responsive-layout.tablet#footer":{
         "title": "footer tablet",
         "children": [
+            "flex-layout.row#desktop__home--slider-marcas",
             "flex-layout.row#footer__tablet--main",
             "flex-layout.row#footer__tablet--down"
 

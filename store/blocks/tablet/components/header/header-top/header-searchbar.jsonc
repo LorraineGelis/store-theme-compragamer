@@ -1,7 +1,7 @@
 {
     "search-bar#header__tablet--search-bar": {
       "title": "search-bar tablet",
-      "blocks": ["autocomplete-result-list"],
+      "blocks": ["autocomplete-result-list.v2"],
       "props": {
         "openAutocompleteOnFocus": true,
         "blockClass": "searchbar__desktop",

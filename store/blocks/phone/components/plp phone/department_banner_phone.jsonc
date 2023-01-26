@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#bannerplp-resultadobusqueda--phone": {
+    "title": "Banner plp: resultado de busqueda--phone",
+    "children": [
+      "flex-layout.col#bannerplp-resultadobusqueda--phone"
+    ],
+    "props": {
+      "fullWidth": true,
+       "paddingBottom": 8 
+    }
+  },
+  "flex-layout.col#bannerplp-resultadobusqueda--phone": {
+    "title": "Contener: img banner plp -- phone",
+    "children": [
+      "image#bannerplp-resultadobusqueda--phone"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "image#bannerplp-resultadobusqueda--phone": {
+    "title": "Img banner plp - phone",
+    "props": {
+      "src": "assets/img/global/banner.jpg",
+      "fullWidth": true
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#department__results-phone": {
+    "title": "Contenedor filter y contenido",
+    "children": [
+      "flex-layout.col#department__results--phone"
+
+    ],
+    "props": {
+      "colSizing": "auto",
+      "fullWidth": true,
+      "blockClass": "department__results-phone"
+    }
+  },
+  "flex-layout.col#department__results--phone": {
+      "children": ["flex-layout.row#department__results--filter--phone",  "flex-layout.row#results__filter--phone",  "flex-layout.row#results__products--phone"]
+  },
+  "flex-layout.row#department__results--filter--phone": {
+    "title": "Filtro de busqueda de PLP",
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "department-filter-navigator--phone"
+    }
+  },
+   "flex-layout.row#results__filter--phone": {
+    "title": "contenedor resultados de productos",
+    "children": [
+      "flex-layout.col#results__filter--productCount--phone",
+      "flex-layout.col#results__filter--orderby--phone"],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "paddingBottom": 8,
+      "blockClass": "results__filter--phone",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#results__filter--productCount--phone": {
+    "title": "total de productos",
+    "children": ["total-products.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "60%",
+      "blockClass": "result__filter--productCount--phone"
+    }
+  },
+  "flex-layout.col#results__filter--orderby--phone": {
+    "title": "Orden de productos",
+    "children": ["order-by.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right",
+      "width": "30%",
+      "blockClass": "result__filter--orderby--phone"
+    }
+  },
+ 
+  "flex-layout.row#results__products--phone": {
+    "children": ["search-content#phone"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "results__products--phone"
+    }
+  },
+  "search-content#phone": {
+    "blocks": ["gallery#phone", "not-found"]
+  },
+  "gallery#phone": {
+    "title": "gallery",
+    "props": {
+      "blockClass": "result-gallery",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+              "mobile": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#products--list_summary",
+      "GridSummary": "product-summary.shelf#products--grid_summary"
+    }
+  }
+}

@@ -1,13 +1,9 @@
 {
-    "search-result-layout.mobile":{
+    "search-result-layout.mobile#department":{
         "children": [
-            "rich-text#mobile-response"
+            "responsive-layout.phone#search",
+            "responsive-layout.tablet#search"
         ]
-    },
-    "rich-text#mobile-response":{
-        "props": {
-            "text": "# Mobile search"
-        }
-    } 
+    }
   
 }

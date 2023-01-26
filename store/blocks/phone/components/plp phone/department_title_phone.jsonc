@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#title__text--phone": {
+        "title": "Contenedor: Titulo principal --phone",
+        "children": ["flex-layout.col#title__text--phone"],
+        "props": {
+         /*  "paddingTop": 8,
+          "horizontalAlign": "center", */
+          "blockClass": "contenedor_title__text--banner--phone"
+        /*   "marginBottom": "8" */
+        }
+      },
+
+      "flex-layout.col#title__text--phone": {
+        "title": "Titulo principal -- phone",
+        "children": [
+          "rich-text#results__text-title--phone"
+        ],
+        "props": {
+          "blockClass": "results__text--phone"
+        }
+      },
+
+      "rich-text#results__text-title--phone": {
+        "title": "Título de texto",
+        "props": {
+          "text": "Resultado de la busqueda",
+          "blockClass": "title__text--banner--phone"
+        }
+      }
+}

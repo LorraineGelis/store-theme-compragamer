@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#bannerplp-resultadobusqueda": {
+   "flex-layout.row#bannerplp-resultadobusqueda": {
     "title": "Banner plp: resultado de busqueda",
     "children": [
       "flex-layout.col#bannerplp-resultadobusqueda"
@@ -8,7 +8,7 @@
       "fullWidth": true,
        "paddingBottom": 8 
     }
-  },
+  }, 
   "flex-layout.col#bannerplp-resultadobusqueda": {
     "title": "Contener: img banner plp",
     "children": [
@@ -22,7 +22,8 @@
     "title": "Img banner plp",
     "props": {
       "src": "assets/img/global/banner.jpg",
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass":"img_banner--desktop"
     }
   }
 }

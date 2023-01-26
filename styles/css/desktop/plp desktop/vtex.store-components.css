@@ -1,0 +1,15 @@
+             :global(.vtex-search-result-3-x-searchResultContainer--contenedor_department--desktop) {
+                background-color: #eee;
+                padding-bottom: 3em;
+            }
+            /*  img banner principal plp - desktop */
+            
+            .imageElement--img_banner--desktop {
+                width: 100%;
+            }
+            /*  :global(.vtex-search-result-3-x-searchResultContainer) {
+               background-color: #eee;
+               display: flex;
+               max-width: 1050px;
+               padding-bottom: 3em;
+           } */

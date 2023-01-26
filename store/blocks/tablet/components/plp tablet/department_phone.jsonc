@@ -1,60 +1,57 @@
 {
-    "flex-layout.row#department__results-desktop": {
-        "title": "Contenedor filter y contenido",
+    "flex-layout.row#department__results-tablet": {
+        "title": "Contenedor filter y contenido - tablet",
         "children": [
-          /* "flex-layout.col#title__text",
-          "flex-layout.col#bannerplp-resultadobusqueda", */
-           "flex-layout.col#department__results--filter", 
-           "flex-layout.col#department__results--content" 
+          "flex-layout.col#department__results--filter--tablet",
+          "flex-layout.col#department__results--content--tablet"
         ],
         "props": {
-          /*  "colSizing": "auto", */
-         "fullWidth": true,  
-         
-           "blockClass": "department__resultsrow-desktop" 
+          "colSizing": "auto",
+          "fullWidth": true,
+          "blockClass": "department__results-tablet"
         }
       },
-      "flex-layout.col#department__results--filter": {
+      "flex-layout.col#department__results--filter--tablet": {
         "title": "Filtro de busqueda de PLP",
         "children": ["filter-navigator.v3"],
         "props": {
-          "width": "22%",
+          "width": "15%",
           "blockClass": "department-filter-navigator"
         }
       },
-      "flex-layout.col#department__results--content": {
-        "title": "Contenedor: Search Reasult Content",
+      "flex-layout.col#department__results--content--tablet": {
+        "title": "Contenedor: Search Reasult Conten -- tablett",
         "props": {
           "horizontalAlign": "left",
           "width": "grow",
-          "blockClass": "search__results--content"
+          "blockClass": "search__results--content--tablet"
         },
         "children": [
-   /*        "breadcrumb.search", */
-          "flex-layout.row#group--border",
-          "search-content#results__content"
+          "breadcrumb.search",
+          "flex-layout.row#group--border--tablet",
+          "search-content#results__content--tablet"
         ]
     },
 
-  "flex-layout.row#group--border": {
-    "title": "Border group",
+  "flex-layout.row#group--border--tablet": {
+    "title": "Border group - tablet",
     "children": [
       "order-by.v2",
-      "gallery-layout-switcher"
+      "gallery-layout-switcher#tablet"
     ],
     "props": {
-      "blockClass": "pl-group__principal"
+      "blockClass": "pl-group__principal--tablet"
     }
   },
 
   "order-by.v2": {
     "title": "Ordena products",
     "props": {
-      "blockClass": "order-group"
+      "blockClass": "order-group--tablet"
     }
   },
 
-  "search-content#results__content": {
+  "search-content#results__content--tablet": {
     "title": "resultado de la busqueda",
     "blocks": ["gallery#search", "not-found"]
   },
@@ -85,12 +82,12 @@
     }
   },
 
-  "gallery-layout-switcher": {
-    "title": "vistas",
+  "gallery-layout-switcher#tablet": {
+    "title": "vistas tablet",
     "children": [
       "rich-text#vistas",
-      "gallery-layout-option#list",
-      "gallery-layout-option#grid"
+      "gallery-layout-option#list#tablet",
+      "gallery-layout-option#grid#tablet"
     ],
     "props": {
       "blockClass": "plp-principal__grid-filter"
@@ -98,24 +95,26 @@
   },
 
   "rich-text#vistas": {
-    "title": "vistas",
+    "title": "vistas grid: ",
     "props": {
       "text": "Vistas:"
     }
   },
 
-  "gallery-layout-option#list": {
+  "gallery-layout-option#list#tablet": {
     "title": "opcion list",
     "props": {
       "name": "list",
+      "component": "ListSummary",
       "blockClass": "grid"
     }
   },
 
-  "gallery-layout-option#grid": {
+  "gallery-layout-option#grid#tablet": {
     "title": "opcion grid",
     "props": {
       "name": "grid",
+      "component": "GridSummary",
       "blockClass": "list"
     }
   }

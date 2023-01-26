@@ -9,7 +9,9 @@
         "children": [
           "product-summary-image",
           "product-summary-name",
-          "flex-layout.col#price"
+          /* "product-rating-inline", */
+          "flex-layout.col#price",
+          "modal-trigger#global__quick--view"
       
         ]
       },
@@ -30,7 +32,8 @@
       "add-to-cart-button#sumarcarrito":{
         "title": "titulo: sumar al carrito",
         "props": {
-          "text": "Sumar al carrito"
+          "text": "Sumar al carrito",
+             "blockClass": "add-cart-btn__sumarcarrito"
         }
       },
     
@@ -44,11 +47,19 @@
         "children": [
           "product-summary-image",
           "product-summary-name",
+        /*   "product-rating-inline", */
           "product-selling-price",
-          "add-to-cart-button#sumarcarrito"
+          "add-to-cart-button#sumarcarrito",
+          "modal-trigger#global__quick--view"
         ],
         "props": {
           "blockClass": "product_pl_main--grid"
+        }
+      },
+
+      "product-summary-name":{
+        "props": {
+          "tag": "h3"
         }
       }
 }

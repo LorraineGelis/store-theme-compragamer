@@ -1,0 +1,6 @@
+{"store.custom#contactanos": {
+    "blocks": [
+        "flex-layout.row#contactanos"
+    ]
+}
+}

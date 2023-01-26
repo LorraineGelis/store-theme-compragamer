@@ -6,7 +6,7 @@
         "blocks": ["search-result-layout"],
         "props": {
           "context": {
-            "skusFilter": "FIRST_AVAILABLE",
+            "skusFilter": "ALL_AVAILABLE",
             "simulationBehavior": "default"
           }
         }
@@ -47,7 +47,7 @@
     "search-result-layout":{
         "blocks": [
             "search-result-layout.desktop#department",
-          /*   "search-result-layout.mobile#department", */
+            "search-result-layout.mobile#department", 
             "search-not-found-layout"
 
         ]
