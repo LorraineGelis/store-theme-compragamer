@@ -36,7 +36,7 @@
   "flex-layout.row#group--border--tablet": {
     "title": "Border group - tablet",
     "children": [
-      "order-by.v2",
+      "order-by.v2#tablet",
       "gallery-layout-switcher#tablet"
     ],
     "props": {
@@ -44,7 +44,7 @@
     }
   },
 
-  "order-by.v2": {
+  "order-by.v2#tablet": {
     "title": "Ordena products",
     "props": {
       "blockClass": "order-group--tablet"
@@ -53,10 +53,10 @@
 
   "search-content#results__content--tablet": {
     "title": "resultado de la busqueda",
-    "blocks": ["gallery#search", "not-found"]
+    "blocks": ["gallery#search-tablet", "not-found"]
   },
 
-  "gallery#search": {
+  "gallery#search-tablet": {
     "title": "Grilla de products: Grid-list",
     "props": {
       "layouts": [
@@ -85,7 +85,6 @@
   "gallery-layout-switcher#tablet": {
     "title": "vistas tablet",
     "children": [
-      "rich-text#vistas",
       "gallery-layout-option#list#tablet",
       "gallery-layout-option#grid#tablet"
     ],
@@ -94,12 +93,6 @@
     }
   },
 
-  "rich-text#vistas": {
-    "title": "vistas grid: ",
-    "props": {
-      "text": "Vistas:"
-    }
-  },
 
   "gallery-layout-option#list#tablet": {
     "title": "opcion list",

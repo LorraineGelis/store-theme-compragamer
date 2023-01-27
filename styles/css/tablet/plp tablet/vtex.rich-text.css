@@ -1,7 +1,7 @@
-   .paragraph--title__text--banner {
+   .paragraph--title__text--banner--tablet {
        color: #fff;
        font-family: "Montserrat-Bold";
-       font-size: 26px;
+       font-size: 20px;
        font-weight: 800;
        line-height: 1.2!important;
        margin-bottom: 0;
@@ -9,7 +9,7 @@
        text-transform: uppercase;
    }
    
-   .container--title__text--banner {
+   .container--title__text--banner--tablet {
        margin-bottom: 0.5em;
        margin-top: 0.5em;
        padding-left: 5px;
@@ -17,7 +17,7 @@
        position: relative;
    }
    
-   .wrapper--title__text--banner {
+   .wrapper--title__text--banner--tablet {
        bottom: -173px;
        left: 15px;
        padding-left: 0;

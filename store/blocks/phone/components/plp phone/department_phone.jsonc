@@ -1,89 +1,114 @@
 {
-  "flex-layout.row#department__results-phone": {
-    "title": "Contenedor filter y contenido",
-    "children": [
-      "flex-layout.col#department__results--phone"
+    "flex-layout.row#department__results-phone": {
+        "title": "Contenedor filter y contenido - phone",
+        "children": [
+          "flex-layout.col#department__results--filter--phone",
+          "flex-layout.col#department__results--content--phone"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "fullWidth": true,
+          "blockClass": "department__results-phone"
+        }
+      },
+      "flex-layout.col#department__results--filter--phone": {
+        "title": "Filtro de busqueda de PLP",
+        "children": ["filter-navigator.v3"],
+        "props": {
+          "width": "15%",
+          "blockClass": "department-filter-navigator"
+        }
+      },
+      "flex-layout.col#department__results--content--phone": {
+        "title": "Contenedor: Search Reasult Conten -- phone",
+        "props": {
+          "horizontalAlign": "left",
+          "width": "grow",
+          "blockClass": "search__results--content--phone"
+        },
+        "children": [
+          "breadcrumb.search",
+          "flex-layout.row#group--border--phone",
+          "search-content#results__content--phone"
+        ]
+    },
 
+  "flex-layout.row#group--border--phone": {
+    "title": "Border group - phone",
+    "children": [
+      "order-by.v2#phone",
+      "gallery-layout-switcher#phone"
     ],
     "props": {
-      "colSizing": "auto",
-      "fullWidth": true,
-      "blockClass": "department__results-phone"
+      "blockClass": "pl-group__principal--phone"
     }
   },
-  "flex-layout.col#department__results--phone": {
-      "children": ["flex-layout.row#department__results--filter--phone",  "flex-layout.row#results__filter--phone",  "flex-layout.row#results__products--phone"]
-  },
-  "flex-layout.row#department__results--filter--phone": {
-    "title": "Filtro de busqueda de PLP",
-    "children": ["filter-navigator.v3"],
+
+  "order-by.v2#phone": {
+    "title": "Ordena products",
     "props": {
-      "blockClass": "department-filter-navigator--phone"
+      "blockClass": "order-group--phone"
     }
   },
-   "flex-layout.row#results__filter--phone": {
-    "title": "contenedor resultados de productos",
-    "children": [
-      "flex-layout.col#results__filter--productCount--phone",
-      "flex-layout.col#results__filter--orderby--phone"],
-    "props": {
-      "horizontalAlign": "center",
-      "fullWidth": true,
-      "paddingBottom": 8,
-      "blockClass": "results__filter--phone",
-      "preserveLayoutOnMobile": true
-    }
+
+  "search-content#results__content--phone": {
+    "title": "resultado de la busqueda",
+    "blocks": ["gallery#search-phone", "not-found"]
   },
-  "flex-layout.col#results__filter--productCount--phone": {
-    "title": "total de productos",
-    "children": ["total-products.v2"],
+
+  "gallery#search-phone": {
+    "title": "Grilla de products: Grid-list",
     "props": {
-      "verticalAlign": "middle",
-      "width": "60%",
-      "blockClass": "result__filter--productCount--phone"
-    }
-  },
-  "flex-layout.col#results__filter--orderby--phone": {
-    "title": "Orden de productos",
-    "children": ["order-by.v2"],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "right",
-      "width": "30%",
-      "blockClass": "result__filter--orderby--phone"
-    }
-  },
- 
-  "flex-layout.row#results__products--phone": {
-    "children": ["search-content#phone"],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "results__products--phone"
-    }
-  },
-  "search-content#phone": {
-    "blocks": ["gallery#phone", "not-found"]
-  },
-  "gallery#phone": {
-    "title": "gallery",
-    "props": {
-      "blockClass": "result-gallery",
       "layouts": [
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "phone": 1
+          }
+        },
         {
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-              "mobile": 1
+            "desktop": 3,
+            "phone": 1
           }
-        },
-        {
-          "name": "list",
-          "component": "ListSummary",
-          "itemsPerRow": 1
         }
       ],
       "ListSummary": "product-summary.shelf#products--list_summary",
       "GridSummary": "product-summary.shelf#products--grid_summary"
+    }
+  },
+
+  "gallery-layout-switcher#phone": {
+    "title": "vistas phone",
+    "children": [
+      "gallery-layout-option#list#phone",
+      "gallery-layout-option#grid#phone"
+    ],
+    "props": {
+      "blockClass": "plp-principal__grid-filter"
+    }
+  },
+
+
+  "gallery-layout-option#list#phone": {
+    "title": "opcion list",
+    "props": {
+      "name": "list",
+      "component": "ListSummary",
+      "blockClass": "grid"
+    }
+  },
+
+  "gallery-layout-option#grid#phone": {
+    "title": "opcion grid",
+    "props": {
+      "name": "grid",
+      "component": "GridSummary",
+      "blockClass": "list"
     }
   }
 }

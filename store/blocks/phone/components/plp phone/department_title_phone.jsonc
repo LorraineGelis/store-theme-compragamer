@@ -1,6 +1,6 @@
 {
     "flex-layout.row#title__text--phone": {
-        "title": "Contenedor: Titulo principal --phone",
+        "title": "Contenedor: Titulo principal - phone",
         "children": ["flex-layout.col#title__text--phone"],
         "props": {
          /*  "paddingTop": 8,
@@ -11,19 +11,19 @@
       },
 
       "flex-layout.col#title__text--phone": {
-        "title": "Titulo principal -- phone",
+        "title": "Titulo principal",
         "children": [
           "rich-text#results__text-title--phone"
         ],
         "props": {
-          "blockClass": "results__text--phone"
+          "blockClass": "results__text"
         }
       },
 
       "rich-text#results__text-title--phone": {
-        "title": "Título de texto",
+        "title": "Título de texto - phone",
         "props": {
-          "text": "Resultado de la busqueda",
+          "text": "resultado de la \n búsqueda",
           "blockClass": "title__text--banner--phone"
         }
       }

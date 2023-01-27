@@ -7,7 +7,7 @@
       "flex-layout.row#department__results-desktop"
     ],
      "props": {
-       "blockClass": "contenedor_department--desktop" 
-    } 
+        "blockClass": "contenedor_department--desktop"  
+    }
   }
 }

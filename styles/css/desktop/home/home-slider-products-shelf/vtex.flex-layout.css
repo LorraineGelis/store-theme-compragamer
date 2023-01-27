@@ -74,11 +74,11 @@
 }
 
 :global(.vtex-product-price-1-x-sellingPrice) {
-    color: #4675b9!important;
-    font-family: "Montserrat-Medium", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    color: #4675b9 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px !important;
     line-height: 18px;
-    margin-top: 14px;
+    margin-top: 40px;
     text-align: center;
+    width: 100%;
 }

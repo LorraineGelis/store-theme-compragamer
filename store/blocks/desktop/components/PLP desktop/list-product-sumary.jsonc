@@ -8,10 +8,7 @@
         "title": "list products",
         "children": [
           "product-summary-image",
-          "product-summary-name",
-          /* "product-rating-inline", */
-          "flex-layout.col#price",
-          "modal-trigger#global__quick--view"
+          "flex-layout.col#price"
       
         ]
       },
@@ -19,6 +16,7 @@
       "flex-layout.col#price":{
         "title": "pruducts price-btn",
         "children": [
+          "product-summary-name", 
           "product-selling-price",
           "add-to-cart-button#sumarcarrito"
         ],

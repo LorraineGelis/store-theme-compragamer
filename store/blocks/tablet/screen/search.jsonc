@@ -2,9 +2,11 @@
   "responsive-layout.tablet#search": {
     "title": "search tablet",
     "children": [
-      "flex-layout.row#title__text--tablet",
+       "flex-layout.row#title__text--tablet",
       "flex-layout.row#bannerplp-resultadobusqueda--tablet",
-      "flex-layout.row#department__results-tablet"
+      "flex-layout.row#department__results-tablet" 
+
+    
     ]
   }
 }

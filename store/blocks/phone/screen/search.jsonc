@@ -2,9 +2,9 @@
   "responsive-layout.phone#search": {
     "title": "search phone",
     "children": [
-      "flex-layout.row#title__text--phone",
-      "flex-layout.row#bannerplp-resultadobusqueda--phone",
-      "flex-layout.row#department__results-phone"
+      "flex-layout.row#title__text--tablet",
+      "flex-layout.row#bannerplp-resultadobusqueda--tablet",
+      "flex-layout.row#department__results-tablet"
     ]
   }
 }

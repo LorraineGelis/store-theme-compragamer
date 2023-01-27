@@ -88,28 +88,32 @@
   "gallery-layout-switcher": {
     "title": "vistas",
     "children": [
-      "rich-text#vistas",
-      "gallery-layout-option#list",
-      "gallery-layout-option#grid"
+      /* "rich-text#vistas", */
+  
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
     ],
     "props": {
       "blockClass": "plp-principal__grid-filter"
     }
   },
 
-  "rich-text#vistas": {
+ /*  "rich-text#vistas": {
     "title": "vistas",
     "props": {
       "text": "Vistas:"
     }
-  },
+  }, */
 
   "gallery-layout-option#list": {
     "title": "opcion list",
     "props": {
       "name": "list",
       "blockClass": "grid"
-    }
+    },
+    "children": [
+   /*    "icon-inline-grid" */
+    ]
   },
 
   "gallery-layout-option#grid": {
@@ -117,6 +121,9 @@
     "props": {
       "name": "grid",
       "blockClass": "list"
-    }
+    },
+    "children": [
+    /*   "icon-grid" */
+    ]
   }
 }

@@ -23,7 +23,7 @@
       "rich-text#results__text-title--tablet": {
         "title": "Título de texto - tablet",
         "props": {
-          "text": "resultado de la búsqueda",
+          "text": "resultado de la \n búsqueda",
           "blockClass": "title__text--banner--tablet"
         }
       }

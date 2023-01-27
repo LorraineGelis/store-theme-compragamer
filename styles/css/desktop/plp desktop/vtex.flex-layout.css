@@ -1,38 +1,127 @@
-            :global(.vtex-search-result-3-x-container--layout--contenedor_department--desktop) {
-               display: flex;
-               max-width: 1220px;
-           }
-           /* element.style {
-    background-color: red;
+:global(.vtex-search-result-3-x-container--layout--contenedor_department--desktop) {
+    display: flex;
+    max-width: 1220px;
+}
+
+.flexColChild--department-filter-navigator {
+    background: transparent;
+    margin-top: -27px;
+    position: sticky;
+    z-index: 1;
+}
+
+.flexColChild--department-filter-navigator :global(.vtex-search-result-3-x-filtersWrapper) {
+    background-color: #eeeeee;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-search-result-3-x-filterMessage) {
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-search-result-3-x-filterTitleSpan) {
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.flexColChild--department-filter-navigator :global(.vtex-search-result-3-x-caretIcon) {
+    color: #fd611a;
+}
+
+.flexColChild--department-filter-navigator :global(.vtex-slider__base-internal) {
+    background-color: #fd611a;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-slider__selector) {
+    background-color: #fd611a;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-slider__right-value) {
+    color: #4675b9!important;
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-slider__left-value) {
+    color: #4675b9!important;
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.flexColChild--department-filter-navigator :global( .vtex-checkbox__box) {
+    background-color: #fd611a;
+}
+
+.flexRow--pl-group__principal {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    height: 48px px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    padding: 5px;
+}
+
+.flexColChild--search__results--content {
+    height: auto !important;
+}
+
+.stretchChildrenWidth {
+    width: auto;
+}
+
+.flexCol--search__results--content {
+    margin-top: -19px;
+    padding-left: 13px;
+}
+
+
+/*Las cards*/
+
+.flexColChild--search__results--content :global(.vtex-product-summary-2-x-containerNormal) {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    max-width: none !important;
+    padding: 5px;
+}
+
+.flexColChild--product_pl_main--grid {
+    display: inherit;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 0.5em;
+    /*  text-align: center;
+    width: 100%; */
+}
+
+.flexColChild--product_pl_main--grid :global(.vtex-product-summary-2-x-brandName) {
+    color: #333 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.flexColChild--product_pl_main--grid :global(.vtex-product-summary-2-x-nameContainer) {
     width: 100%;
-    max-width: 1220px; */
-           /*  
-    :global(.vtex-search-result-3-x-searchResultContainer--contenedor_department--desktop) {
-       display: flex;
-       max-width: 1220px;
-   } 
-   /*  .flexRow--department__results-desktop {
-     
-       display: flex;
-       max-width: 1220px;
-   } */
-           /*  vtex-flex-layout-0-x-flexRow--department__results-desktop */
-           /*  .container--layout--contenedor_department--desktop {
-       background-color: blue;
-       display: flex;
-       max-width: 1050px;
-   } */
-           
-           .flexColChild--department-filter-navigator {
-               background: #fff;
-               height: 100%;
-               padding: 0 15px 10px 15px;
-               position: sticky;
-               top: 139px;
-               z-index: 2;
-           }
-           
-           .flexRowContent--department__resultsrow-desktop {
-               display: flex;
-               max-width: 1220px;
-           }
+}
+
+.flexColChild--product_pl_main--grid :global(.vtex-button) {
+    border-radius: 4px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 0 16px !important;
+    width: auto !important;
+}
+
+.flexColChild--product_pl_main--grid :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+
+.flexColChild--department-filter-navigator :global(.vtex-checkbox__container) {
+    margin-top: 3px;
+}
