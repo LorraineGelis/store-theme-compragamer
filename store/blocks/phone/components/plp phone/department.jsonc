@@ -1,44 +1,45 @@
 {
-    "flex-layout.row#department__results-phone": {
-        "title": "Contenedor filter y contenido -- phone",
-        "children": [
-           "flex-layout.col#department__results--filter--phone", 
-           "flex-layout.col#department__results--content--phone" 
-        ],
-        "props": {
-          /*  "colSizing": "auto", */
-         "fullWidth": true,  
-         
-           "blockClass": "department__resultsrow-phone" 
-        }
-      },
-      "flex-layout.col#department__results--filter--phone": {
-        "title": "Filtro de busqueda de PLP",
-        "children": ["filter-navigator.v3"],
-        "props": {
-          "width": "22%",
-          "blockClass": "department-filter-navigato--phone"
-        }
-      },
-      "flex-layout.col#department__results--content--phone": {
-        "title": "Contenedor: Search Reasult Content",
-        "props": {
-          "horizontalAlign": "left",
-          "width": "grow",
-          "blockClass": "search__results--content--phone"
-        },
-        "children": [
-   /*        "breadcrumb.search", */
-          "flex-layout.row#group--border--phone",
-          "search-content#results__content--phone"
-        ]
+  "flex-layout.row#department__results-phone": {
+    "title": "Contenedor filter y contenido -- phone",
+    "children": [
+      "flex-layout.col#department__results--filter--phone",
+      "flex-layout.col#department__results--content--phone"
+    ],
+    "props": {
+      /*  "colSizing": "auto", */
+      "fullWidth": true,
+
+      "blockClass": "department__resultsrow-phone"
+    }
+  },
+  "flex-layout.col#department__results--filter--phone": {
+    "title": "Filtro de busqueda de PLP",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "department-filter-navigato--phone"
+    }
+  },
+  "flex-layout.col#department__results--content--phone": {
+    "title": "Contenedor: Search Reasult Content",
+    "props": {
+      "horizontalAlign": "left",
+      "width": "grow",
+      "blockClass": "search__results--content--phone"
     },
+    "children": [
+      /*        "breadcrumb.search", */
+      "flex-layout.row#group--border--phone",
+      "search-content#results__content--phone"
+    ]
+  },
 
   "flex-layout.row#group--border--phone": {
     "title": "Border group",
     "children": [
-      "order-by.v2",
-      "gallery-layout-switcher"
+      "order-by.v2#phone"
+    /*   "gallery-layout-switcher" */
     ],
     "props": {
       "blockClass": "pl-group__principal--phone"
@@ -54,7 +55,10 @@
 
   "search-content#results__content--phone": {
     "title": "resultado de la busqueda",
-    "blocks": ["gallery#search--phone", "not-found"]
+    "blocks": [
+      "gallery#search--phone",
+      "not-found"
+    ]
   },
 
   "gallery#search--phone": {
@@ -87,8 +91,8 @@
     "title": "vistas",
     "children": [
       /* "rich-text#vistas", */
-  
-     /*  "gallery-layout-option#grid", */
+
+      /*  "gallery-layout-option#grid", */
       "gallery-layout-option#list--phone"
     ],
     "props": {
@@ -96,7 +100,7 @@
     }
   },
 
- /*  "rich-text#vistas": {
+  /*  "rich-text#vistas": {
     "title": "vistas",
     "props": {
       "text": "Vistas:"
@@ -110,11 +114,11 @@
       "blockClass": "grid--phone"
     }, */
     "children": [
-   /*    "icon-inline-grid" */
+      /*    "icon-inline-grid" */
     ]
   }
 
- /*  "gallery-layout-option#grid": {
+  /*  "gallery-layout-option#grid": {
     "title": "opcion grid",
     "props": {
       "name": "grid",

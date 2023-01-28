@@ -27,18 +27,70 @@
      margin-left: 35px;
  }
  
- .flexColChild--department-filter-navigator--tablet :global(.vtex-search-result-3-x-filterPopupTitle) {
-     color: rgba(0, 0, 0, .87);
-     color: #fd611a;
-     font-family: 'Montserrat';
-     font-size: 15px;
- }
+
  
  .flexRowContent--department__results-tablet {
      margin-top: 9px;
  } */
 
-.contenedor_department--tablet--phone :global(.vtex-flex-layout-0-x-flexRowContent) {
-    background-color: red;
-    padding-bottom: 0 !important;
+.flexRow--department__resultsrow-tablet {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--department__resultsrow-tablet :global(.vtex-flex-layout-0-x-flexRowContent--department__resultsrow-tablet) {
+    margin-bottom: 26px;
+    max-width: 768px;
+    padding: 0 17px !important;
+}
+
+.flexColChild--department-filter-navigato--tablet :global(.vtex-search-result-3-x-filtersWrapperMobile) {
+    justify-content: flex-start !important;
+}
+
+.flexColChild--department-filter-navigato--tablet :global(.vtex-search-result-3-x-filterPopupButton) {
+    background-color: #fff;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin-right: 16px;
+    padding: 0 10px;
+}
+
+.flexRow--pl-group__principal--tablet :global(.vtex-search-result-3-x-orderByDropdown) {
+    padding-top: 0;
+}
+
+.flexRow--pl-group__principal--tablet :global(.vtex-search-result-3-x-orderByButton) {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    height: 3.3rem;
+    justify-content: flex-start;
+    padding: 17px 10px;
+}
+
+.flexColChild--search__results--content--tablet :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: none !important;
+}
+
+.flexColChild--search__results--content--tablet :global(.vtex-product-price-1-x-sellingPrice) {
+    margin: 20px 0 !important;
+}
+
+.flexRowContent--pl-group__principal--tablet :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color: rgba(0, 0, 0, .42);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: lowercase;
+}
+
+.flexRowContent--pl-group__principal--tablet :global(.vtex-search-result-3-x-caretIcon) {
+    color: #fd611a;
+}
+
+.flexColChild--department-filter-navigato--tablet :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: lowercase;
 }

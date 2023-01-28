@@ -1,0 +1,60 @@
+.flexRowContent--department__resultsrow-phone :global(.vtex-search-result-3-x-filterPopupButton) {
+    border: 1px solid rgba(0, 0, 0, .20);
+    border-radius: 4px;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 20%), 0 0 0 0 rgb(0 0 0 / 14%), 0 0 0 0 rgb(0 0 0 / 12%);
+    color: #fd611a;
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 92%;
+}
+
+.flexRowContent--department__resultsrow-phone :global(.vtex-search-result-3-x-filterPopupButton) :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color: #fd611a !important;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 15px;
+    margin-left: -48px;
+}
+
+.flexRowContent--department__resultsrow-phone :global(.vtex-search-result-3-x-filterPopupButton) :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+    margin-left: -92px;
+}
+
+.flexRow--pl-group__principal--phone :global(.vtex-search-result-3-x-orderByDropdown) {
+    padding: 0 15px;
+}
+
+.flexRow--pl-group__principal--phone :global(.vtex-search-result-3-x-orderByButton) {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    height: 3.3rem;
+    justify-content: flex-start;
+    padding: 17px 10px;
+}
+
+.flexRow--pl-group__principal--phone :global(.vtex-search-result-3-x-orderByText) {
+    display: initial;
+}
+
+.flexColChild--search__results--content--phone :global(.vtex-search-result-3-x-gallery--list) {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 15px !important;
+}
+
+.flexColChild--search__results--content--phone :global(.vtex-product-summary-2-x-imageStackContainer) {
+    width: 100% !important;
+}
+
+.flexColChild--search__results--content--phone :global(.vtex-flex-layout-0-x-flexColChild) {
+    text-align: center;
+}
+
+.flexColChild--search__results--content--phone :global(.vtex-product-summary-2-x-nameContainer),
+.flexColChild--search__results--content--phone :global(.vtex-product-price-1-x-sellingPrice) {
+    display: flex;
+    justify-content: center !important;
+}

@@ -73,12 +73,12 @@
       <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" fill="#000000"><path d="M20 36v-3h8v3Zm-8-10.5v-3h24v3ZM6 15v-3h36v3Z"  fill="currentColor"/></svg>
     </g>
     <g id="mpa-filter-settings">
-      <path d="M4 5V1" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#FF8000"/>
-      <path d="M4 16V14" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round " fill="#FF8000"/>
-      <path d="M13 12V16" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#FF8000"/>
-      <path d="M13 1V3" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#FF8000"/>
-      <path d="M4 14C5.65685 14 7 12.6569 7 11C7 9.34315 5.65685 8 4 8C2.34315 8 1 9.34315 1 11C1 12.6569 2.34315 14 4 14Z" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M13 9C14.6569 9 16 7.65685 16 6C16 4.34315 14.6569 3 13 3C11.3431 3 10 4.34315 10 6C10 7.65685 11.3431 9 13 9Z" stroke="#FF8000" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M4 5V1" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#fd611a"/>
+      <path d="M4 16V14" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round " fill="#fd611a"/>
+      <path d="M13 12V16" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#fd611a"/>
+      <path d="M13 1V3" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="#fd611a"/>
+      <path d="M4 14C5.65685 14 7 12.6569 7 11C7 9.34315 5.65685 8 4 8C2.34315 8 1 9.34315 1 11C1 12.6569 2.34315 14 4 14Z" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13 9C14.6569 9 16 7.65685 16 6C16 4.34315 14.6569 3 13 3C11.3431 3 10 4.34315 10 6C10 7.65685 11.3431 9 13 9Z" stroke="#fd611a" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g id="mpa-single-item">
       <path d="M10.2857 0H1.71429C0.685714 0 0 0.685714 0 1.71429V10.2857C0 11.3143 0.685714 12 1.71429 12H10.2857C11.3143 12 12 11.3143 12 10.2857V1.71429C12 0.685714 11.3143 0 10.2857 0Z" fill="currentColor"/>
@@ -365,6 +365,7 @@
 		  C167.657,37.881,130.125,0.349,83.829,0.349z" fill="white"></path>
 
 </svg>
+ 
     </g>
 
       <g id="icon-instagram">

@@ -127,3 +127,14 @@
 .flexColChild--department-filter-navigator :global(.vtex-checkbox__container) {
     margin-top: 3px;
 }
+
+.flexRowContent--pl-group__principal--phone :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color: rgba(0, 0, 0, .42);
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: lowercase;
+}
+
+.flexRowContent--pl-group__principal--phone :global(.vtex-search-result-3-x-caretIcon) {
+    color: #fd611a;
+}

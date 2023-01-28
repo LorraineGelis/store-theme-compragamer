@@ -15,12 +15,10 @@ padding-top: 0 !important;
 width: 100%;
 } */
 
-.contenedor_department--tablet--phone :global(.vtex-flex-layout-0-x-flexRowContent) {
-    padding-bottom: 0 !important;
-}
-
 .imageElement--img_banner--tablet {
     display: block;
     margin: 0 auto;
+    max-width: 730px;
     padding: 12px;
+    width: 96%;
 }

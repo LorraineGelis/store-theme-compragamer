@@ -2,7 +2,7 @@
     "modal-trigger#global__quick--view":{
         "title": "vista rapida",
         "children": [
-            "rich-text#global__quick-view--trigger",
+            "rich-text#global__quick-view--trigger", 
             "modal-layout#global__quick-view-modal"
         ]
     },
