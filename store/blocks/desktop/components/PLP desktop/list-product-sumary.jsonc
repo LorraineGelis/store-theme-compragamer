@@ -1,0 +1,78 @@
+{
+  "product-summary.shelf#products--list_summary": {
+    "title": "productos shelf",
+    "children": [
+      "flex-layout.row#list_summary"
+    ]
+  },
+
+  "flex-layout.row#list_summary": {
+    "title": "list products",
+    "children": [
+      "flex-layout.col#image-product",
+      "flex-layout.col#data-product"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    }
+  },
+
+  "flex-layout.col#image-product": {
+    "title": "pruducts price-btn",
+    "children": [
+      "product-summary-image"
+    ]
+  },
+
+  "flex-layout.col#data-product": {
+    "title": "pruducts price-btn",
+    "children": [
+      "product-summary-name",
+      "product-selling-price",
+      "add-to-cart-button#sumarcarrito"
+    ]
+  },
+
+  "add-to-cart-button#sumarcarrito": {
+    "title": "titulo: sumar al carrito",
+    "props": {
+      "text": "Sumar al carrito",
+      "blockClass": "add-cart-btn__sumarcarrito"
+    }
+  },
+
+  "product-summary.shelf#products--grid_summary": {
+    "title": "product shelf grid",
+    "children": [
+      "flex-layout.col#product-grid"
+    ]
+  },
+
+  "flex-layout.col#product-grid": {
+    "title": "product shelf grid",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-space",
+      "product-summary-space",
+      "product-summary-space",
+      "product-summary-space",
+      "product-summary-space",
+      "product-selling-price",
+      "add-to-cart-button#sumarcarrito",
+      "modal-trigger#global__quick--view"
+    ],
+    "props": {
+      "blockClass": "product_pl_main--grid"
+    }
+  },
+
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  }
+}

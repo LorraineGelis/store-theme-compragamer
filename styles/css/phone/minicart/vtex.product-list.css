@@ -1,0 +1,15 @@
+.productName--name-minicart--phone {
+    color: #424546;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.price--price-minicart--phone {
+    color: #4675b9;
+    font-weight: 600;
+    padding: 1rem 0;
+}

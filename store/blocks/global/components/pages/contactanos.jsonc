@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#contactanos":{
+        "title": "Pagina estatica: contactenos",
+        "children": [
+            "rich-text#preguntasfrecuentes"
+        ]
+    },
+
+    "rich-text#preguntasfrecuentes": {
+        "title": "Título Preguntas fecuentes",
+        "props": {
+          "text": "PREGUNTAS FRECUENTES",
+          "blockClass": ""
+        }
+      }
+}

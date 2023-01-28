@@ -2,6 +2,7 @@
   "footer-layout.desktop": {
     "title": "Footer desktop",
     "children": [
+      "flex-layout.row#desktop__home--slider-marcas",
       "flex-layout.row#footer__desktop--main",
       "flex-layout.row#footer__desktop--down"
     ],
