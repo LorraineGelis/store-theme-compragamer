@@ -1,43 +1,44 @@
 {
     "flex-layout.row#department__results-phone": {
-        "title": "Contenedor filter y contenido - phone",
+        "title": "Contenedor filter y contenido -- phone",
         "children": [
-          "flex-layout.col#department__results--filter--phone",
-          "flex-layout.col#department__results--content--phone"
+           "flex-layout.col#department__results--filter--phone", 
+           "flex-layout.col#department__results--content--phone" 
         ],
         "props": {
-          "colSizing": "auto",
-          "fullWidth": true,
-          "blockClass": "department__results-phone"
+          /*  "colSizing": "auto", */
+         "fullWidth": true,  
+         
+           "blockClass": "department__resultsrow-phone" 
         }
       },
       "flex-layout.col#department__results--filter--phone": {
         "title": "Filtro de busqueda de PLP",
         "children": ["filter-navigator.v3"],
         "props": {
-          "width": "15%",
-          "blockClass": "department-filter-navigator"
+          "width": "22%",
+          "blockClass": "department-filter-navigato--phone"
         }
       },
       "flex-layout.col#department__results--content--phone": {
-        "title": "Contenedor: Search Reasult Conten -- phone",
+        "title": "Contenedor: Search Reasult Content",
         "props": {
           "horizontalAlign": "left",
           "width": "grow",
           "blockClass": "search__results--content--phone"
         },
         "children": [
-          "breadcrumb.search",
+   /*        "breadcrumb.search", */
           "flex-layout.row#group--border--phone",
           "search-content#results__content--phone"
         ]
     },
 
   "flex-layout.row#group--border--phone": {
-    "title": "Border group - phone",
+    "title": "Border group",
     "children": [
-      "order-by.v2#phone",
-      "gallery-layout-switcher#phone"
+      "order-by.v2",
+      "gallery-layout-switcher"
     ],
     "props": {
       "blockClass": "pl-group__principal--phone"
@@ -47,16 +48,16 @@
   "order-by.v2#phone": {
     "title": "Ordena products",
     "props": {
-      "blockClass": "order-group--phone"
+      "blockClass": "order-group#phone"
     }
   },
 
   "search-content#results__content--phone": {
     "title": "resultado de la busqueda",
-    "blocks": ["gallery#search-phone", "not-found"]
+    "blocks": ["gallery#search--phone", "not-found"]
   },
 
-  "gallery#search-phone": {
+  "gallery#search--phone": {
     "title": "Grilla de products: Grid-list",
     "props": {
       "layouts": [
@@ -77,38 +78,50 @@
           }
         }
       ],
-      "ListSummary": "product-summary.shelf#products--list_summary",
-      "GridSummary": "product-summary.shelf#products--grid_summary"
+      "ListSummary": "product-summary.shelf#products--list_summary"
+      /* "GridSummary": "product-summary.shelf#products--grid_summary" */
     }
   },
 
   "gallery-layout-switcher#phone": {
-    "title": "vistas phone",
+    "title": "vistas",
     "children": [
-      "gallery-layout-option#list#phone",
-      "gallery-layout-option#grid#phone"
+      /* "rich-text#vistas", */
+  
+     /*  "gallery-layout-option#grid", */
+      "gallery-layout-option#list--phone"
     ],
     "props": {
-      "blockClass": "plp-principal__grid-filter"
+      "blockClass": "plp-principal__grid-filter--phone"
     }
   },
 
-
-  "gallery-layout-option#list#phone": {
-    "title": "opcion list",
+ /*  "rich-text#vistas": {
+    "title": "vistas",
     "props": {
-      "name": "list",
-      "component": "ListSummary",
-      "blockClass": "grid"
+      "text": "Vistas:"
     }
-  },
+  }, */
 
-  "gallery-layout-option#grid#phone": {
+  "gallery-layout-option#list--phone": {
+    "title": "opcion list",
+    /* "props": {
+      "name": "list",
+      "blockClass": "grid--phone"
+    }, */
+    "children": [
+   /*    "icon-inline-grid" */
+    ]
+  }
+
+ /*  "gallery-layout-option#grid": {
     "title": "opcion grid",
     "props": {
       "name": "grid",
-      "component": "GridSummary",
       "blockClass": "list"
-    }
-  }
+    },
+    "children": [
+   
+    ]
+  } */
 }

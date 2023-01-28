@@ -21,7 +21,7 @@
   "image#bannerplp-resultadobusqueda": {
     "title": "Img banner plp",
     "props": {
-      "src": "assets/img/global/banner.jpg",
+      "src": "assets/img/desktop/desktop.png",
       "fullWidth": true,
       "blockClass":"img_banner--desktop"
     }

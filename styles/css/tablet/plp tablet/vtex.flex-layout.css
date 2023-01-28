@@ -1,0 +1,44 @@
+/*  .flexRow--banner_resultadobusqueda--tablet {
+     padding-left: 17px;
+     padding-right: 17px;
+ }
+ 
+ .flexColChild--search__results--content--tablet :global(.vtex-product-summary-2-x-containerNormal) {
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+     max-width: none !important;
+     padding: 5px;
+ }
+ 
+ .flexRow--pl-group__principal--tablet {
+     background-color: #fff;
+     border-radius: 4px;
+     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+     margin-left: 23px;
+  
+     max-width: 609px !important;
+ }
+ 
+ .flexColChild--department-filter-navigator--tablet :global(.vtex-search-result-3-x-filterPopupButton) {
+     background-color: #fff;
+     border-radius: 4px;
+     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+     margin-left: 35px;
+ }
+ 
+ .flexColChild--department-filter-navigator--tablet :global(.vtex-search-result-3-x-filterPopupTitle) {
+     color: rgba(0, 0, 0, .87);
+     color: #fd611a;
+     font-family: 'Montserrat';
+     font-size: 15px;
+ }
+ 
+ .flexRowContent--department__results-tablet {
+     margin-top: 9px;
+ } */
+
+.contenedor_department--tablet--phone :global(.vtex-flex-layout-0-x-flexRowContent) {
+    background-color: red;
+    padding-bottom: 0 !important;
+}

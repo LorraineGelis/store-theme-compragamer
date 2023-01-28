@@ -2,7 +2,7 @@
   "search-result-layout.desktop#department": {
     "title": "search desktop",
     "children": [
-       "flex-layout.row#title__text",
+     /*   "flex-layout.row#title__text", */
       "flex-layout.row#bannerplp-resultadobusqueda",  
       "flex-layout.row#department__results-desktop"
     ],

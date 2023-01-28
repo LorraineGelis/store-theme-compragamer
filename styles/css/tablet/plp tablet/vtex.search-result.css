@@ -1,0 +1,4 @@
+.vtex-search-result-3-x-loadingOverlay--contenedor_department--tablet--phone :global(.vtex-flex-layout-0-x-flexRowContent) {
+    background-color: red;
+    padding-bottom: 0 !important;
+}

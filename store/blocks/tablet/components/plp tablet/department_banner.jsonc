@@ -1,6 +1,6 @@
 {
-  "flex-layout.row#bannerplp-resultadobusqueda--tablet": {
-    "title": "Banner plp: resultado de busqueda -- tablet",
+   "flex-layout.row#bannerplp-resultadobusqueda--tablet": {
+    "title": "Banner plp: resultado de busqueda--tablet",
     "children": [
       "flex-layout.col#bannerplp-resultadobusqueda--tablet"
     ],
@@ -8,7 +8,7 @@
       "fullWidth": true,
        "paddingBottom": 8 
     }
-  },
+  }, 
   "flex-layout.col#bannerplp-resultadobusqueda--tablet": {
     "title": "Contener: img banner plp -- tablet",
     "children": [
@@ -19,10 +19,11 @@
     }
   },
   "image#bannerplp-resultadobusqueda--tablet": {
-    "title": "Img banner plp",
+    "title": "Img banner plp -- tablet",
     "props": {
-      "src": "assets/img/global/banner.jpg",
-      "fullWidth": true
+      "src": "assets/img/tablet/tablet.png",
+      "fullWidth": true,
+      "blockClass":"img_banner--tablet"
     }
   }
 }

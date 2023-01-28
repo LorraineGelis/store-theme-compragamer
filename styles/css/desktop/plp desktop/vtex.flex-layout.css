@@ -68,6 +68,10 @@
     height: auto !important;
 }
 
+.flexColChild--search__results--content :global(.vtex-search-result-3-x-galleryItem--grid) {
+    padding: 5px !important;
+}
+
 .stretchChildrenWidth {
     width: auto;
 }
@@ -93,8 +97,6 @@
     height: 100%;
     justify-content: center;
     margin-bottom: 0.5em;
-    /*  text-align: center;
-    width: 100%; */
 }
 
 .flexColChild--product_pl_main--grid :global(.vtex-product-summary-2-x-brandName) {
