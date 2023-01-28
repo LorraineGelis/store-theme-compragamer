@@ -94,7 +94,7 @@
     "props": {
       "blockClass": "link_contactenos--mobile",
       "label": "CONTACTANOS",
-      "href": "#",
+   /*    "href": "https://storecompragamer--itgloberspartnercl.myvtex.com/contactanos", */
       "target": "_blank"
     }
   },

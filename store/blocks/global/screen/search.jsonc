@@ -1,0 +1,60 @@
+{
+
+    //Las pagínas para nuestro contexto de busquedas
+
+    "store.search#department": {
+        "blocks": ["search-result-layout"],
+        "props": {
+          "context": {
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+          }
+        }
+      },
+      
+      "store.search#category": {
+        "title": "Store Search Category Template",
+        "blocks": ["search-result-layout"],
+        "props": {
+          "context": {
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+          }
+        }
+      },
+      "store.search#subcategory": {
+        "title": "Store Search Subcategory Template",
+        "blocks": ["search-result-layout"],
+        "props": {
+          "context": {
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+          }
+        }
+      },
+      "store.search#brand": {
+        "title": "Store Search Brand Template",
+        "blocks": ["search-result-layout"],
+        "props": {
+          "context": {
+            "skusFilter": "ALL_AVAILABLE",
+            "simulationBehavior": "default"
+          }
+        }
+      },
+
+    //Ya hace parte de la correspondiente plp
+    "search-result-layout":{
+        "blocks": [
+            "search-result-layout.desktop#department",
+            "search-result-layout.mobile#department", 
+            "search-not-found-layout"
+        ]
+       /*  "props":{
+          "blockClass": "search-result__contenedor--main"
+        } */
+    }
+   
+   
+   
+}

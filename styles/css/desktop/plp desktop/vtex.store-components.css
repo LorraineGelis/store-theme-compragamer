@@ -1,0 +1,12 @@
+:global(.vtex-search-result-3-x-searchResultContainer--contenedor_department--desktop) {
+    background-color: #eee;
+    padding-bottom: 3em;
+    padding-top: 0 !important;
+}
+
+
+/*  img banner principal plp - desktop */
+
+.imageElement--img_banner--desktop {
+    width: 100%;
+}

@@ -26,6 +26,7 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -54,7 +55,8 @@
     "vtex.product-list": "0.x"
   },
   "peerDependencies": {
-    "vtex.mega-menu": "2.x"
+    "vtex.mega-menu": "2.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

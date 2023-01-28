@@ -3,7 +3,7 @@
       "title": "mobile--search-bar",
       "blocks": ["autocomplete-result-list"],
       "props": {
-        "openAutoCompleteOnFocus": true,
+        "openAutocompleteOnFocus": true,
         "blockClass": "searchbar__mobile",
         "placeholder": "Buscador"
       }

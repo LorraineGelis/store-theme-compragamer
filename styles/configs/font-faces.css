@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat-Bold";
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
     font-family: "Eurostile";
     src: url(assets/fonts/eurostile.ttf);
 }

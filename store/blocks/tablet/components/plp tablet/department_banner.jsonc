@@ -1,0 +1,29 @@
+{
+   "flex-layout.row#bannerplp-resultadobusqueda--tablet": {
+    "title": "Banner plp: resultado de busqueda--tablet",
+    "children": [
+      "flex-layout.col#bannerplp-resultadobusqueda--tablet"
+    ],
+    "props": {
+      "fullWidth": true,
+       "paddingBottom": 8 
+    }
+  }, 
+  "flex-layout.col#bannerplp-resultadobusqueda--tablet": {
+    "title": "Contener: img banner plp -- tablet",
+    "children": [
+      "image#bannerplp-resultadobusqueda--tablet"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "image#bannerplp-resultadobusqueda--tablet": {
+    "title": "Img banner plp -- tablet",
+    "props": {
+      "src": "assets/img/tablet/tablet.png",
+      "fullWidth": true,
+      "blockClass":"img_banner--tablet"
+    }
+  }
+}

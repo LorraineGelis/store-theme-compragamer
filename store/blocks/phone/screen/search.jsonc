@@ -1,0 +1,9 @@
+{
+  "responsive-layout.phone#search": {
+    "title": "search phone",
+    "children": [
+      "flex-layout.row#bannerplp-resultadobusqueda--phone",
+      "flex-layout.row#department__results-phone"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "search-result-layout.mobile#department": {
+    "children": [
+      "responsive-layout.phone#search",
+      "responsive-layout.tablet#search"
+    ],
+    "props": {
+      "blockClass": "contenedor_department--tablet--phone"
+    }
+  }
+}

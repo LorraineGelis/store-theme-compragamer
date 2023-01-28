@@ -1,0 +1,24 @@
+/*  :global(.vtex-search-result-3-x-searchResultContainer--contenedor_department--tablet) {
+background-color: #eee;
+padding-bottom: 3em;
+padding-top: 0 !important;
+}
+
+:global(.vtex-search-result-3-x-container--layout--contenedor_department--tablet--phone) {
+background-color: #eee;
+padding-bottom: 3em;
+padding-top: 0 !important;
+}
+
+
+.imageElement--img_banner--tablet {
+width: 100%;
+} */
+
+.imageElement--img_banner--tablet {
+    display: block;
+    margin: 0 auto;
+    max-width: 730px;
+    padding: 12px;
+    width: 96%;
+}

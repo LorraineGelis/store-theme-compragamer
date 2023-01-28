@@ -1,11 +1,10 @@
 {
-     "footer-layout.mobile": {
-        "title": "Footer mobile",
+    "footer-layout.mobile": {
+        "title": "footer: tablet y phone",
         "children": [
-            /* "flex-layout.row#footer__mobile--main", "flex-layout.row#footer__mobile--down" */
-        ],
-        "props": {
-          "blockClass": "footer-layout-mobile"
-        }
-      } 
+            "responsive-layout.tablet#footer",
+            "responsive-layout.phone#footer"
+       
+        ]
+      }
 }
