@@ -1,0 +1,9 @@
+{
+  "responsive-layout.phone#product-detail": {
+    "title": "product detail phone",
+    "children": [
+      "flex-layout.row#product__info--phone",
+      "flex-layout.row#product__phone"
+    ]
+  }
+}

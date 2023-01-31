@@ -1,0 +1,245 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "Informacion general de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--info--desktop"
+    }
+  },
+
+  "flex-layout.col#product__info--image": {
+    "title": "Imagen product de PDP",
+    "children": [
+      "product-images#product__info--image"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--img--desktop"
+    }
+  },
+
+  "product-images#product__info--image": {
+    "title": "Images informacion Producto",
+    "props": {
+      "zoomMode": "in-place-hover",
+      "thumbnailsOrientation": "horizontal",
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "blockClass": "product__info--image--desktop",
+      "maxHeight": 450
+    }
+  },
+
+  "flex-layout.col#product__info--data": {
+    "title": "Data de producto",
+    "children": [
+      "flex-layout.row#product__info--name",
+      "flex-layout.row#product__info--bread",
+      "flex-layout.row#product__info--identifier",
+      "flex-layout.row#product__info--price",
+      "flex-layout.row#product__info--garantias",
+      "flex-layout.row#product__info--stock",
+      "flex-layout.row#product__info--envios",
+      "flex-layout.row#product__sumaralcarrito"
+    ],
+
+    "props": {
+      "blockClass": "contenedor__product--data--desktop"
+    }
+  },
+
+  //Info name producto
+
+  "flex-layout.row#product__info--name": {
+    "title": "Info name product",
+    "children": [
+      "vtex.store-components:product-name"
+    ],
+    "props": {
+      "blockClass": "produtc__info--name--desktop"
+    }
+  },
+
+  "flex-layout.row#product__info--bread": {
+    "title": "Info bread crumb",
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "product__breadcrumb--desktop"
+    }
+  },
+
+  "breadcrumb":{
+    "title": "miga de pan",
+    "props": {
+      "showOnMobile": true
+    }
+  },
+
+  "flex-layout.row#product__info--identifier": {
+    "title": "Identificacion del producto",
+    "children": [
+      "product-identifier.product#product__identifier--sku",
+      "product-identifier.product#product__identifier--id"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--identifier--desktop",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+
+  "product-identifier.product#product__identifier--sku": {
+    "title": "codigo identificacion del producto",
+    "props": {
+      "label": "custom",
+      "customLabel": "SKU",
+      "blockClass": "product__info--identifier--desktop"
+    }
+  },
+
+  "product-identifier.product#product__identifier--id": {
+    "title": "codigo identificacion del producto",
+    "props": {
+      "label": "custom",
+      "customLabel": "ID",
+      "blockClass": "product__info--identifier--id--desktop"
+    }
+  },
+
+  "flex-layout.row#product__info--price": {
+    "title": "Informacion del precio de producto",
+    "children": [
+      "product-price#desktop",
+      "image#pagocompragamer-desktop"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--price--desktop",
+      "fullWidth": false,
+      "colSizing": "auto"
+    }
+  },
+
+  "product-price#desktop":{
+    "title": "Product desktop",
+    "props":{
+      "blockClass" : "product__price--desktop"
+    }
+
+  },
+
+  "image#pagocompragamer-desktop": {
+    "title": "Img compra gamer",
+    "props": {
+      "src": "assets/img/global/pago.png",
+      "blockClass": "pago_compragamer--desktop"
+    }
+  },
+
+  "flex-layout.row#product__info--garantias": {
+    "title": "Garantia del producto",
+    "children": [
+      "icon#icon-garantía",
+      "rich-text#garantia"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--garantias--desktop",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+  "rich-text#garantia": {
+    "title": "Parrafo - garantia",
+    "props": {
+      "text": "Garantía - 12 meses",
+      "blockClass": "parrafo__garantia--desktop"
+    }
+  },
+
+  "icon#icon-garantía": {
+    "title": "Icono de garantía",
+    "props": {
+      "id": "icon-garantia",
+      "blockClass": "icon-garantía--desktop",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+
+  "flex-layout.row#product__info--stock": {
+    "title": "Stok del producto",
+    "children": [
+      "icon#icon-stock-done",
+      "rich-text#stock"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--stock--desktop",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+
+  "icon#icon-stock-done": {
+    "title": "Icono de garantía",
+    "props": {
+      "id": "icon-stock",
+      "blockClass": "icon-stock-done--desktop",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+  "rich-text#stock": {
+    "title": "Parrafo - stock",
+    "props": {
+      "text": "Stock disponible",
+      "blockClass": "parrafo__stock--desktop"
+    }
+  },
+
+  "flex-layout.row#product__info--envios": {
+    "title": "envio del producto",
+    "children": [
+      "icon#icon-envio",
+      "rich-text#envio"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--envios--desktop",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left"
+    }
+  },
+
+  "icon#icon-envio": {
+    "title": "Icono de envio",
+    "props": {
+      "id": "icon-envio",
+      "blockClass": "icon-envio--desktop",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+  "rich-text#envio": {
+    "title": "Parrafo - stock",
+    "props": {
+      "text": "Envíos a todo el país.",
+      "blockClass": "parrafo__envios--desktop"
+    }
+  },
+
+  "flex-layout.row#product__sumaralcarrito": {
+    "title": "Sumar al carrito",
+    "children": [
+      "add-to-cart-button#sumarcarrito"
+    ],
+    "props": {
+      "blockClass": "btn__sumaralcarrito--desktop"
+    }
+  }
+}
