@@ -1,0 +1,232 @@
+{
+  "flex-layout.row#product__info--phone": {
+    "title": "Informacion general de PDP",
+    "children": [
+      "flex-layout.col#product__info--image--phone",
+      "flex-layout.col#product__info--data--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--info--phone"
+    }
+  },
+
+  "flex-layout.col#product__info--image--phone": {
+    "title": "Imagen product de PDP",
+    "children": [
+      "product-images#product__info--image--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--img--phone"
+    }
+  },
+
+  "product-images#product__info--image--phone": {
+    "title": "Images informacion Producto",
+    "props": {
+      "zoomMode": "in-place-hover",
+      "thumbnailsOrientation": "vertical",
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "blockClass": "product__info--image--phone"
+    }
+  },
+
+  "flex-layout.col#product__info--data--phone": {
+    "title": "Data de producto",
+    "children": [
+      "flex-layout.row#product__info--name--phone",
+      "flex-layout.row#product__info--bread--phone",
+      "flex-layout.row#product__info--identifier--phone",
+      "flex-layout.row#product__info--price--phone",
+      "flex-layout.row#product__info--garantias--phone",
+      "flex-layout.row#product__info--stock--phone",
+      "flex-layout.row#product__info--envios--phone",
+      "flex-layout.row#product__sumaralcarrito--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--data--phone"
+    }
+  },
+
+  //Info name producto
+
+  "flex-layout.row#product__info--name--phone": {
+    "title": "Info name product",
+    "children": [
+      "vtex.store-components:product-name"
+    ],
+    "props": {
+      "blockClass": "produtc__info--name--phone"
+    }
+  },
+
+  "flex-layout.row#product__info--bread--phone": {
+    "title": "Info bread crumb",
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "product__breadcrumb--phone"
+    }
+  },
+
+  "flex-layout.row#product__info--identifier--phone": {
+    "title": "Identificacion del producto",
+    "children": [
+      "product-identifier.product#product__identifier--sku--phone",
+      "product-identifier.product#product__identifier--id--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--identifier--phone"
+    }
+  },
+
+  "product-identifier.product#product__identifier--sku--phone": {
+    "title": "codigo identificacion del producto",
+    "props": {
+      "label": "custom",
+      "customLabel": "SKU",
+      "blockClass": "product__info--identifier--phone"
+    }
+  },
+
+  "product-identifier.product#product__identifier--id--phone": {
+    "title": "codigo identificacion del producto",
+    "props": {
+      "label": "custom",
+      "customLabel": "ID",
+      "blockClass": "product__info--identifier--id--phone"
+    }
+  },
+
+  "flex-layout.row#product__info--price--phone": {
+    "title": "Informacion del precio de producto",
+    "children": [
+      "product-price#phone",
+      "image#pagocompragamer-phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--price--phone"
+    }
+  },
+  "product-price#phone": {
+    "title": "Product phone",
+    "props": {
+      "blockClass": "product__price--phone"
+    }
+  },
+
+  "image#pagocompragamer-phone": {
+    "title": "Img compra gamer",
+    "props": {
+      "src": "assets/img/global/pago.png",
+      "blockClass": "pago_compragamer--phone"
+    }
+  },
+
+  "flex-layout.row#product__info--garantias--phone": {
+    "title": "Garantia del producto",
+    "children": [
+      "icon#icon-garantía--phone",
+      "rich-text#garantia--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--garantias--phone",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#garantia--phone": {
+    "title": "Parrafo - garantia",
+    "props": {
+      "text": "Garantía - 12 meses",
+      "blockClass": "parrafo__garantia--phone"
+    }
+  },
+
+  "icon#icon-garantía--phone": {
+    "title": "Icono de garantía",
+    "props": {
+      "id": "icon-garantia",
+      "blockClass": "icon-garantía--phone",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+
+  "flex-layout.row#product__info--stock--phone": {
+    "title": "Stok del producto",
+    "children": [
+      "icon#icon-stock-done--phone",
+      "rich-text#stock--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--stock--phone",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "icon#icon-stock-done--phone": {
+    "title": "Icono de garantía",
+    "props": {
+      "id": "icon-stock",
+      "blockClass": "icon-stock-done--phone",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+  "rich-text#stock--phone": {
+    "title": "Parrafo - stock",
+    "props": {
+      "text": "Stock disponible",
+      "blockClass": "parrafo__stock--phone"
+    }
+  },
+
+  "flex-layout.row#product__info--envios--phone": {
+    "title": "envio del producto",
+    "children": [
+      "icon#icon-envio--phone",
+      "rich-text#envio--phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--envios--phone",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "left",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "icon#icon-envio--phone": {
+    "title": "Icono de envio",
+    "props": {
+      "id": "icon-envio",
+      "blockClass": "icon-envio--phone",
+      "size": 24,
+      "viewBox": "0 0 45 45"
+    }
+  },
+  "rich-text#envio--phone": {
+    "title": "Parrafo - stock",
+    "props": {
+      "text": "Envíos a todo el país.",
+      "blockClass": "parrafo__envios--phone"
+    }
+  },
+
+  "flex-layout.row#product__sumaralcarrito--phone": {
+    "title": "Sumar al carrito",
+    "children": [
+      "add-to-cart-button#sumarcarrito"
+    ],
+    "props": {
+      "blockClass": "btn__sumaralcarrito--phone"
+    }
+  }
+}

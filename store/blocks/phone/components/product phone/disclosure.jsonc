@@ -1,0 +1,251 @@
+{
+  "flex-layout.row#product__phone": {
+    "title": "Contenedor disclosure",
+    "children": [
+      "flex-layout.col#product__phone"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--phone"
+    }
+  },
+
+  "flex-layout.col#product__phone": {
+    "title": "Col disclosure",
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#two",
+      "disclosure-layout#three",
+      "disclosure-layout#four"
+    ],
+    "props": {
+      "blockClass": "contenedorcol__product--phone"
+    }
+  },
+
+  //Icono disclousure:
+
+  "disclosure-state-indicator": {
+    "title": "disclosure producto detalle - phone",
+    "props": {
+      "Show": "icon#angle-down",
+      "Hide": "icon#angle-up"
+    }
+  },
+
+  "icon#angle-down": {
+    "title": "icono disclosure--down",
+    "props": {
+      "id": "mpa-angle--down",
+      "activeClassName": "angle-down--phone",
+      "mutedClassName": "angle-down--phone"
+    }
+  },
+
+  "icon#angle-up": {
+    "title": "icono disclosure--up",
+    "props": {
+      "id": "mpa-angle--up",
+      "activeClassName": "angle-down--phone",
+      "mutedClassName": "angle-down--phone"
+    }
+  },
+
+  //Contenido disclosure 1:
+
+  "disclosure-layout#first": {
+    "title": "disclosure 1",
+    "children": [
+      "disclosure-trigger#first",
+      "disclosure-content#first"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosurefirst--phone"
+    }
+  },
+
+  "disclosure-trigger#first": {
+    "title": "Contenido disclousre 1",
+    "children": [
+      "rich-text#titleone",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosurefirst--phone"
+    }
+  },
+
+  "rich-text#titleone": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Especificaciones",
+      "blockClass": "titulo-one__disclosure--phone"
+    }
+  },
+
+  "disclosure-content#first": {
+    "title": "contenido - disclousure",
+    "children": [
+      "product-specifications"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--phone"
+    }
+  },
+
+  //Contenido disclosure 2:
+
+  "disclosure-layout#two": {
+    "title": "disclosure 2",
+    "children": [
+      "disclosure-trigger#two",
+      "disclosure-content#two"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosuretwo--phone"
+    }
+  },
+
+  "disclosure-trigger#two": {
+    "title": "Contenido disclousre 2",
+    "children": [
+      "rich-text#titletwo",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosuretwo--phone"
+    }
+  },
+
+  "rich-text#titletwo": {
+    "title": "titulo 2: disclosure",
+    "props": {
+      "text": "Preguntas",
+      "blockClass": "titulo-two__disclosure--phone"
+    }
+  },
+
+  "disclosure-content#two": {
+    "title": "contenido-disclosure",
+    "children": [
+      "flex-layout.col#tabs__content--preguntas--phone"
+    ],
+    "props": {
+      "blockClass": "contenidotwo__disclosure--phone"
+    }
+  },
+
+  "flex-layout.col#tabs__content--preguntas--phone": {
+    "title": "Contenido preguntas",
+    "children": [
+      "rich-text#titleOne--phone",
+      "rich-text#parrafo--phone",
+      "questions-and-answers"
+    ],
+    "props": {
+      "blockClass": "contenidocol--preguntas__phone"
+    }
+  },
+
+  "rich-text#titleOne--phone": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "¿Tenés preguntas sobre el producto?",
+      "blockClass": "titleone--preguntas--phone"
+    }
+  },
+  "rich-text#parrafo--phone": {
+    "title": "parrafo - seccion preguntas",
+    "props": {
+      "text": "Iniciá sesión en tu cuenta para poder hacer una pregunta",
+      "blockClass": "parrafo--preguntas--phone"
+    }
+  },
+
+  //Contenido disclosure 3:
+
+  "disclosure-layout#three": {
+    "title": "contenido disclosure 3",
+    "children": [
+      "disclosure-trigger#three",
+      "disclosure-content#three"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosurethree--phone"
+    }
+  },
+
+  "disclosure-trigger#three": {
+    "title": "Contenido disclousre 3",
+    "children": [
+      "rich-text#titlethree",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosurethree--phone"
+    }
+  },
+
+  "rich-text#titlethree": {
+    "title": "titulo 3: disclosure",
+    "props": {
+      "text": "Rendimiento",
+      "blockClass": "titulo-three__disclosure--phone"
+    }
+  },
+
+  "disclosure-content#three": {
+    "title": "contenido - disclousure",
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "blockClass": "contenidothree__disclosure--phone"
+    }
+  },
+
+  //Contenido disclosure 4:
+
+  "disclosure-layout#four": {
+    "title": "contenido disclosure 4",
+    "children": [
+      "disclosure-trigger#four",
+      "disclosure-content#four"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosurefour--phone"
+    }
+  },
+
+  "disclosure-trigger#four": {
+    "title": "Contenido disclousre 3",
+    "children": [
+      "rich-text#titlefour",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosurefour--phone"
+    }
+  },
+
+  "rich-text#titlefour": {
+    "title": "titulo 4: disclosure",
+    "props": {
+      "text": "Valoraciones",
+      "blockClass": "titulo-four__disclosure--phone"
+    }
+  },
+
+  "disclosure-content#four": {
+    "title": "contenido - disclousure",
+    "children": [
+      "product-reviews"
+    ],
+    "props": {
+      "blockClass": "contenidofour__disclosure--phone"
+    }
+  }
+}

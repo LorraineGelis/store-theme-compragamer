@@ -1,0 +1,45 @@
+.listContainer--contenedor__product--list--desktop {
+    justify-content: left !important;
+    margin-bottom: 25px !important;
+}
+
+.contentItem--contenedor__contenido-specification--desktop :global(.vtex-store-components-3-x-specificationsTableContainer) {
+    margin-left: 0.4em;
+    padding: 0;
+}
+
+.contentItem--contenido--reviewsratings--desktop :global(.vtex-reviews-and-ratings-3-x-container) {
+    margin-left: 0.4em;
+    padding: 0;
+}
+
+.contentContainer--contenedor__contenido-tabs--desktop {
+    margin-left: 0.4em;
+    padding: 0;
+}
+
+.contentItem--contenedor__contenido-specification--desktop :global(.vtex-store-components-3-x-specificationsTablePropertyHeading) {
+    border-bottom: 1px solid #fd611a;
+    border-top: 1px solid #fd611a;
+}
+
+.contentItem--contenedor__contenido-specification--desktop :global(.vtex-store-components-3-x-specificationsTableSpecificationHeading) {
+    border-bottom: 1px solid #fd611a;
+    border-top: 1px solid #fd611a;
+}
+
+.contentItem--contenedor__contenido-specification--desktop :global(.vtex-store-components-3-x-specificationItemProperty) {
+    border-bottom: 1px solid #fd611a;
+}
+
+.contentItem--contenedor__contenido-specification--desktop :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+    border-bottom: 1px solid #fd611a;
+}
+
+.contentContainer--contenedor__contenido-tabs--desktop :global(.vtex-reviews-and-ratings-3-x-stars) {
+    color: #Fd611a;
+}
+
+.contentContainer--contenedor__contenido-tabs--desktop :global(.vtex__icon-caret-down) {
+    color: #Fd611a;
+}

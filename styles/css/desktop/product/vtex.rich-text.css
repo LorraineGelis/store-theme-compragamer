@@ -1,0 +1,19 @@
+.paragraph--parrafo__garantia--desktop,
+.paragraph--parrafo__stock--desktop,
+.paragraph--parrafo__envios--desktop {
+    color: #4caf50;
+    font: 400 14px/20px Montserrat, sans-serif !important;
+    font-size: 1em;
+    margin-left: 6px;
+}
+
+.paragraph--titleone--contenido--desktop {
+    color: #202020;
+    font: 500 22px/32px "Montserrat-Medium", sans-serif;
+    margin-bottom: 11px;
+}
+
+.paragraph--parrafo--contenido--desktop {
+    color: #515151;
+    font: 400 14px/20px Montserrat, sans-serif;
+}

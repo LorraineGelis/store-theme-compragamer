@@ -46,7 +46,8 @@
   "order-by.v2#tablet": {
     "title": "Ordena products",
     "props": {
-      "blockClass": "order-group#tablet"
+      "blockClass": "order-group#tablet",
+      "showOrderTitle": false
     }
   },
 
@@ -81,9 +82,5 @@
       ],
       "ListSummary": "product-summary.shelf#products--list_summary"
     }
-  },
-
-  "gallery-layout-option#list--tablet": {
-    "title": "opcion list"
   }
 }

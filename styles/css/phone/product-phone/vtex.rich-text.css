@@ -1,0 +1,26 @@
+.paragraph--parrafo__garantia--phone,
+.paragraph--parrafo__stock--phone,
+.paragraph--parrafo__envios--phone {
+    color: #4caf50;
+    font: 400 14px/20px Montserrat, sans-serif !important;
+    font-size: 1em;
+    margin-left: 6px;
+}
+
+.paragraph--titleone--preguntas--phone {
+    color: #202020 !important;
+    font: 500 22px/32px "Montserrat-Medium", sans-serif !important;
+    margin-bottom: 11px !important;
+    text-transform: initial !important
+}
+
+.paragraph--parrafo--preguntas--phone {
+    color: #515151 !important;
+    font: 400 14px/20px Montserrat, sans-serif !important;
+    text-transform: initial !important
+}
+
+.paragraph--titleone--preguntas--phone {
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
