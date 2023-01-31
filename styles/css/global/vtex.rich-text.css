@@ -1,3 +1,8 @@
-.paragraph{
-    margin: 0px;
+.paragraph--parrafo-search__not-found {
+    color: #fd611a;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25.2px;
+    text-align: left;
 }
