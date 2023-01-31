@@ -1,0 +1,153 @@
+{
+  "flex-layout.row#product__tabs": {
+    "title": "Informacion adicional",
+    "children": [
+      "tab-layout#product__tabs"
+    ],
+    "props": {
+      "blockClass": "contenedorprincipal__product--tabs--desktop"
+    }
+  },
+
+  "tab-layout#product__tabs": {
+    "title": "tabla - info",
+    "children": [
+      "tab-list#product__tabs--list",
+      "tab-content#product__tabs--content"
+    ],
+    "props": {
+      "blockClass": "contenedorsecundarios__product--tabs--desktop"
+    }
+  },
+
+  "tab-list#product__tabs--list": {
+    "title": "tabla de products",
+    "children": [
+      "tab-list.item#tabs__list--product-specification",
+      "tab-list.item#tabs__list-preguntas",
+      "tab-list.item#tabs__list-rendimiento",
+      "tab-list.item#tabs__list-reviews-and-ratings"
+    ],
+    "props": {
+      "blockClass": "contenedor__product--list--desktop"
+    }
+  },
+  "tab-list.item#tabs__list--product-specification": {
+    "title": "Especificaciones del producto",
+    "props": {
+      "tabId": "product-specification",
+      "label": "Especificaciones",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list--specification--desktop"
+    }
+  },
+
+  "tab-list.item#tabs__list-preguntas": {
+    "title": "preguntas sobre el producto",
+    "props": {
+      "tabId": "preguntas",
+      "label": "Preguntas",
+      "blockClass": "tab-list--preguntas--desktop"
+    }
+  },
+  "tab-list.item#tabs__list-reviews-and-ratings": {
+    "title": "Revision y calificaciones del producto",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Valoraciones",
+      "defaultActiveTab": false,
+      "blockClass": "tab-list--reviewsratings--desktop"
+    }
+  },
+  "tab-list.item#tabs__list-rendimiento": {
+    "title": "rendimiento",
+    "props": {
+      "tabId": "rendimiento",
+      "label": "rendimiento",
+      "defaultActiveTab": false,
+      "blockClass": "tab-list--rendimiento--desktop"
+    }
+  },
+  "tab-content#product__tabs--content": {
+    "title": "Contenido de la tabla",
+    "children": [
+      "tab-content.item#tabs__content--product-specification",
+      "tab-content.item#tabs__content--preguntas",
+      "tab-content.item#tabs__content--rendimiento",
+      "tab-content.item#tabs__content--reviews-and-ratings"
+    ],
+    "props": {
+      "blockClass": "contenedor__contenido-tabs--desktop"
+    }
+  },
+
+  "tab-content.item#tabs__content--product-specification": {
+    "title": "contenido- especificaciones del producto",
+    "props": {
+      "tabId": "product-specification",
+      "blockClass": "contenedor__contenido-specification--desktop"
+    },
+    "children": [
+      "product-specifications"
+    ]
+  },
+
+  "tab-content.item#tabs__content--preguntas": {
+    "title": "contenido-preguntas",
+    "props": {
+      "tabId": "preguntas",
+      "blockClass": "contenedor__contenido-preguntas--desktop"
+    },
+    "children": [
+      "flex-layout.col#tabs__content--preguntas"
+    ]
+  },
+
+  "flex-layout.col#tabs__content--preguntas": {
+    "title": "Contenido preguntas",
+    "children": [
+      "rich-text#titleOne",
+      "rich-text#parrafo",
+      "questions-and-answers"
+    ],
+    "props": {
+      "blockClass": "contenedorcol__contenido-preguntas--desktop"
+    }
+  },
+
+  "rich-text#titleOne": {
+    "title": "title uno",
+    "props": {
+      "text": "¿Tenés preguntas sobre el producto?",
+      "blockClass": "titleone--contenido--desktop"
+    }
+  },
+  "rich-text#parrafo": {
+    "title": "parrafo - seccion preguntas",
+    "props": {
+      "text": "Iniciá sesión en tu cuenta para poder hacer una pregunta",
+      "blockClass": "parrafo--contenido--desktop"
+    }
+  },
+
+  "tab-content.item#tabs__content--reviews-and-ratings": {
+    "title": "contenido - calificaciones y revisiones",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "blockClass": "contenido--reviewsratings--desktop"
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+  "tab-content.item#tabs__content--rendimiento": {
+    "title": "contenido - rednimiento",
+    "props": {
+      "tabId": "rendimiento",
+      "blockClass": "contenido--rendimiento--desktop"
+    },
+    "children": [
+      "product-description"
+    ]
+  }
+}

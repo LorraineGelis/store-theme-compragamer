@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "title": "Responsive plp: desktop, phone y mobile",
+    "children": [
+      "responsive-layout.desktop#product-detail",
+      "responsive-layout.phone#product-detail",
+      "responsive-layout.tablet#product-detail"
+    ]
+  }
+}

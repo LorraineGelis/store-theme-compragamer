@@ -1,0 +1,47 @@
+.content--contenido__disclosure--phone--visible :global(.vtex-store-components-3-x-specificationsTableContainer) {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content--contenidotwo__disclosure--phone--visible {
+    padding: 1em 15px;
+}
+
+.content--contenidothree__disclosure--phone--visible {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content--contenidothree__disclosure--phone--visible :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    font-size: 17px;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex-store-components-3-x-specificationsTablePropertyHeading) {
+    border-bottom: 1px solid #fd611a;
+    border-top: 1px solid #fd611a;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex-store-components-3-x-specificationsTableSpecificationHeading) {
+    border-bottom: 1px solid #fd611a;
+    border-top: 1px solid #fd611a;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex-store-components-3-x-specificationItemProperty) {
+    border-bottom: 1px solid #fd611a;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+    border-bottom: 1px solid #fd611a;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex-reviews-and-ratings-3-x-stars) {
+    color: #Fd611a;
+}
+
+.content--contenido__disclosure--phone--visible :global(.vtex__icon-caret-down) {
+    color: #Fd611a;
+}
+
+.content--contenidofour__disclosure--phone--visible :global(.vtex-reviews-and-ratings-3-x-star) {
+    color: #Fd611a;
+}
