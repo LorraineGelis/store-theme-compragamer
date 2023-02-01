@@ -8,7 +8,7 @@
       "emailPlaceholder": "Ej: ejemplo@gmail.com",
       "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
+     "showIconProfile": true, 
       "iconLabel": "Iniciar sesión"
     }
   }

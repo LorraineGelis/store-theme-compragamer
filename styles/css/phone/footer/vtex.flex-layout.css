@@ -65,9 +65,26 @@
 
 /*Iconos de redes sociales*/
 
+.flexRow--footer__container-redes--mobile :global(.vtex-store-link-0-x-link--icons-redes) {
+    height: 40px;
+    width: 40px;
+}
+
 .flexRowContent--footer__container-redes--mobile {
+    align-content: center;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 8px;
-    width: 30%
+    justify-content: center;
+    justify-items: center;
+    width: 70px;
+}
+
+.flexColChild--footer__container-col-btn-arrepentimiento {
+    margin-bottom: 21px;
+    margin-top: 7px;
+}
+
+.flexColChild--footer__container-col-ayuda {
+    height: auto !important;
 }

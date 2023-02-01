@@ -24,17 +24,16 @@
 
 .flexCol--footer__container-col-ayuda--tablet {
     border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
-    padding: 20px;
     text-align: center;
 }
 
 .flexCol--footer__container-col-btn-arrepentimiento--tablet {
     border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
     padding: 20px;
+    padding: 21px 0 5px 0;
 }
 
 .flexCol--footer__container-col-redes--tablet {
-    /*   border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804); */
     padding: 20px;
 }
 
@@ -48,8 +47,7 @@
     background-color: #eee;
     display: flex;
     flex-direction: column;
-    padding: 7px 0 1rem 0;
-    /* background: #2c2e2f; */
+    margin-bottom: 5px;
 }
 
 .flexRowContent--footer__container-redes--tablet {

@@ -4,8 +4,9 @@
      padding: 22px;
  }
  
- .flexRowContent--header__tablet--main-top :global(.vtex-flex-layout-0-x-flexColChild) {
-     /*  padding-left: 2rem; */
+ .flexRowContent--header__tablet--main-top :global(.vtex-store-components-3-x-logoImage) {
+     max-width: 87%;
+     /*validar*/
  }
  
  .flexRowContent--header__tablet--main-down :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

@@ -1,0 +1,74 @@
+.paragraph--title__preguntasfrecuentes {
+    font: 400 24px/30px Montserrat, sans-serif!important;
+}
+
+.paragraph--titulo-one__disclosure--realizarunpedido,
+.paragraph--titulo-one__disclosure--precio,
+.paragraph--titulo-one__disclosure--formasdepago,
+.paragraph--titulo-one__disclosure--deposito,
+.paragraph--titulo-one__disclosure--pagogamer,
+.paragraph--titulo-one__disclosure--mercadopago,
+.paragraph--titulo-one__disclosure--envio,
+.paragraph--titulo-one__disclosure--facturacion,
+.paragraph--titulo-one__disclosure--gamercoins {
+    font: 400 16px/28px Montserrat, sans-serif !important;
+}
+
+.paragraph--title-descripcion--realizarunpedido,
+.paragraph--title-descripcion--precio,
+.paragraph--title-descripcion--formasdepago,
+.paragraph--title-descripcion--deposito,
+.paragraph--title-descripcion--pagogamer,
+.paragraph--title-descripcion--mercadopago,
+.paragraph--title-descripcion--envios,
+.paragraph--title-descripcion--facturacion,
+.paragraph--title-descripcion--gamercoins {
+    color: #fd611a !important;
+    font: 500 15px/18px "Montserrat-Medium", sans-serif !important;
+    margin-bottom: 0;
+}
+
+.paragraph--descripcionprincipal--realizarunpedido,
+.paragraph--descripcionprincipal--precio,
+.paragraph--descripcionprincipal--formasdepago,
+.paragraph--descripcionprincipal--deposito,
+.paragraph--descripcionprincipal--pagogamer,
+.paragraph--descripcionprincipal--mercadopago,
+.paragraph--descripcionprincipal--envios,
+.paragraph--descripcionprincipal--facturacion,
+.paragraph--descripcionprincipal--gamercoins {
+    color: #4e4d4d !important;
+    font: 400 15px/18px Montserrat, sans-serif !important;
+}
+
+.paragraph--title__serviciopostventa {
+    font: 500 20px/24px "Montserrat-Medium", sans-serif !important;
+    margin: 0;
+}
+
+.paragraph--info__serviciopostventa {
+    color: #4e4d4d !important;
+    font: 400 15px/18px Montserrat, sans-serif !important;
+    line-height: 1.5 !important;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.paragraph--info__servicioposturnos {
+    color: #4e4d4d !important;
+    font: 400 15px/18px Montserrat, sans-serif !important;
+    line-height: 1.5 !important;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.paragraph--title__consulta {
+    color: #fd611a;
+    font: 500 18px/20px "Montserrat-Medium", sans-serif!important;
+    margin: 0;
+}
+
+.paragraph--info__consulta {
+    color: #333;
+    font: 400 14px/16px Montserrat, sans-serif!important;
+}

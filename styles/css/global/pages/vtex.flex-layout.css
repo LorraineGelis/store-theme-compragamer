@@ -1,0 +1,59 @@
+.flexRow--contenedorprincipal__contactanos {
+    background-color: #EEEEEE;
+}
+
+.flexRowContent--contenedorprincipal__contactanos {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 10px 10px 0 10px;
+}
+
+.flexRowContent--contenedor--arrow--titlepreguntasfrecuentes {
+    align-items: center;
+}
+
+.flexColChild--contenedorcol__preguntasfrecuentes :global(.vtex-disclosure-layout-1-x-trigger) {
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 48px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.flexColChild--contenedorcol__preguntasfrecuentes :global(.vtex-disclosure-layout-1-x-content) {
+    padding: 0 20px;
+}
+
+.flexColChild--contenedorcol__preguntasfrecuentes {
+    width: 100%;
+}
+
+.flexRowContent--contenedor_serviciopostventa {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: rgba(0, 0, 0, .87);
+    margin-top: 1em;
+    padding: 16px;
+}
+
+.flexRowContent--contenedorprincipal__consulta {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: rgba(0, 0, 0, .87);
+    margin-bottom: 4em;
+    margin-top: 1em;
+    padding: 16px;
+}
+
+.flexColChild--contenedor__consulta :global(.vtex-login-2-x-container) {
+    float: left;
+}
