@@ -1,16 +1,196 @@
 {
-    "flex-layout.row#contactanos":{
-        "title": "Pagina estatica: contactenos",
-        "children": [
-            "rich-text#preguntasfrecuentes"
-        ]
-    },
+  "flex-layout.row#contactanos": {
+    "title": "Pagina estatica: contactenos",
+    "children": [
+      "flex-layout.col#contactanos"
+    ],
+    "props": {
+      "blockClass": "contenedorprincipal__contactanos"
+    }
+  },
 
-    "rich-text#preguntasfrecuentes": {
-        "title": "Título Preguntas fecuentes",
-        "props": {
-          "text": "PREGUNTAS FRECUENTES",
-          "blockClass": ""
-        }
-      }
+  "flex-layout.col#contactanos": {
+    "title": "Contenedor contactenos",
+    "children": [
+      "flex-layout.row#title--preguntasfrecuentes",
+      "flex-layout.row#disclosure--preguntasfrecuentes",
+      "flex-layout.row#__serviciopostventa",
+      "flex-layout.row#consulta"
+    ],
+    "props": {
+      "blockClass": "contenedorcol__contactanos"
+    }
+  },
+
+  "flex-layout.row#title--preguntasfrecuentes": {
+    "title": "Titulo preguntas frecuentes",
+    "children": [
+      "flex-layout.col#title--preguntasfrecuentes",
+      "flex-layout.col#arrow"
+      
+    ],
+    "props": {
+      "blockClass": "contenedor--arrow--titlepreguntasfrecuentes",
+      "fullWidth": false,
+      "colSizing": "auto",
+      "colJustify": "between",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#title--preguntasfrecuentes": {
+    "title": "contenedor titulo",
+    "children": [
+      "rich-text#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenedor--title__preguntasfrecuentes"
+    }
+    
+  },
+
+  "rich-text#preguntasfrecuentes": {
+    "title": "Título Preguntas fecuentes",
+    "props": {
+      "text": "Preguntas Frecuentes",
+      "blockClass": "title__preguntasfrecuentes"
+    }
+  },
+
+  "flex-layout.col#arrow":{
+    "title": "contenedor icon arrow",
+    "children": [
+      "link#icon-arrow"
+    ]
+  },
+
+  "link#icon-arrow": {
+    "title": "Link arrow",
+    "children": [
+      "icon#icon-arrow"
+    ],
+    "props": {
+      "blockClass": "icon-arrow",
+      "href": "https://storecompragamer--itgloberspartnercl.myvtex.com/"
+      /* "target": "_blank" */
+    }
+  },
+
+  "icon#icon-arrow": {
+    "title": "Icono arrow",
+    "props": {
+      "id": "icon-arrow",
+      "blockClass": "icon-arrow",
+      "size": 30,
+      "viewBox": "0 0 45 45"
+    }
+  },
+
+  "flex-layout.row#__serviciopostventa": {
+    "title": "Servicio post venta",
+    "children": [
+      "flex-layout.col#disclosure--serviciopostventa"
+    ],
+    "props": {
+      "blockClass": "contenedor_serviciopostventa"
+    }
+  },
+
+  "flex-layout.col#disclosure--serviciopostventa": {
+    "title": "Información servicio postventa",
+    "children": [
+      "rich-text#title--serviciopostventa",
+      "rich-text#info--serviciopostventa",
+      "rich-text#info--servicioturnos",
+      "link#turnos"
+    ],
+    "props": {
+      "blockClass": "contenedorcol_serviciopostventa"
+    }
+  },
+
+  "rich-text#title--serviciopostventa": {
+    "title": "Titulo",
+    "props": {
+      "text": "Servicio postventa y garantías",
+      "blockClass": "title__serviciopostventa"
+    }
+  },
+  "rich-text#info--serviciopostventa": {
+    "title": "Descripción",
+    "props": {
+      "text": "Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, debajo de esta sección contamos con el apartado \"**Compra Gamer te ayuda. ¿Cuál es tu consulta?**\" donde debes exponer tu caso, seleccionando el motivo de \"**Postventa**\" que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder.",
+      "blockClass": "info__serviciopostventa"
+    }
+  },
+
+  "rich-text#info--servicioturnos": {
+    "title": "Descripción",
+    "props": {
+      "text": "También podes sacar un turno para venir en forma presencial a gestionar tu garantía: ",
+      "blockClass": "info__servicioposturnos"
+    }
+  },
+  "link#turnos": {
+    "title": "Turnos postventas",
+    "props": {
+      "href": "",
+      "label": "TURNOS POSTVENTA/GARANTíAS",
+      "displayMode": "button",
+      "blockClass": "turnos"
+    }
+  },
+
+  //Seccion consulta
+
+  "flex-layout.row#consulta": {
+    "title": "Consulta",
+    "children": [
+      "flex-layout.col#consulta"
+    ],
+    "props": {
+      "blockClass": "contenedorprincipal__consulta"
+    }
+  },
+
+  "flex-layout.col#consulta": {
+    "title": "Información consulta",
+    "children": [
+      "rich-text#title--consulta",
+      "rich-text#info--consulta",
+      "login#custompage"
+    ],
+    "props": {
+      "blockClass": "contenedor__consulta"
+    }
+  },
+
+  "rich-text#title--consulta": {
+    "title": "Titulo",
+    "props": {
+      "text": "Compra Gamer te ayuda. ¿Cuál es tu consulta?",
+      "blockClass": "title__consulta"
+    }
+  },
+  "rich-text#info--consulta": {
+    "title": "Descripción",
+    "props": {
+      "text": "Para realizar una consulta es necesario que inicies sesión en tu cuenta",
+      "blockClass": "info__consulta"
+    }
+  },
+
+  "login#custompage": {
+    "title": "Login custom page",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión"
+    }
+  }
 }

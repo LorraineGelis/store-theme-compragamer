@@ -143,10 +143,6 @@
     text-transform: uppercase;
 }
 
-
-/*
-.angle-down--phone {
-    display: inline-flex;
-    float: right;
-    margin-right: 5px;
-} */
+.flexColChild--contenidocol--preguntas__phone :global(.vtex-login-2-x-container) {
+    float: left;
+}

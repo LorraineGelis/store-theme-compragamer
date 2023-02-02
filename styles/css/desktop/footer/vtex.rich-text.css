@@ -1,17 +1,20 @@
 .paragraph--footer__text-ayuda {
     color: #fff !important;
     font: 500 16px/18px Montserrat-Medium, sans-serif !important;
+    margin-bottom: 9px;
 }
 
 .paragraph--footer__container-col-sugerencias {
     color: #fff !important;
     font: 200 15px/18px "Montserrat-Thin", sans-serif !important;
-    margin-bottom: 15px;
+    margin: 0;
+    margin-bottom: 14px;
 }
 
 .paragraph--footer__container-col-title-redes {
     color: #fff !important;
     font: 500 16px/18px Montserrat-Medium, sans-serif !important;
+    margin: 0;
 }
 
 .container--footer__text-ayuda,
@@ -22,5 +25,6 @@
 .paragraph--footer__container-text--down {
     color: #333;
     font: 400 12px/14px Montserrat, sans-serif!important;
+    margin-top: 6px;
     text-align: center;
 }

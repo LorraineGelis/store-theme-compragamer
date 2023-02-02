@@ -17,7 +17,7 @@
     font: 400 15px/25px Montserrat, sans-serif !important;
     margin: auto auto 25px;
     max-width: 150px;
-    padding: 2px 3px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
 }
@@ -30,7 +30,11 @@
 
 .link--link_btnarrepentimiento--tablet {
     color: #fff;
+    display: block;
     font: 400 13px/18px Montserrat, sans-serif!important;
+    height: 48px;
+    margin: 0 15px;
+    padding: 0 20px 20px 20px;
     text-decoration: underline;
 }
 

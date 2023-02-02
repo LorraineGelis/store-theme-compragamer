@@ -3,6 +3,7 @@
     //Las pagínas para nuestro contexto de busquedas
 
     "store.search#department": {
+      "title": "Store Search Category Template",
         "blocks": ["search-result-layout"],
         "props": {
           "context": {
@@ -45,6 +46,7 @@
 
     //Ya hace parte de la correspondiente plp
     "search-result-layout":{
+      "title": "Store Search Category Template",
         "blocks": [
             "search-result-layout.desktop#department",
             "search-result-layout.mobile#department", 

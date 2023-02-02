@@ -1,4 +1,5 @@
 {"store.custom#contactanos": {
+    "title": "Pagina custom: contactanos",
     "blocks": [
         "flex-layout.row#contactanos"
     ]
