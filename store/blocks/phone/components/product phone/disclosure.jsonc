@@ -141,6 +141,7 @@
     "children": [
       "rich-text#titleOne--phone",
       "rich-text#parrafo--phone",
+      "login#preguntas--phone",
       "questions-and-answers"
     ],
     "props": {
@@ -160,6 +161,20 @@
     "props": {
       "text": "Iniciá sesión en tu cuenta para poder hacer una pregunta",
       "blockClass": "parrafo--preguntas--phone"
+    }
+  },
+
+  "login#preguntas--phone": {
+    "title": "Login custom page",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresá tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "Ej: ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión"
     }
   },
 
