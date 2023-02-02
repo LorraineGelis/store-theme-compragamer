@@ -24,13 +24,13 @@
 
 .flexCol--footer__container-col-ayuda {
     border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
-    padding: 20px;
     text-align: center;
 }
 
 .flexCol--footer__container-col-btn-arrepentimiento {
     border-left: 1px solid hsla(0, 0%, 100%, .3215686274509804);
     padding: 20px;
+    padding: 21px 0 5px 0;
 }
 
 .flexCol--footer__container-col-redes {
@@ -48,19 +48,8 @@
     background-color: #eee;
     display: flex;
     flex-direction: column;
-    padding: 7px 1rem 1rem 1rem;
-    /* background: #2c2e2f; */
+    margin-bottom: 5px;
 }
-
-
-/* .-wrapper--footer__container-text--down {
-    background-color: #eee;
-    color: #000;
-    grid-column: span 2/span 2;
-    justify-content: center;
-    margin: 0;
-    padding: 7px 0;
-} */
 
 .flexRowContent--footer__container-redes {
     max-width: 200px

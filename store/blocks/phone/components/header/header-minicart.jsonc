@@ -3,9 +3,9 @@
     "title": "minicart: mobile",
     "props": {
       "itemCountMode": "total",
-      "quantityDisplay": "always"
-      /*  "variation": "link", 
-          "linkVariationUrl": "https://storecompragamer--itgloberspartnercl.myvtex.com/checkout/#/cart"  */
+      "quantityDisplay": "always",
+       "variation": "link", 
+          "linkVariationUrl": "https://storecompragamer--itgloberspartnercl.myvtex.com/checkout/#/cart"  
     },
     "children": [
       "minicart-base-content#mobile__minicart"

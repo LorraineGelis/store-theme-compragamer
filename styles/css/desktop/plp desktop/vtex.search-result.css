@@ -166,3 +166,29 @@
 .gallery--list :global(.vtex-button) {
     padding: 0 !important;
 }
+
+.filterClearButtonWrapper :global(.vtex-button__label) {
+    background-color: #fd611a;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 36px;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button__label) {
+    background-color: #fd611a;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    color: #fff;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 36px;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__box) {
+    background-color: #fd611a;
+}

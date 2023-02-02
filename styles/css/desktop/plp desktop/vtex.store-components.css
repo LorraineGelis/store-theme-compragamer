@@ -10,3 +10,31 @@
 .imageElement--img_banner--desktop {
     width: 100%;
 }
+
+.portalWrapper--searchbar__desktop :global(.vtex-button) {
+    background-color: #fd611a;
+    border: none;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    min-height: 36px;
+}
+
+.portalWrapper--searchbar__desktop :global(.vtex-product-summary-2-x-buyButtonText) {
+    position: relative;
+    text-align: center;
+    visibility: hidden;
+}
+
+.portalWrapper--searchbar__desktop :global(.vtex-product-summary-2-x-buyButtonText)::before {
+    content: "Sumar al carrito";
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    left: 14%;
+    position: absolute;
+    visibility: visible;
+    white-space: nowrap;
+}
+
+.portalWrapper--searchbar__desktop :global(.vtex-product-summary-2-x-container) {
+    margin: 10px;
+}

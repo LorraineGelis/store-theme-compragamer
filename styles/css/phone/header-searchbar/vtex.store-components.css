@@ -2,3 +2,7 @@
     height: 24px;
     width: 24px;
 }
+
+.searchBarInnerContainer--searchbar__mobile {
+    margin-top: -10px;
+}

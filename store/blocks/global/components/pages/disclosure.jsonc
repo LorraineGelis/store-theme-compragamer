@@ -1,0 +1,598 @@
+{
+  "flex-layout.row#disclosure--preguntasfrecuentes": {
+    "title": "Contenedor disclosure preguntas frecuentes",
+    "children": [
+      "flex-layout.col#disclousure--preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenedor__preguntasfrecuentes"
+    }
+  },
+
+  "flex-layout.col#disclousure--preguntasfrecuentes": {
+    "title": "Contenedor disclosure",
+    "children": [
+      "disclosure-layout-group#group"
+    ],
+    "props": {
+      "blockClass": "contenedorcol__preguntasfrecuentes"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "title": "Contenedor disclosure",
+    "children": [
+      "disclosure-layout#realizarunpedido",
+      "disclosure-layout#precio",
+      "disclosure-layout#formasdepago",
+      "disclosure-layout#deposito",
+      "disclosure-layout#pagogamer",
+      "disclosure-layout#mercadopago",
+      "disclosure-layout#envios",
+      "disclosure-layout#facturacion",
+      "disclosure-layout#gamercoins"
+    ],
+    "props": {
+      "blockClass": "contenedorcol__preguntasfrecuentes"
+    }
+  },
+
+  //Icono disclousure:
+
+  "disclosure-state-indicator#preguntasfrecuentes": {
+    "title": "disclosure producto detalle - phone",
+    "props": {
+      "Show": "icon#angle-down--preguntasfrecuentes",
+      "Hide": "icon#angle-up#preguntasfrecuentes"
+    }
+  },
+
+  "icon#angle-down--preguntasfrecuentes": {
+    "title": "icono disclosure--down",
+    "props": {
+      "id": "mpa-angle--down",
+      "activeClassName": "angle-down--custom-page",
+      "mutedClassName": "angle-down--custom-page"
+    }
+  },
+
+  "icon#angle-up#preguntasfrecuentes": {
+    "title": "icono disclosure--up",
+    "props": {
+      "id": "mpa-angle--up",
+      "activeClassName": "angle-down--custom-page",
+      "mutedClassName": "angle-down--custom-page"
+    }
+  },
+
+  //Contenido disclosure 1:
+
+  "disclosure-layout#realizarunpedido": {
+    "title": "disclosure - realizar un pedido",
+    "children": [
+      "disclosure-trigger#realizarunpedido",
+      "disclosure-content#realizarunpedido"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--realizarunpedido"
+    }
+  },
+
+  "disclosure-trigger#realizarunpedido": {
+    "title": "Contenido disclousre realizar un pedido",
+    "children": [
+      "rich-text#realizarunpedido",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--realizarunpedido"
+    }
+  },
+
+  "rich-text#realizarunpedido": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Realizar un pedido",
+      "blockClass": "titulo-one__disclosure--realizarunpedido"
+    }
+  },
+
+  "disclosure-content#realizarunpedido": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--realizarunpedido",
+      "rich-text#descripcion--realizarunpedido"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--realizarunpedido"
+    }
+  },
+
+  "rich-text#title--realizarunpedido": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cómo realizo un pedido?",
+      "blockClass": "title-descripcion--realizarunpedido"
+    }
+  },
+  "rich-text#descripcion--realizarunpedido": {
+    "title": "descripcion",
+    "props": {
+      "text": "Solo tenés que seleccionar todos los productos que deseas adquirir. Seguidamente, en el carrito de compras, para conocer el costo del envío colocás tu código postal en el recuadro correspondiente, elegís la mensajería de tu preferencia y debajo seleccionas la forma de pago. Luego hacés clic en el botón COMPRAR y podés acceder como cliente (si ya tenés cuenta en Compra Gamer) o crear un cliente nuevo. Por último, completás los pasos brindados por el asistente, hasta confirmar la compra. Se te asignará un número de pedido y se mostrarán los datos del mismo. También enviaremos un mail a tu correo electrónico registrado con los detalles del pedido realizado.",
+      "blockClass": "descripcionprincipal--realizarunpedido"
+    }
+  },
+
+  //Contenido disclosure 2:
+
+  "disclosure-layout#precio": {
+    "title": "disclosure - precio",
+    "children": [
+      "disclosure-trigger#precio",
+      "disclosure-content#precio"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--precio"
+    }
+  },
+
+  "disclosure-trigger#precio": {
+    "title": "Contenido disclousre precio",
+    "children": [
+      "rich-text#precio",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--precio"
+    }
+  },
+
+  "rich-text#precio": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Precio",
+      "blockClass": "titulo-one__disclosure--precio"
+    }
+  },
+
+  "disclosure-content#precio": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--precio",
+      "rich-text#descripcion--precio"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--precio"
+    }
+  },
+
+  "rich-text#title--precio": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿El precio que figura en la web es el precio final?",
+      "blockClass": "title-descripcion--precio"
+    }
+  },
+  "rich-text#descripcion--precio": {
+    "title": "descripcion",
+    "props": {
+      "text": "Todos los precios en la web incluyen el IVA, y se encuentran expresados en pesos argentinos.",
+      "blockClass": "descripcionprincipal--precio"
+    }
+  },
+
+  //Contenido disclosure 3:
+
+  "disclosure-layout#formasdepago": {
+    "title": "disclosure - formas de pago",
+    "children": [
+      "disclosure-trigger#formasdepago",
+      "disclosure-content#formasdepago"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--formasdepago"
+    }
+  },
+
+  "disclosure-trigger#formasdepago": {
+    "title": "Contenido disclousre formas de pago",
+    "children": [
+      "rich-text#formasdepago",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--formasdepago"
+    }
+  },
+
+  "rich-text#formasdepago": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Formas de pago",
+      "blockClass": "titulo-one__disclosure--formasdepago"
+    }
+  },
+
+  "disclosure-content#formasdepago": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--formasdepago",
+      "rich-text#descripcion--formasdepago"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--formasdepago"
+    }
+  },
+
+  "rich-text#title--formasdepago": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cuáles son las formas de pago?",
+      "blockClass": "title-descripcion--formasdepago"
+    }
+  },
+  "rich-text#descripcion--formasdepago": {
+    "title": "descripcion",
+    "props": {
+      "text": "Contamos con dos formas de pago: a través de depósito/transferencia bancaria, con la cual obtenés el precio especial, o bien, a través de los métodos Pago Gamer (Visa o MasterCard) o MercadoPago (Tarjetas online, PagoFácil y RapiPago) con los cuales podés abonar en cuotas, al precio de lista.",
+      "blockClass": "descripcionprincipal--formasdepago"
+    }
+  },
+
+  //Contenido disclosure 4:
+
+  "disclosure-layout#deposito": {
+    "title": "disclosure - deposito",
+    "children": [
+      "disclosure-trigger#deposito",
+      "disclosure-content#deposito"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--deposito"
+    }
+  },
+
+  "disclosure-trigger#deposito": {
+    "title": "Contenido disclousre deposito",
+    "children": [
+      "rich-text#deposito",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--deposito"
+    }
+  },
+
+  "rich-text#deposito": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Depósito - Transferencia bancaria",
+      "blockClass": "titulo-one__disclosure--deposito"
+    }
+  },
+
+  "disclosure-content#deposito": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--deposito",
+      "rich-text#descripcion--deposito"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--deposito"
+    }
+  },
+
+  "rich-text#title--deposito": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cómo abono a través de depósito/transferencia?",
+      "blockClass": "title-descripcion--deposito"
+    }
+  },
+  "rich-text#descripcion--deposito": {
+    "title": "descripcion",
+    "props": {
+      "text": "Una vez se realiza el pedido, te facilitamos los datos del CBU. Debes abonar e informar el pago desde nuestra web, antes de la fecha de vencimiento de la reserva.",
+      "blockClass": "descripcionprincipal--deposito"
+    }
+  },
+
+  //Contenido disclosure 5:
+
+  "disclosure-layout#pagogamer": {
+    "title": "disclosure - pagogamer",
+    "children": [
+      "disclosure-trigger#pagogamer",
+      "disclosure-content#pagogamer"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--pagogamer"
+    }
+  },
+
+  "disclosure-trigger#pagogamer": {
+    "title": "Contenido disclousre pagogamer",
+    "children": [
+      "rich-text#pagogamer",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--pagogamer"
+    }
+  },
+
+  "rich-text#pagogamer": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Pago Gamer",
+      "blockClass": "titulo-one__disclosure--pagogamer"
+    }
+  },
+
+  "disclosure-content#pagogamer": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--pagogamer",
+      "rich-text#descripcion--pagogamer"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--pagogamer"
+    }
+  },
+
+  "rich-text#title--pagogamer": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Qué es Pago Gamer?",
+      "blockClass": "title-descripcion--pagogamer"
+    }
+  },
+  "rich-text#descripcion--pagogamer": {
+    "title": "descripcion",
+    "props": {
+      "text": "Es un método exclusivo de Compra Gamer, para abonar de manera online a través de tarjetas Visa y Mastercard, con el cual podés acceder a 3 y 12 cuotas sin interés si empleas una tarjeta de crédito brindada por una entidad bancaria.",
+      "blockClass": "descripcionprincipal--pagogamer"
+    }
+  },
+
+  //Contenido disclosure 6:
+
+  "disclosure-layout#mercadopago": {
+    "title": "disclosure - mercadopago",
+    "children": [
+      "disclosure-trigger#mercadopago",
+      "disclosure-content#mercadopago"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--mercadopago"
+    }
+  },
+
+  "disclosure-trigger#mercadopago": {
+    "title": "Contenido disclousre mercadopago",
+    "children": [
+      "rich-text#mercadopago",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--mercadopago"
+    }
+  },
+
+  "rich-text#mercadopago": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Mercadopago",
+      "blockClass": "titulo-one__disclosure--mercadopago"
+    }
+  },
+
+  "disclosure-content#mercadopago": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--mercadopago",
+      "rich-text#descripcion--mercadopago"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--mercadopago"
+    }
+  },
+
+  "rich-text#title--mercadopago": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cómo puedo abonar a través de MercadoPago?",
+      "blockClass": "title-descripcion--mercadopago"
+    }
+  },
+  "rich-text#descripcion--mercadopago": {
+    "title": "descripcion",
+    "props": {
+      "text": "Podés hacerlo de tres formas: Con tarjetas online en cuotas (no se puede acceder a cuotas sin interés); A través de RapiPago/ PagoFácil (se abona al precio de lista, pero no se pueden hacer cuotas, sólo se puede abonar en un pago); y realizando una transferencia desde tu cuenta de MercadoPago.",
+      "blockClass": "descripcionprincipal--mercadopago"
+    }
+  },
+
+  //Contenido disclosure 7:
+
+  "disclosure-layout#envios": {
+    "title": "disclosure - envios",
+    "children": [
+      "disclosure-trigger#envios",
+      "disclosure-content#envios"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--envios"
+    }
+  },
+
+  "disclosure-trigger#envios": {
+    "title": "Contenido disclousre envios",
+    "children": [
+      "rich-text#envios",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--envios"
+    }
+  },
+
+  "rich-text#envios": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Envíos",
+      "blockClass": "titulo-one__disclosure--envio"
+    }
+  },
+
+  "disclosure-content#envios": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--envios",
+      "rich-text#descripcion--envios"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--envios"
+    }
+  },
+
+  "rich-text#title--envios": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cómo gestiono el envío de mi pedido?",
+      "blockClass": "title-descripcion--envios"
+    }
+  },
+  "rich-text#descripcion--envios": {
+    "title": "descripcion",
+    "props": {
+      "text": "En primer lugar, para conocer el costo del envío, una vez al agregues al carrito tu compra, solo debes colocar tu código postal en el recuadro correspondiente, seleccionar la mensajería de tu preferencia y elegir si deseas el retiro en alguna sucursal o la entrega a domicilio. Actualmente realizamos envíos a todo el país través de Oca y Andreani; y si te encontrás en CABA o alrededores, podrás seleccionar el servicio de Mensajería Privada que es exclusivo de Compra Gamer. Tené en cuenta que, para calcular el costo del envío, se toman en consideración tanto las dimensiones y peso del paquete como la distancia de la localidad de entrega.",
+      "blockClass": "descripcionprincipal--envios"
+    }
+  },
+
+  //Contenido disclosure 8:
+
+  "disclosure-layout#facturacion": {
+    "title": "disclosure - facturacion",
+    "children": [
+      "disclosure-trigger#facturacion",
+      "disclosure-content#facturacion"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--facturacion"
+    }
+  },
+
+  "disclosure-trigger#facturacion": {
+    "title": "Contenido disclousre facturacion",
+    "children": [
+      "rich-text#facturacion",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--facturacion"
+    }
+  },
+
+  "rich-text#facturacion": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Facturación",
+      "blockClass": "titulo-one__disclosure--facturacion"
+    }
+  },
+
+  "disclosure-content#facturacion": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--facturacion",
+      "rich-text#descripcion--facturacion"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--facturacion"
+    }
+  },
+
+  "rich-text#title--facturacion": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Cómo tramito la factura de mi compra?",
+      "blockClass": "title-descripcion--facturacion"
+    }
+  },
+  "rich-text#descripcion--facturacion": {
+    "title": "descripcion",
+    "props": {
+      "text": "En todas las compras efectuadas en la web, brindamos sin excepción alguna, la factura de compra. Una vez que realiza y abona el pedido, enviamos a tu dirección de correo electrónico la factura correspondiente. Por supuesto, también podés descargarla desde la sección Mi cuenta < Mis facturas. En caso de que precises factura A, solo debes ingresar tu CUIT al cargar el pedido por la web. Tené en cuenta que la factura A puede tener percepciones.",
+      "blockClass": "descripcionprincipal--facturacion"
+    }
+  },
+
+  //Contenido disclosure 9:
+
+  "disclosure-layout#gamercoins": {
+    "title": "disclosure - gamercoins",
+    "children": [
+      "disclosure-trigger#gamercoins",
+      "disclosure-content#gamercoins"
+    ],
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": "contenedor__disclosure--gamercoins"
+    }
+  },
+
+  "disclosure-trigger#gamercoins": {
+    "title": "Contenido disclousre gamercoins",
+    "children": [
+      "rich-text#gamercoins",
+      "disclosure-state-indicator#preguntasfrecuentes"
+    ],
+    "props": {
+      "blockClass": "contenido__disclosure--gamercoins"
+    }
+  },
+
+  "rich-text#gamercoins": {
+    "title": "titulo 1: disclosure",
+    "props": {
+      "text": "Gamercoins",
+      "blockClass": "titulo-one__disclosure--gamercoins"
+    }
+  },
+
+  "disclosure-content#gamercoins": {
+    "title": "contenido - disclousure",
+    "children": [
+      "rich-text#title--gamercoins",
+      "rich-text#descripcion--gamercoins"
+    ],
+    "props": {
+      "blockClass": "descripcion__disclosure--gamercoins"
+    }
+  },
+
+  "rich-text#title--gamercoins": {
+    "title": "titulo contenido",
+    "props": {
+      "text": "¿Qué son los Gamercoins?",
+      "blockClass": "title-descripcion--gamercoins"
+    }
+  },
+  "rich-text#descripcion--gamercoins": {
+    "title": "descripcion",
+    "props": {
+      "text": "Es un beneficio que brinda COMPRA GAMER a sus clientes, premiando sus compras. Se pueden utilizar en descuentos parciales sobre cualquier producto que se encuentre en stock en la web de Compra Gamer Para mayor información, le invitamos a consultar el siguiente enlace: **ACÁ**",
+      "blockClass": "descripcionprincipal--gamercoins"
+    }
+  }
+}
