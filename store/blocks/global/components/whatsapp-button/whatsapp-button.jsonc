@@ -1,0 +1,9 @@
+{
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/whatsapp.png",
+            "phone": "315555444",
+            "message": " 'Estas comúnicandote con store compra gamer, cuéntanos ¿Cómo podemos ayudarte?',?"
+        }
+    }
+}
