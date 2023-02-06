@@ -1,0 +1,66 @@
+{
+    "list-context.bullet-group":{
+        "title": "Mi contexto de lista bullets",
+        "children": [
+            "slider-layout#bullest-group"
+        ],
+        "props":{
+            "bullets": [ {
+                "image": "assets/img/bullet/img_videojuego1.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            },
+            {
+                "image": "assets/img/bullet/img_videojuego2.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            },
+            {
+                "image": "assets/img/bullet/img_videojuego3.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            },
+            {
+                "image": "assets/img/bullet/img_videojuego4.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            },
+            {
+                "image": "assets/img/bullet/img_videojuego5.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            },
+            {
+                "image": "assets/img/bullet/img_videojuego6.jpg",
+                "titleBullet": "Video Juegos",
+                "link": {
+                    "url": "/"
+                }
+            }
+        ]
+        }
+    },
+    "slider-layout#bullest-group":{
+        "title": "Slider de bullets group",
+            "props": {
+                "itemsPerPage": {
+                  "desktop": 1
+                },
+                "blockClass": "slider-bullets_group",
+                "infinite": true,
+                "showPaginationDots": "never",
+                "fullWidth": false
+              }
+
+    }
+}
