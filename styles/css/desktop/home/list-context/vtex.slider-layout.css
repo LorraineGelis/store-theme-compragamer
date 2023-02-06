@@ -1,0 +1,26 @@
+.sliderLayoutContainer--slider-bullets_group {
+    margin-top: -30px;
+    max-width: 1440px;
+}
+
+.caretIcon--slider-bullets_group {
+    color: #fff;
+    height: 10px;
+    width: 10px;
+}
+
+.bullet__item--image--slider-bullets_group {
+    width: 650px;
+}
+
+.bullet__item--title--slider-bullets_group {
+    color: rgb(0, 0, 0) !important;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fd611a
+}
