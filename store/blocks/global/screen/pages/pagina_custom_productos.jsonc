@@ -1,4 +1,5 @@
 {"store.custom#category-productos": {
+    "title": "Pagina custom: productos",
     "blocks": [
         "flex-layout.row#category-bullet--productos"
     ]

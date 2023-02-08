@@ -1,165 +1,164 @@
 {
-    "flex-layout.row#category-bullet--productos": {
-        "title": "Contenedor principal Bullet Group",
-        "children": [
-          "flex-layout.col#category-bullet"
-        ]
-    },
+  "flex-layout.row#category-bullet--productos": {
+    "title": "Contenedor principal Bullet Group",
+    "children": [
+      "flex-layout.col#category-bullet"
+    ]
+  },
 
-    "flex-layout.col#category-bullet":{
-        "title": "Contenedor bullet ",
-        "children": [
-            "flex-layout.row#category-bullet--title",
-            "flex-layout.row#category-bullet-group",
-            "flex-layout.row#department-search"
-             ]
-    },  
+  "flex-layout.col#category-bullet": {
+    "title": "Contenedor bullet ",
+    "children": [
+      "flex-layout.row#department-search",
+      "flex-layout.row#category-bullet--title",
+      "flex-layout.row#category-bullet-group"
+    ]
+  },
 
-    "flex-layout.row#category-bullet--title": {
-        "title": "Contenedor texto",
-        "children": [
-          "rich-text#bullet_group--title"
-        ],
-        "props": {
-          "marginTop": 7,
-          "marginBottom": 9
-        }
-      },
-
-      "flex-layout.row#department-search":{
-        "title": "Search bar department",
-        "children": [
-            "flex-layout.col#department-search"
-        ],
-        "props": {
-              "marginBottom": 6,
-            "marginTop": 6 
-          }
-      },
-
-      "flex-layout.row#category-bullet-group":{
-        "title": "Contenedor de Bullet Group",
-        "children": [
-            "list-context.bullet-group"
-        ],
-        "props": {
-            "marginBottom": 9,
-            "blockClass": "category__bullet-group"
-          }
-      },
-
-
-      "rich-text#bullet_group--title": {
-        "title": "Titulo de página",
-        "props": {
-          "text": "Descubre los productos en descuento por categorías",
-          "blockClass": "bullet_group--title",
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT"
-        }
-      },
-
-    "list-context.bullet-group":{
-        "title": "Mi contexto de lista bullets",
-        "children": [
-            "slider-layout#bullest-group"
-        ],
-        "props":{
-            "bullets": [ {
-                "image": "assets/img/bullet/img_videojuego1.jpg",
-                "titleBullet": "Vídeo Juegos",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego2.jpg",
-                "titleBullet": "Vídeo Juegos",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego3.jpg",
-                "titleBullet": "Monitores",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego4.jpg",
-                "titleBullet": "Monitores",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego5.jpg",
-                "titleBullet": "Fuentes",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego6.jpg",
-                "titleBullet": "Fuentes",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego7.jpg",
-                "titleBullet": "Vídeo Juegos",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego8.jpg",
-                "titleBullet": "Vídeo Juegos", 
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego1.jpg",
-                "titleBullet": "Monitores",
-                "link": {
-                    "url": "/"
-                }
-            },
-            {
-                "image": "assets/img/bullet/img_videojuego4.jpg",
-                "titleBullet": "Fuentes",
-                "link": {
-                    "url": "/"
-                }
-            }
-        ]
-        }
-    },
-    "slider-layout#bullest-group":{
-        "title": "Slider de bullets group",
-            "props": {
-                "itemsPerPage": {
-                  "desktop": 2
-                },
-                "blockClass": "slider-bullets_group",
-                "infinite": true,
-                "showPaginationDots": "never",
-                "fullWidth": false
-              }
-    },
-    "flex-layout.col#department-search":{
-        "title": "search department custom",
-        "children": [
-            "department-search"
-        ],
-        "props": {
-            "verticalAlign": "middle",
-            "horizontalAlign": "center",
-            "blockClass": "department-search-custom"
-          }
+  "flex-layout.row#category-bullet--title": {
+    "title": "Contenedor texto",
+    "children": [
+      "rich-text#bullet_group--title"
+    ],
+    "props": {
+      "marginTop": 0,
+      "marginBottom": 7
     }
+  },
 
+  "flex-layout.row#department-search": {
+    "title": "Search bar department",
+    "children": [
+      "flex-layout.col#department-search"
+    ],
+    "props": {
+      "marginBottom": 0,
+      "marginTop": 4
+    }
+  },
+
+  "flex-layout.row#category-bullet-group": {
+    "title": "Contenedor de Bullet Group",
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "marginBottom": 9,
+      "blockClass": "category__bullet-group"
+    }
+  },
+
+  "rich-text#bullet_group--title": {
+    "title": "Titulo de página",
+    "props": {
+      "text": "Descubre los productos en descuento por categorías",
+      "blockClass": "bullet_group--title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista bullets",
+    "children": [
+      "slider-layout#bullest-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet/img_videojuego1.jpg",
+          "titleBullet": "Vídeo Juegos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego2.jpg",
+          "titleBullet": "Vídeo Juegos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego3.jpg",
+          "titleBullet": "Monitores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego4.jpg",
+          "titleBullet": "Monitores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego5.jpg",
+          "titleBullet": "Fuentes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego6.jpg",
+          "titleBullet": "Fuentes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego7.jpg",
+          "titleBullet": "Vídeo Juegos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego8.jpg",
+          "titleBullet": "Vídeo Juegos",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego1.jpg",
+          "titleBullet": "Monitores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/img_videojuego4.jpg",
+          "titleBullet": "Fuentes",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullest-group": {
+    "title": "Slider de bullets group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2
+      },
+      "blockClass": "slider-bullets_group",
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.col#department-search": {
+    "title": "search department custom",
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "verticalAlign": "top",
+      "horizontalAlign": "center",
+      "blockClass": "department-search-custom"
+    }
+  }
 }
