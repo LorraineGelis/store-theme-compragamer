@@ -1,0 +1,31 @@
+{
+    "modal-trigger#add-to-cart-info": {
+        "title": "Modal del detalle producto",
+        "children": [
+          "modal-layout#add-to-cart-info"
+        ],
+        "props": {
+          "customPixelEventName": "addToCart"
+        }
+      },
+      "modal-layout#add-to-cart-info": {
+        "title": "Contenido principal del modal y cabecera",
+        "children": [
+          "modal-header#add-to-cart-info",
+          "add-to-cart-info"
+        ]
+      },
+      "modal-header#add-to-cart-info": {
+        "title": "Modal btn cerrar",
+        "props": {
+          "showCloseButton": true,
+          "iconCloseSize": 24
+        }
+      },
+      "add-to-cart-info": {
+        "title": "Informacion adicional PDP",
+        "props": {
+          "blockClass": "add-to-cart-modal"
+        }
+      }
+}

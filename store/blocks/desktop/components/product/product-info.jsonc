@@ -42,7 +42,8 @@
       "flex-layout.row#product__info--garantias",
       "flex-layout.row#product__info--stock",
       "flex-layout.row#product__info--envios",
-      "flex-layout.row#product__sumaralcarrito"
+      "flex-layout.row#product__sumaralcarrito",
+      "modal-trigger#add-to-cart-info" 
     ],
 
     "props": {
