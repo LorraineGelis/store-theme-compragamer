@@ -11,7 +11,9 @@
     "children": [
       "flex-layout.row#department-search",
       "flex-layout.row#category-bullet--title",
-      "flex-layout.row#category-bullet-group"
+      "flex-layout.row#category-bullet-group",
+      "flex-layout.row#pdf-reader--title",
+      "flex-layout.row#pdf-reader"
     ]
   },
 
@@ -19,6 +21,16 @@
     "title": "Contenedor texto",
     "children": [
       "rich-text#bullet_group--title"
+    ],
+    "props": {
+      "marginTop": 0,
+      "marginBottom": 7
+    }
+  },
+  "flex-layout.row#pdf-reader--title": {
+    "title": "Contenedor title",
+    "children": [
+      "rich-text#pdf-reader--title"
     ],
     "props": {
       "marginTop": 0,
@@ -52,6 +64,16 @@
     "title": "Titulo de página",
     "props": {
       "text": "Descubre los productos en descuento por categorías",
+      "blockClass": "bullet_group--title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#pdf-reader--title": {
+    "title": "Titulo pdf",
+    "props": {
+      "text": "Información adicional",
       "blockClass": "bullet_group--title",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
@@ -159,6 +181,26 @@
       "verticalAlign": "top",
       "horizontalAlign": "center",
       "blockClass": "department-search-custom"
+    }
+  },
+  "flex-layout.row#pdf-reader": {
+    "title": "contenedor pdf reader",
+    "children": [
+      "flex-layout.col#pdf-reader"
+    ]
+  },
+
+  "flex-layout.col#pdf-reader": {
+    "title": "pdf reader",
+    "children": [
+      "pdf-reader"
+    ]
+  },
+
+  "pdf-reader": {
+    "title": "Pdf reader",
+    "props": {
+      "pdfUrl": "assets/docs/pufi.pdf"
     }
   }
 }
