@@ -6,10 +6,7 @@
         "flex-layout.row#tablet__home--slider-promotion",
         "flex-layout.row#seccion--title", 
        "list-context.product-list#home__product-shelf--tablet",
-       "flex-layout.row#seccion--product",
-       "rich-text#bullet_group--title",
-       "list-context.bullet-group"
-  /*      "flex-layout.row#desktop__home--slider-marcas" */
+       "flex-layout.row#seccion--product"
     
     ]
     }
