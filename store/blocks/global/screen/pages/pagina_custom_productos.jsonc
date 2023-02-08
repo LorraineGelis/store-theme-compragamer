@@ -1,0 +1,6 @@
+{"store.custom#category-productos": {
+    "blocks": [
+        "flex-layout.row#category-bullet--productos"
+    ]
+}
+}

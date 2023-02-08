@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#category-bullet": {
+    "flex-layout.row#category-bullet--productos": {
         "title": "Contenedor principal Bullet Group",
         "children": [
           "flex-layout.col#category-bullet"
@@ -10,7 +10,8 @@
         "title": "Contenedor bullet ",
         "children": [
             "flex-layout.row#category-bullet--title",
-            "flex-layout.row#category-bullet-group"
+            "flex-layout.row#category-bullet-group",
+            "flex-layout.row#department-search"
              ]
     },  
 
@@ -23,6 +24,17 @@
           "marginTop": 7,
           "marginBottom": 9
         }
+      },
+
+      "flex-layout.row#department-search":{
+        "title": "Search bar department",
+        "children": [
+            "flex-layout.col#department-search"
+        ],
+        "props": {
+              "marginBottom": 6,
+            "marginTop": 6 
+          }
       },
 
       "flex-layout.row#category-bullet-group":{
@@ -137,6 +149,17 @@
                 "showPaginationDots": "never",
                 "fullWidth": false
               }
-
+    },
+    "flex-layout.col#department-search":{
+        "title": "search department custom",
+        "children": [
+            "department-search"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "department-search-custom"
+          }
     }
+
 }

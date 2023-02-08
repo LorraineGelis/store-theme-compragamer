@@ -27,7 +27,7 @@
   "flex-layout.col#header__desktop--search-bar": {
     "title": "Search bar - desktop",
     "children": [
-      "search-bar#header__desktop--search-bar"
+      "search-bar#header__desktop--search-bar" 
     ],
     "props": {
       "verticalAlign": "middle"
