@@ -41,7 +41,8 @@
       "flex-layout.row#product__info--garantias--phone",
       "flex-layout.row#product__info--stock--phone",
       "flex-layout.row#product__info--envios--phone",
-      "flex-layout.row#product__sumaralcarrito--phone"
+      "flex-layout.row#product__sumaralcarrito--phone",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "contenedor__product--data--phone"

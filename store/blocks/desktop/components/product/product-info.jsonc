@@ -43,7 +43,7 @@
       "flex-layout.row#product__info--stock",
       "flex-layout.row#product__info--envios",
       "flex-layout.row#product__sumaralcarrito",
-      "modal-trigger#add-to-cart-info"
+      "modal-trigger#add-to-cart-info" 
     ],
 
     "props": {
