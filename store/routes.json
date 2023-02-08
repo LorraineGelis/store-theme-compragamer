@@ -1,5 +1,8 @@
 {
     "store.custom#contactanos": {
         "path": "/contactanos"
+    },
+    "store.custom#category-productos": {
+        "path": "/productos"
     }
 }
