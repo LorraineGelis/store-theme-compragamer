@@ -13,9 +13,48 @@
       "flex-layout.row#category-bullet--title",
       "flex-layout.row#category-bullet-group",
       "flex-layout.row#pdf-reader--title",
-      "flex-layout.row#pdf-reader"
+      "flex-layout.row#pdf-reader",
+      "flex-layout.row#custom_diagramation--template"
     ]
   },
+
+  /* "custom-grid":{
+       "children": [
+        "rich-text#custom-grid-1",
+        "rich-text#custom-grid-2",
+        "rich-text#custom-grid-3",
+        "rich-text#custom-grid-4",
+        "rich-text#custom-grid-5"
+       ]
+  },
+
+  "rich-text#custom-grid-1":{
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+
+  "rich-text#custom-grid-2":{
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+  "rich-text#custom-grid-3":{
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4":{
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+
+  "rich-text#custom-grid-5":{
+    "props": {
+      "text": "Grilla 5"
+    }
+  }, */
 
   "flex-layout.row#category-bullet--title": {
     "title": "Contenedor texto",
@@ -201,6 +240,69 @@
     "title": "Pdf reader",
     "props": {
       "pdfUrl": "assets/docs/pufi.pdf"
+    }
+  },
+
+  "flex-layout.row#custom_diagramation--template":{
+    "title": "contenedor custom diagramation-template",
+    "children": [
+      "flex-layout.col#custom_diagramation--template"
+    ],
+    "props": {
+      "marginTop": 7,
+      "marginBottom": 7
+    }
+  },
+  "flex-layout.col#custom_diagramation--template":{
+    "title": "contenedor custom diagramation-template",
+    "children": [
+      "custom-grid"
+    ]
+  },
+  "custom-grid":{
+    "title": "Custom grid",
+    "children": [
+      "image#custom-grid-1",
+      "image#custom-grid-2",
+      "image#custom-grid-3",
+      "image#custom-grid-4",
+      "image#custom-grid-5"
+    ]
+  },
+
+  "image#custom-grid-1":{
+    "title": "imagen 1 custom grid",
+    "props": {
+      "src":"assets/img/bullet/img_videojuego1.jpg",
+      "blockClass": "grid__img-uno"
+    }
+  },
+  "image#custom-grid-2":{
+    "title": "imagen 2 custom grid",
+    "props": {
+      "src":"assets/img/bullet/img_videojuego2.jpg",
+      "blockClass": "grid__img-dos"
+    }
+  },
+  "image#custom-grid-3":{
+    "title": "imagen 3 custom grid",
+    "props": {
+      "src":"assets/img/bullet/img_videojuego3.jpg",
+      "blockClass": "grid__img-tres"
+    }
+  },
+  "image#custom-grid-4":{
+    "title": "imagen 4 custom grid",
+    "props": {
+      "src":"assets/img/bullet/img_videojuego4.jpg",
+      "blockClass": "grid__img-cuatro"
+    }
+  },
+  "image#custom-grid-5":{
+    "title": "imagen 5 custom grid",
+    "props": {
+      "src":"assets/img/bullet/img_videojuego5.jpg",
+      "blockClass": "grid__img-cinco"
     }
   }
 }
