@@ -1,20 +1,28 @@
 {
-  "flex-layout.row#category-bullet--productos": {
-    "title": "Contenedor principal Bullet Group",
+  "flex-layout.row#components-custom": {
+    "title": "Contenedor componentes custom",
     "children": [
-      "flex-layout.col#category-bullet"
+      "flex-layout.col#components-custom"
     ]
   },
 
-  "flex-layout.col#category-bullet": {
-    "title": "Contenedor bullet ",
+  "flex-layout.col#components-custom": {
+    "title": "Contenedor componentes custom",
     "children": [
+      "flex-layout.row#up-button",
       "flex-layout.row#department-search",
       "flex-layout.row#category-bullet--title",
       "flex-layout.row#category-bullet-group",
       "flex-layout.row#pdf-reader--title",
       "flex-layout.row#pdf-reader",
       "flex-layout.row#custom_diagramation--template"
+    ]
+  },
+
+  "flex-layout.row#up-button":{
+    "title": "contenedor up-button",
+    "children": [
+      "up-button"
     ]
   },
 
