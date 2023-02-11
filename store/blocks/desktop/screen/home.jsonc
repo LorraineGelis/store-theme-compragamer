@@ -6,7 +6,8 @@
     "flex-layout.row#seccion--title",
     "list-context.product-list#home__product-shelf", 
     "flex-layout.row#container__principal--quick-order",
-    "flex-layout.row#seccion--product"
+    "flex-layout.row#seccion--product",
+    "flex-layout.row#up-button"
   ]
   }
 }
