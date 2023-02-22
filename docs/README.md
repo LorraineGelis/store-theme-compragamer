@@ -101,7 +101,7 @@ Luego, proceda a ejecutar `vtex browser`. Este comando lo que realizará es abri
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x"
 
-  ## Builders:
+  ## Custom Apps:
 ```json
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.bullets-diagramation": "0.x",
