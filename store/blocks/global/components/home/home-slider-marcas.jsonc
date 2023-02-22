@@ -21,17 +21,17 @@
       "infinite": true,
       "blockClass": "home__slider",
       "autoplay": {
-        "timeout": 1000,
+        "timeout": 2010,
         "stopOnHover": false
       },
       "navigationStep": 1,
       "showNavigationArrows": "never",
-      "showPaginationDots": "never"
-      /*  "slideTransition": {
-        "speed": 100,
+      "showPaginationDots": "never",
+      "slideTransition": {
+        "speed": 2000,
         "delay": 0,
-        "timing": 0 
-      }  */ 
+        "timing": "ease"
+      }
     },
     "children": [
       "image#desktop__home--slidermarca--uno",

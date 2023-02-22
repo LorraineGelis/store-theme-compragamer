@@ -276,7 +276,7 @@
   "rich-text#footer__mobile--down": {
     "title": "footer: down",
     "props": {
-      "text": "Las marcas y logos de compragamer.com\n compragamer.com/tv compragamer.com/reviews son propiedad de Newton Station SRL \nTodos los derechos reservados 2017",
+      "text": "Las marcas y logos de compragamer.com compragamer.com/tv compragamer.com/reviews son propiedad de Newton Station SRL \nTodos los derechos reservados 2017",
       "blockClass": "footer__container-text--down--mobile"
     }
   }
