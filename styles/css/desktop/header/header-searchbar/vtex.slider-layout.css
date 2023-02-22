@@ -1,0 +1,12 @@
+.slideChildrenContainer--home__slider-products--shelf :global(.vtex-product-summary-2-x-brandName) {
+    display: block;
+    height: 38px;
+}
+
+.slideChildrenContainer--home__slider-products--shelf :global(.vtex-product-summary-2-x-element) {
+    padding-bottom: 20px;
+}
+
+.slideChildrenContainer--home__slider-products--shelf :global(.vtex-product-price-1-x-sellingPrice) {
+    font-weight: bold;
+}
