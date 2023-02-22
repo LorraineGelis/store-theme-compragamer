@@ -10,7 +10,7 @@
     "rich-text#global__quick-view--trigger":{
         "title": "titulo vista rapida",
         "props": {
-            "text": "vista rapida",
+            "text": "",
             "blockClass": "quick-view__trigger"
         }
     },

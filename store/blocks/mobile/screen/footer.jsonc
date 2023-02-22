@@ -1,10 +1,9 @@
 {
-    "footer-layout.mobile": {
-        "title": "footer: tablet y phone",
-        "children": [
-            "responsive-layout.tablet#footer",
-            "responsive-layout.phone#footer"
-       
-        ]
-      }
+  "footer-layout.mobile": {
+    "title": "footer: tablet y phone",
+    "children": [
+      "responsive-layout.tablet#footer",
+      "responsive-layout.phone#footer"
+    ]
+  }
 }
